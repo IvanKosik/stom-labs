@@ -153,7 +153,7 @@ function updateInputCheck() {
                 e.target.classList.add('low-distance');
                 console.log(e.target.classList);
 
-                e.target.nextElementSibling.nextElementSibling.textContent = `${Number(e.target.id[1] + 1)}. ${e.target.value}`;
+                e.target.nextElementSibling.nextElementSibling.textContent = `${Number(e.target.id[1]) + 1}. ${e.target.value}`;
                 e.target.nextElementSibling.nextElementSibling.classList.add("correct");
             }
         });
@@ -172,6 +172,13 @@ function updateInputCheck() {
     }
 
 }
+
+window.addEventListener("resize", () => {
+    const image_list = document.getElementById("image-list");
+    const list = document.getElementById("question-list");
+    list.style.height = "0px";
+    list.style.height = image_list.offsetHeight + "px";
+});
 
 
 const print = document.getElementById("print");
