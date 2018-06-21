@@ -99,8 +99,8 @@ for (let task of tasks) {
                 list.innerHTML = list.innerHTML + `
                 <div class="input-field">
                     <input id="${ 'q' + i }" type="text" class="validate">
-                    <label class="" for="${ 'q' + i }">${ i.toString() + '. ' + current.questions[i].hint}</label>
-                    <p><span>${i.toString()}.</span>${current.questions[i].hint}</p>
+                    <label class="" for="${ 'q' + i }">${ (i+1).toString() + '. ' + current.questions[i].hint}</label>
+                    <p><span>${(i+1).toString()}.</span>${current.questions[i].hint}</p>
                 </div>
                 `
             console.log("list height:", list.offsetHeight);
@@ -152,6 +152,9 @@ function updateInputCheck() {
                 e.target.classList.remove('high-distance','medium-distance');
                 e.target.classList.add('low-distance');
                 console.log(e.target.classList);
+
+                e.target.nextElementSibling.nextElementSibling.textContent = `${Number(e.target.id[1] + 1)}. ${e.target.value}`;
+                e.target.nextElementSibling.nextElementSibling.classList.add("correct");
             }
         });
         

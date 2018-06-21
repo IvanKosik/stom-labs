@@ -24,11 +24,13 @@
 
 <body>
 
-  <header style="padding-left: 300px;">
+  <header>
       <nav>
+        <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a>
         <div class="container">
           <h1>Клиническая анатомия головы и шеи</h1>
         </div>
+        <button id="print" class="btn-floating btn-large waves-effect waves-light red right"><i class="material-icons">print</i></button>
       </nav>
   </header>
 
@@ -44,7 +46,7 @@
         <ul class="collapsible"></ul>          
       </li>
     </ul>
-    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>            
+    <!--<a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a>-->            
 
     <main>
       <div class="container">
@@ -55,7 +57,6 @@
           <div id="image-list"></div>
           <div id="question-list"></div>
         </div>
-        <button id="print" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">print</i></button>
       </div>
     </main>
 

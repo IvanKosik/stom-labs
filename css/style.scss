@@ -1,7 +1,7 @@
 #print {
     position: fixed;
-    top: 100px;
-    left: 350px;
+    top: 80px;
+    right: 16px;
 }
 
 
@@ -25,10 +25,6 @@
 }
 
 main {
-    @media screen {
-        padding-left: 300px;   
-    }
-
     @media print {
         padding-left: 0;
     }
@@ -93,6 +89,10 @@ body {
                     border-bottom: 2px solid black;
                     color: dimgray;
 
+                    &.correct {
+                        color: black;
+                    }
+
                     span {
                         padding-right: 10px;
                         color: black;
@@ -103,9 +103,27 @@ body {
     }
 }
 
-.sidenav-trigger {
+nav .sidenav-trigger {
+    height: 64px;
+    width: 64px;
+    margin: 0;
+
+    i.material-icons {
+        font-size: 48px;
+        padding-left: 12px;
+        //padding-top: 8px;
+        color: white;
+    }
+}
+
+header, main {
+
     @media screen {
-        display: none;
+        padding-left: 300px;   
+    }
+
+    @media screen and (max-width: 992px) {
+        padding-left: 0;
     }
 }
 
