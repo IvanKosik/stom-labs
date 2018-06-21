@@ -1,0 +1,161 @@
+#print {
+    position: fixed;
+    top: 100px;
+    left: 350px;
+}
+
+
+.flex {
+    display: flex;
+
+    img {
+        width: 100%;
+    }
+
+    #question-list {
+        padding-left: 15px;
+        width: 55%;
+        height: 200px;
+        overflow: auto;
+    }
+
+    #image-list {
+        width: 45%;
+    }
+}
+
+main {
+    @media screen {
+        padding-left: 300px;   
+    }
+
+    @media print {
+        padding-left: 0;
+    }
+}
+
+// Print whitelist 
+body {
+
+    * {
+        color-adjust: exact;
+      }
+      
+    * {
+    -webkit-print-color-adjust: exact;
+    }
+
+    @media screen {
+        .input-field {
+            p {
+                display: none;
+            }
+        }
+    }
+
+    @media print {
+
+        #print {
+            display: none;
+        }
+
+        color-adjust: exact;
+
+        .center-align {
+            text-align: center;
+        }
+
+        & > * {
+            display: none;
+        }
+
+        & > main {
+            display: block;
+
+            #answer-list {
+                overflow: visible;
+            }
+
+            .input-field {
+
+                label {
+                    display: none;
+                }
+    
+                input {
+                    display: none;
+                }
+    
+                p {
+                    width: 100%;
+                    //overflow: hidden;
+                    border: none;
+                    border-bottom: 2px solid black;
+                    color: dimgray;
+
+                    span {
+                        padding-right: 10px;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sidenav-trigger {
+    @media screen {
+        display: none;
+    }
+}
+
+.sidenav {
+    h4 {
+        margin: 0;
+        line-height: 64px;
+    }
+
+    .collapsible-header {
+        padding: 0 16px;
+    }
+
+    .collapsible-body {
+
+        li {
+            a {
+                padding: 0 48px;
+            }
+        }
+    }
+}
+
+nav {
+    line-height: 64px;
+
+    h1 {
+        margin: 0;
+        line-height: 64px;
+        font-size: 2.4rem;
+        text-align: center;
+    }
+}
+
+.materialboxed {
+    margin-top: 24px;
+    border: 1px solid black;
+}
+
+.high-distance {
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 red !important;
+}
+
+.medium-distance {
+    border-bottom: 1px solid yellow !important;
+    box-shadow: 0 1px 0 0 yellow !important;
+}
+
+.low-distance {
+    border-bottom: 1px solid green !important;
+    box-shadow: 0 1px 0 0 green !important;
+}

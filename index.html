@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title></title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <header style="padding-left: 300px;">
+      <nav>
+        <div class="container">
+          <h1>Клиническая анатомия головы и шеи</h1>
+        </div>
+      </nav>
+  </header>
+
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+
+      <li>
+        <h4 class="center-align">
+            Оглавление
+        </h4>
+      </li>
+
+      <li id="labs">
+        <ul class="collapsible"></ul>          
+      </li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>            
+
+    <main>
+      <div class="container">
+        <h5 class="center-align">Выберите лабораторное занятие</h5>
+        <h6 class="center-align">Выберите тему</h6>
+        <p class="center-align">Прочтите задание и приступайте к выполнению</p>
+        <div class="flex">
+          <div id="image-list"></div>
+          <div id="question-list"></div>
+        </div>
+        <button id="print" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">print</i></button>
+      </div>
+    </main>
+
+  </div>
+  <!-- Compiled and minified JavaScript -->
+  <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+      M.AutoInit();
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });
+
+  </script>
+  <script src="renderer.js"></script>
+</body>
+</html>
