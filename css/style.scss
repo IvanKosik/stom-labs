@@ -49,6 +49,10 @@ body {
         }
     }
 
+    .input-field>label {
+        color: dimgray;
+    }
+
     @media print {
 
         #print {
@@ -87,7 +91,7 @@ body {
                     //overflow: hidden;
                     border: none;
                     border-bottom: 2px solid black;
-                    color: dimgray;
+                    color: darkgray;
 
                     &.correct {
                         color: black;

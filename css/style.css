@@ -43,6 +43,10 @@ body * {
   }
 }
 
+body .input-field > label {
+  color: dimgray;
+}
+
 @media print {
   body {
     color-adjust: exact;
@@ -72,7 +76,7 @@ body * {
     width: 100%;
     border: none;
     border-bottom: 2px solid black;
-    color: dimgray;
+    color: darkgray;
   }
   body > main .input-field p.correct {
     color: black;
