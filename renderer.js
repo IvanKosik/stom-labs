@@ -59,9 +59,10 @@ for (let task of tasks) {
             let [lesson,part] = event.target.dataset.task.split(",").map(Number);
             let current = db.get("labs").find({"lesson":lesson, "part":part}).value();
 
-            document.querySelector("main div > h5").textContent = `Лабораторное занятие №${lesson}`;
-            document.querySelector("main div > h6").textContent = current.subtitle;
-            document.querySelector("main div > p").textContent = current.task;
+            document.getElementById("section_name").textContent = current.section[0].toUpperCase() + current.section.slice(1).toLowerCase();
+            document.querySelector("main div > h5:first-child").textContent = `Лабораторное занятие №${lesson}. ` + current.title[0].toUpperCase() + current.title.slice(1).toLowerCase();
+            //document.querySelector("main div > h6").textContent = current.subtitle;
+            document.querySelector("main div > p").textContent = "Задание: " + current.task;
 
             console.log(current);
             let image_list = document.getElementById("image-list");
@@ -72,6 +73,10 @@ for (let task of tasks) {
             list.innerHTML = "";
             list.style.height = "0px";
             console.log(image_list.offsetHeight, list.offsetHeight);
+
+            const subtitle = document.createElement("p"); // add classes to p 
+            subtitle.textContent = current.subtitle;
+            image_list.appendChild(subtitle);
 
             for (const image of current["images"]) {
 
