@@ -74,7 +74,8 @@ for (let task of tasks) {
             list.style.height = "0px";
             console.log(image_list.offsetHeight, list.offsetHeight);
 
-            const subtitle = document.createElement("p"); // add classes to p 
+            const subtitle = document.createElement("p"); // add classes to p
+            subtitle.classList.add("center-align","img-line-header")
             subtitle.textContent = current.subtitle;
             image_list.appendChild(subtitle);
 

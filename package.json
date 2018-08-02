@@ -1,6 +1,6 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
+  "name": "stom-labs",
+  "version": "0.0.1",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
@@ -8,11 +8,32 @@
     "dist": "build"
   },
   "build": {
-    "appId": "com.jamzi.quickstart",
+    "productName": "Head and neck anatomy",
+    "copyright": "Copyright © 2018 Alex Glinsky",
     "win": {
       "target": "nsis",
       "icon": "build/icon.ico"
-    }
+    },
+    "files": [
+      "node_modules/**/*",
+      "package.json",
+      "*.json",
+      "*.js",
+      "*.html",
+      "css/*",
+      "images/*",
+      "js/*",
+      "db.json"
+    ],
+    "directories": {
+      "buildResources": "resources"
+    },
+    "extraFiles": [
+      "db.json"
+    ],
+    "extraResources": [
+      "db.json"
+    ]
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [

@@ -5,6 +5,8 @@
 }
 
 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -142,16 +144,26 @@ nav h1 {
 
 .high-distance {
   border-bottom: 1px solid red !important;
-  box-shadow: 0 1px 0 0 red !important;
+  -webkit-box-shadow: 0 1px 0 0 red !important;
+          box-shadow: 0 1px 0 0 red !important;
 }
 
 .medium-distance {
   border-bottom: 1px solid yellow !important;
-  box-shadow: 0 1px 0 0 yellow !important;
+  -webkit-box-shadow: 0 1px 0 0 yellow !important;
+          box-shadow: 0 1px 0 0 yellow !important;
 }
 
 .low-distance {
   border-bottom: 1px solid green !important;
-  box-shadow: 0 1px 0 0 green !important;
+  -webkit-box-shadow: 0 1px 0 0 green !important;
+          box-shadow: 0 1px 0 0 green !important;
+}
+
+.img-line-header {
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: -16px;
 }
 /*# sourceMappingURL=style.css.map */
