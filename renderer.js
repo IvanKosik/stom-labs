@@ -133,7 +133,7 @@ function updateInputCheck() {
 
             const answer_tag = document.querySelector("ul[data-lesson] .active a");
             const [lesson,part] = answer_tag.dataset.task.split(",").map(Number);
-            const answer_id = Number(e.target.id[1]);
+            const answer_id = Number(e.target.id.slice(1));
             console.log(lesson, part, answer_id);
             const answer = db.get("labs").find({"lesson": lesson, "part": part}).value().questions[answer_id].answer;
             console.log(answer);
@@ -168,7 +168,8 @@ function updateInputCheck() {
 
             const answer_tag = document.querySelector("ul[data-lesson] .active a");
             const [lesson,part] = answer_tag.dataset.task.split(",").map(Number);
-            const answer_id = Number(e.target.id[1]);
+            const answer_id = Number(e.target.id.slice(1));
+            console.log(answer_id, lesson, part)
             const answer = db.get("labs").find({"lesson":lesson, "part":part}).value().question[answer_id].answer;
             const res = levenshtein(e.target.value, answer);
             if (res > 3) {
