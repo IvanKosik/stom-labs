@@ -1,1100 +1,3810 @@
 {
   "labs": [
-	{      
-    "lesson": 1, 
-    "part": 1,
-    "section": "ОБЩИЕ ВОПРОСЫ ОПЕРАТИВНОЙ ХИРУРГИИ", 
-    "title": "ПРЕДМЕТ И ЗАДАЧИ ОПЕРАТИВНОЙ ХИРУРГИИ И ТОПОГРАФИЧЕСКОЙ АНАТОМИИ. ХИРУРГИЧЕСКИЙ ИНСТРУМЕНТАРИЙ. РАЗЪЕДИНЕНИЕ И СОЕДИНЕНИЕ ТКАНЕЙ. ШВЫ И УЗЛЫ. ВИДЫ ОБЕЗБОЛИВАНИЯ",
-    "subtitle": "",
-    "task": "Назовите инструменты, изображенные на рисунках:",
-    "images": [
-      {"src": "images/lab1-1-1.png", "caption": "Рисунок 1."},
-		  {"src": "images/lab1-1-2.png", "caption": "Рисунок 2. Ножницы хирургические (А)"},
-		  {"src": "images/lab1-1-3.png", "caption": "Рисунок 3. Ножницы хирургические (Б)"},
-		  {"src": "images/lab1-1-4.png", "caption": "Рисунок 4. Ножницы хирургические (В)"},
-		  {"src": "images/lab1-1-5.png", "caption": "Рисунок 5."},
-		  {"src": "images/lab1-1-6.png", "caption": "Рисунок 6."},
-		  {"src": "images/lab1-1-7.png", "caption": "Рисунок 7."},
-		  {"src": "images/lab1-1-8.png", "caption": "Рисунок 8."},
-		  {"src": "images/lab1-1-9.png", "caption": "Рисунок 9."},
-		  {"src": "images/lab1-1-10.png", "caption": "Рисунок 10."},
-		  {"src": "images/lab1-1-11.png", "caption": "Рисунок 11. Иглы хирургические"},
-		  {"src": "images/lab1-1-12.png", "caption": "Рисунок 12."},
-		  {"src": "images/lab1-1-13.png", "caption": "Рисунок 13."},
-		  {"src": "images/lab1-1-14.png", "caption": "Рисунок 14."},
-		  {"src": "images/lab1-1-15.png", "caption": "Рисунок 15."},
-		  {"src": "images/lab1-1-16.png", "caption": "Рисунок 16."},
-		  {"src": "images/lab1-1-17.png", "caption": "Рисунок 17."},
-		  {"src": "images/lab1-1-18.png", "caption": "Рисунок 18."}
-    ],
-    "questions": [
-      {"hint": "... ", "answer": "Скальпель брюшистый"},
-		  {"hint": "... ", "answer": "Прямые тупо- и остроконечные"},
-		  {"hint": "... ", "answer": "Рихтера"},
-		  {"hint": "... ", "answer": "Купера"},
-		  {"hint": "... ", "answer": "Кровоостанавливающий зажим Бильрота"},
-		  {"hint": "... ", "answer": "Кровоостанавливающий зажим Кохера"},
-		  {"hint": "... ", "answer": "Кровоостанавливающий зажим «москит»"},
-		  {"hint": "... ", "answer": "Кровоостанавливающий зажим Гепфнера"},
-		  {"hint": "... ", "answer": "Лигатурная игла Дешана"},
-		  {"hint": "... ", "answer": "Лигатурная игла Купера"},
-		  {"hint": "Три типа через пробел", "answer": "Колющая Режущая Атравматическая"},
-		  {"hint": "... ", "answer": "Иглодержатель Гегара"},
-		  {"hint": "... ", "answer": "Пинцет анатомический"},
-		  {"hint": "... ", "answer": "Пинцет хирургический"},
-		  {"hint": "... ", "answer": "Корнцанг"},
-		  {"hint": "... ", "answer": "Цапка бельевая"},
-		  {"hint": "... ", "answer": "Зонд желобоватый"},
-		  {"hint": "... ", "answer": "Ранорасширитель Фарабефа"}
-	  ]
-  },
-  {
-	  "lesson": 1, 
-    "part": 2,
-    "section": "ОБЩИЕ ВОПРОСЫ ОПЕРАТИВНОЙ ХИРУРГИИ", 
-    "title": "ПРЕДМЕТ И ЗАДАЧИ ОПЕРАТИВНОЙ ХИРУРГИИ И ТОПОГРАФИЧЕСКОЙ АНАТОМИИ. ХИРУРГИЧЕСКИЙ ИНСТРУМЕНТАРИЙ. РАЗЪЕДИНЕНИЕ И СОЕДИНЕНИЕ ТКАНЕЙ. ШВЫ И УЗЛЫ. ВИДЫ ОБЕЗБОЛИВАНИЯ",
-    "subtitle": "",
-    "task": "Назовите швы, изображенные на рисунках:",
-    "images": [
-      {"src": "images/lab1-2-1.png", "caption": "Рисунок 1."},
-		  {"src": "images/lab1-2-2.png", "caption": "Рисунок 2."},
-		  {"src": "images/lab1-2-3.png", "caption": "Рисунок 3."},
-		  {"src": "images/lab1-2-4.png", "caption": "Рисунок 4."},
-		  {"src": "images/lab1-2-5.png", "caption": "Рисунок 5."},
-		  {"src": "images/lab1-2-6.png", "caption": "Рисунок 6."}
-    ],
-    "questions": [
-      {"hint": "... ", "answer": "Простой узловой шов"},
-		  {"hint": "... ", "answer": "Непрерывный обвивной шов Мультановского"},
-		  {"hint": "... ", "answer": "Горизонтальный матрацный шов"},
-		  {"hint": "... ", "answer": "Простой непрерывный шов"},
-		  {"hint": "... ", "answer": "Вертикальный матрацный шов МакМиллана"},
-		  {"hint": "... ", "answer": "Внутрикожный косметический шов"}
-	  ]
-	},
-    {  
-      "lesson": 2, 
+    {
+      "lesson": 1,
+      "template": 1,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ", 
+      "section": "ОБЩИЕ ВОПРОСЫ ОПЕРАТИВНОЙ ХИРУРГИИ",
+      "title": "ПРЕДМЕТ И ЗАДАЧИ ОПЕРАТИВНОЙ ХИРУРГИИ И ТОПОГРАФИЧЕСКОЙ АНАТОМИИ. ХИРУРГИЧЕСКИЙ ИНСТРУМЕНТАРИЙ. РАЗЪЕДИНЕНИЕ И СОЕДИНЕНИЕ ТКАНЕЙ. ШВЫ И УЗЛЫ. ВИДЫ ОБЕЗБОЛИВАНИЯ",
+      "subtitle": "",
+      "task": "Назовите инструменты, изображенные на рисунках:",
+      "images": [
+        {
+          "src": "images/lab1-1-1.png",
+          "caption": ""
+        },
+        {
+          "src": "images/lab1-1-2.png",
+          "caption": ""
+        },
+        {
+          "src": "images/lab1-1-3.png",
+          "caption": ""
+        },
+        {
+          "src": "images/lab1-1-4.png",
+          "caption": ""
+        },
+        {
+          "src": "images/lab1-1-5.png",
+          "caption": ""
+        },
+        {
+          "src": "images/lab1-1-6.png",
+          "caption": "Рисунок 6."
+        },
+        {
+          "src": "images/lab1-1-7.png",
+          "caption": "Рисунок 7."
+        },
+        {
+          "src": "images/lab1-1-8.png",
+          "caption": "Рисунок 8."
+        },
+        {
+          "src": "images/lab1-1-9.png",
+          "caption": "Рисунок 9."
+        },
+        {
+          "src": "images/lab1-1-10.png",
+          "caption": "Рисунок 10."
+        },
+        {
+          "src": "images/lab1-1-11.png",
+          "caption": "Рисунок 11. Иглы хирургические"
+        },
+        {
+          "src": "images/lab1-1-12.png",
+          "caption": "Рисунок 12."
+        },
+        {
+          "src": "images/lab1-1-13.png",
+          "caption": "Рисунок 13."
+        },
+        {
+          "src": "images/lab1-1-14.png",
+          "caption": "Рисунок 14."
+        },
+        {
+          "src": "images/lab1-1-15.png",
+          "caption": "Рисунок 15."
+        },
+        {
+          "src": "images/lab1-1-16.png",
+          "caption": "Рисунок 16."
+        },
+        {
+          "src": "images/lab1-1-17.png",
+          "caption": "Рисунок 17."
+        },
+        {
+          "src": "images/lab1-1-18.png",
+          "caption": "Рисунок 18."
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX18/9PYSSI7GiSDxnojjLYvonA9fouWS+gW+Er29y7ptKN8xgMASn34aPlb4dqk2zy2vrwSj+CpyZg==",
+          "to": "images/lab1-1-1.png"
+        },
+        {
+          "id": 2,
+          "label": "",
+          "hint": "Ножницы хирургические ... ... и ...",
+          "answer": "U2FsdGVkX19rFiAfRwA6bugCc0i4T2qjvcmPIr8yOqoPEcO824ny8deiFq0rvFeazsGH5oZuVyns+BQmhYTvLoSSVF//InnMMZMPCRK/4F1Fl2jaxs2CXkg752VxzEdRyWBJulP6iky5qNJBnBj9SA==",
+          "to": "images/lab1-1-2.png"
+        },
+        {
+          "id": 3,
+          "label": "",
+          "hint": "Ножницы хирургические ... ",
+          "answer": "U2FsdGVkX19P61DKSV6Dxw+L5+tYY/yPMWa/G2LIz9NwmrFqSjkhZ/G6mVB/MX47zxIhh6ZBIRCX8BB+sa0MR5+Ok7XLcvOegsJ/0y4n9z4=",
+          "to": "images/lab1-1-3.png"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "hint": "Ножницы хирургические ... ",
+          "answer": "U2FsdGVkX1+vhhN2lXdQtGOoQFC1CZ4i2UqDoNI13OXxemGjCL2n3hPs6B5dDOSz5/luSV751FlLRiwe18qEVCAxB5Iv1mVUqCIyaneRRNU=",
+          "to": "images/lab1-1-4.png"
+        },
+        {
+          "id": 5,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX19i1/AwSByuSCphK/BugNDwBVRWyiprFfLbR/zoNZDsvkMORQqqAKtoO0bme/OPGvhuXojmNhPDktqWy1QgbvDpe9tKAA3TOMmWNiWjRy2vCZll4AkJ7FIG",
+          "to": "images/lab1-1-5.png"
+        },
+        {
+          "id": 6,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX19VBntD0mTRm0KPzTrsYZJ3Nt4WYdz2p0MaU0OpVkRS6T0m+rxO6MX/PpdKG6J/eDiljyBd4hn7Ej1GNpRm7bVkzVvmhTwlhDrky6CeFLnTzZh2LPL7okIm",
+          "to": "images/lab1-1-6.png"
+        },
+        {
+          "id": 7,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX19fMqi6qYV3eo8FGrvGKx9JsAXfHn33Oidlek6oXRsVu6/oq87GUXzp09wPxB1Ssim3Vw5r+WdtGYZwJds37qbl+t4igh4q7Ogk0y0YiJB32X6iikSH3Gdb",
+          "to": "images/lab1-1-7.png"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+WmKny0eM5GJwVsOmlwjSgPloQMRckO52aJ7o1xWivpTKtWf7fkYkrgoxS+257mxN95AMCWgBR+IIzO3cp1pJu1rt2kkpl18y0yStfcBwxdr0nyupBHj2M",
+          "to": "images/lab1-1-8.png"
+        },
+        {
+          "id": 9,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+4nm2JOKc0bJJ98fOSuNAR0GjT7kL5fI4qzlPgV8At03ZMkBH2EJf/q0Za9XMJhysvKWHnd4GU/Q==",
+          "to": "images/lab1-1-9.png"
+        },
+        {
+          "id": 10,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+d4j5qOmAlGdxFE173xg/At0x85NU5U/KCr2VEgbgh36i5Ks7xft/6KNkLFKeAhikqNy65ir66Eg==",
+          "to": "images/lab1-1-10.png"
+        },
+        {
+          "id": 11,
+          "label": "а",
+          "hint": "Хирургическая игра ...",
+          "answer": "U2FsdGVkX1+8ye+FvDUx75x3DcmPkwPuHKDDEPLDOYsAgXWnvdFzvdW8kwoGctS5hWiCiBvInYlmteF0h7qGtZXPpTArIC/lb6oI/os0b+Q=",
+          "to": "images/lab1-1-11.png"
+        },
+        {
+          "id": 12,
+          "label": "б",
+          "hint": "Хирургическая игра ... ",
+          "answer": "U2FsdGVkX19Kq1fuk9wDvHET9dqtKtSxeSw0ATEv1xWLm0fkDErgU2TL6btTsB/Tfbk7QwqjmJ9vEdPeIwayRuwvVM33GIfwjL6xBSwurj4=",
+          "to": "images/lab1-1-11.png"
+        },
+        {
+          "id": 13,
+          "label": "в",
+          "hint": "Хирургическая игра ... ",
+          "answer": "U2FsdGVkX19O7HVJq8N2cMK60ZvILQbTvMK7Uxyxe+Mi1pUusMFpl+WYr/NYSjrbF7UTIc398qhT89z8TiqFM/748Uf9x0Kf1A5WTyjqNCz6LK3MRMoRhLqBbPwHMinU",
+          "to": "images/lab1-1-11.png"
+        },
+        {
+          "id": 14,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX19tNU/9wq4ch9obaLUuSrP6U1xRDm1JAhkX/x8eGUo2PvWIbZOrknHTsw6gq00ZFCIhKXozPoDtEA==",
+          "to": "images/lab1-1-12.png"
+        },
+        {
+          "id": 15,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX19N/rxBnJMVqo8LxUv9UT6b8VsVAP+tEWjkNvmMhu9Xt1ZT/ui4toARIujKZQNVgwm8NXVAGn//Lg==",
+          "to": "images/lab1-1-13.png"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX18s/8EEb9j3SxFn43iWZlpNXwNF/QbDvHB6m+NDhr8+owA2mItBSJ8zZz+byKCUC3Uj72B4oDj6EA==",
+          "to": "images/lab1-1-14.png"
+        },
+        {
+          "id": 17,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1/TtqIvXeA6QzQwwLTNdxHHTvRRJnw7gL9gW6ovygX/zhu3FW09QEmX",
+          "to": "images/lab1-1-15.png"
+        },
+        {
+          "id": 18,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+4LSwJzaB1Kc4x3tkqnpbAoB7QlBJ0I7FM3kfSGUIUBUoZR9N1H7ZU",
+          "to": "images/lab1-1-16.png"
+        },
+        {
+          "id": 19,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+pC/D1n6PYruhOZdZLmbRuim2f1m5ioydiVswbG37tJnfqW7q5CzhA",
+          "to": "images/lab1-1-17.png"
+        },
+        {
+          "id": 20,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+1c47IU6MISpu2WsOpc99FnFlBde0/sgqWwPM1AnrmXJCyFMRWyC6pYoEwFp7knA6ZipD1NXjzjQ==",
+          "to": "images/lab1-1-18.png"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "template": 1,
+      "part": 2,
+      "section": "ОБЩИЕ ВОПРОСЫ ОПЕРАТИВНОЙ ХИРУРГИИ",
+      "title": "ПРЕДМЕТ И ЗАДАЧИ ОПЕРАТИВНОЙ ХИРУРГИИ И ТОПОГРАФИЧЕСКОЙ АНАТОМИИ. ХИРУРГИЧЕСКИЙ ИНСТРУМЕНТАРИЙ. РАЗЪЕДИНЕНИЕ И СОЕДИНЕНИЕ ТКАНЕЙ. ШВЫ И УЗЛЫ. ВИДЫ ОБЕЗБОЛИВАНИЯ",
+      "subtitle": "",
+      "task": "Назовите швы, изображенные на рисунках:",
+      "images": [
+        {
+          "src": "images/lab1-2-1.png",
+          "caption": "Рисунок 1."
+        },
+        {
+          "src": "images/lab1-2-2.png",
+          "caption": "Рисунок 2."
+        },
+        {
+          "src": "images/lab1-2-3.png",
+          "caption": "Рисунок 3."
+        },
+        {
+          "src": "images/lab1-2-4.png",
+          "caption": "Рисунок 4."
+        },
+        {
+          "src": "images/lab1-2-5.png",
+          "caption": "Рисунок 5."
+        },
+        {
+          "src": "images/lab1-2-6.png",
+          "caption": "Рисунок 6."
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX19F/A19Y9hgYH91ZuPq0d28c+WmA2fZOH2eNPzyubjqRoXlH97uPL6Iw7kxvCDR9xBntkWyFgmssA==",
+          "to": "images/lab1-2-1.png"
+        },
+        {
+          "id": 2,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX19lrxRmPygp2vjYHEiSNgmF90DDmpts8dYzpOWLbm6k7ZMvKGJsMrwTwWA7feD/3vBiT91g0GDEZw==",
+          "to": "images/lab1-2-2.png"
+        },
+        {
+          "id": 3,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+4YnT1K3iN9iMJ1T+5UsYC027CdGuQkLxBA+ED3hXblYkc9iQA3dqxL8L5uhyS6Hf6tGKZliFRN7/gvDw/HYa3Wv3MUl9shp0=",
+          "to": "images/lab1-2-3.png"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX19JKlNDYVzoDGcHMp9NDpmUWqXAPECqrzEjGMPC0JNMToJGU6Kj1qQop7Jk92cn+w2RHYEY8nBELQ==",
+          "to": "images/lab1-2-4.png"
+        },
+        {
+          "id": 5,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+nhT44vQTAfYBGxqI6ldfnTTlOE3Lrt2BxtwRjhtH524f4LVkbQ/foCFPoizQWW3Q2xkMw8p5AsAXw8ldd4Eo69fa9gx4qkN0=",
+          "to": "images/lab1-2-5.png"
+        },
+        {
+          "id": 6,
+          "label": "",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+qZD1fouoU8Gn8A2pmPBrny7zraUPAQibrPVS+UU3yHEARLDxETOJ8t/nlSdnwtnDp/wf/mC/SrN59138AQQnS3zay4afBmXU=",
+          "to": "images/lab1-2-6.png"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "template": 2,
+      "part": 1,
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "ШЕЯ: ГРАНИЦЫ, ОБЛАСТИ И ТРЕУГОЛЬНИКИ, ТОПОГРАФИЯ, КРОВОСНАБЖЕНИЕ И ИННЕРВАЦИЯ МЫШЦ. ФАСЦИИ ШЕИ.КЛЕТЧАТОЧНЫЕ ПРОСТРАНСТВА. ШЕЙНОЕ СПЛЕТЕНИЕ",
       "subtitle": " Треугольники шеи",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab2-1.png", "caption": ""}
+        {
+          "src": "images/lab2-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... треугольник", "answer": "Лопаточно-ключичный треугольник"},
-        {"hint": "... мышца", "answer": "Трапециевидная мышца"},
-        {"hint": "... треугольник", "answer": "Лопаточно-трапециевидный треугольник"},
-        {"hint": "... мышца", "answer": "Грудино-ключично-сосцевидная мышца"},
-        {"hint": "... треугольник", "answer": "Сонный треугольник"},
-        {"hint": "... мышца", "answer": "Заднее брюшко двубрюшной мышцы"},
-        {"hint": "... мышца", "answer": "Шилоподъязычная мышца"},
-        {"hint": "... треугольник", "answer": "Поднижнечелюстной треугольник"},
-        {"hint": "... мышцы", "answer": "Переднее брюшко двубрюшной мышцы"},
-        {"hint": "... треугольник", "answer": "Подподбородочный треугольник"},
-        {"hint": "... мышцы", "answer": "Верхнее брюшко лопаточно-подъязычной мышцы"},
-        {"hint": "... треугольник", "answer": "Лопаточно-трахеальный треугольник"}
-	   ]
-	 },  
-	 {
-      "lesson": 2, 
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... треугольник",
+          "answer": "U2FsdGVkX19rQwquLauijcyKHAHeMRIf6hp3BkKUxsZEoYTV38M1Dg7WFrXc7v0Dp1TMfPtZhU2sy8/89eVl0sdEcSRSQ3ixjoKuVmp1AKs="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+/io/lqJclps7KAC21wTUnfpa9mXyLjfy7B3wTtPJB0m5TjNg9PGYZADx9ofwc7VkEGvxYkWLnSQ=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... треугольник",
+          "answer": "U2FsdGVkX19C2mGjlJdyP7HS61S0vrqMhU1mFABUaTeWS0u2HibGL2Efr2/kzVgYTfIjQV5t3gKRICKUisjBAxj7hAkixlcu/41GJRxZ+qg30gP2tDh0mN2XdVAjcsYa"
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX19YrhHuwdELweo7wHipy7eE2V7NT0/pdsujU5dvNktaRYfIc524bdiVbf4TXf9Ur4ehAcrkiqtL2NoHlaAzNlQ8YSuO9IJPngLh+c2DFlM6gvW2JVj2eJmH"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... треугольник",
+          "answer": "U2FsdGVkX19kQjkR0sInOd+LmzLT3wcx2YTu0L4QY4TndGMOabh6VpK1KT84G8fQNKWNlfm1OjpqF548BiQg0g=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+6cb3pKwxNOaOvzo1qwg5RnU0SVrTKdKfAAEOFl0E8C8dm2cvV5QxRNpeWWptdeYrHdyIsU0Fx6PxLn7FpN5Fx0PNe+3jV/+w="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1++dhPeqigt3SpUkW1uTjw3pfEMnULkvMRrA2U5KIlvuE3bAHnvGRc7fTJuxtZCUeThr8YJ8zI5Cw=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... треугольник",
+          "answer": "U2FsdGVkX19YuXruOViEFsuc0FB8XfkYqZZyshi+PWwEdPgtVfqgom7/9gJv4iSRhj8wDYPYWUpe7pL3tK7CGYRlr6jogqy3GSuHFfhKIKw="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... мышцы",
+          "answer": "U2FsdGVkX1898ETccApTONvjWfQiR2oZJN6nynFHiR5fJec8asYkvGA3rOTMq5/yOE7rfhcLPJklUklvAbsChhtb8D0JB/Pn8CDzEnW4XZw="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... треугольник",
+          "answer": "U2FsdGVkX1/LUBp5tFDtz2wQCQa3ZUpeWeMy3y7g0iwP1fyd2M6bQomNqKmT+qoPflmctBLHROPeumH8k8M2kZoETinwQJhSIGU4OS9RiS4="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... мышцы",
+          "answer": "U2FsdGVkX18v2ctCvYIrNbBxG2COAOg9hPMiZDXXPLJYo5ohhE8ECLuDD5kUHVOHMRWcVi+gqhjUOwwMaPll5+0qPqr4gJt20ZQ3mbhONtyrlqLzsUJEInjqkrtPBUHnuwfAqBsYRXjyWS0eGjZYcg=="
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "... треугольник",
+          "answer": "U2FsdGVkX1809liRPqJqsJ0em1GL3eYhKtRxmWbX4foP8W8tN2tbJmwAJFqd+1dnXu8ICjb7J9Ty9BTcOXzsw4GvudrDWN4bWmA4zo8C3lSceLfR0wxB8W6gFE2wlIwb"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "template": 2,
       "part": 2,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "ШЕЯ: ГРАНИЦЫ, ОБЛАСТИ И ТРЕУГОЛЬНИКИ, ТОПОГРАФИЯ, КРОВОСНАБЖЕНИЕ И ИННЕРВАЦИЯ МЫШЦ. ФАСЦИИ ШЕИ.КЛЕТЧАТОЧНЫЕ ПРОСТРАНСТВА. ШЕЙНОЕ СПЛЕТЕНИЕ",
       "subtitle": " Шейные фасции (на поперечном распиле) ",
       "task": "Назовите обозначенные структуры:",
       "images": [
-        {"src": "images/lab2-2.png", "caption": ""}
+        {
+          "src": "images/lab2-2.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... мышца", "answer": "Грудино-подъязычная мышца"},
-        {"hint": "... мышца", "answer": "Лопаточно-подъязычная мышца"},
-        {"hint": "... мышца", "answer": "Грудино-щитовидная мышца"},
-        {"hint": "... мышца", "answer": "Грудино-ключично-сосцевидная мышца "},
-        {"hint": "... вена", "answer": "Наружная яремная вена"},
-        {"hint": "... мышца шеи", "answer": "Длинная мышца шеи"},
-        {"hint": "... мышца", "answer": "Передняя лестничная мышца"},
-        {"hint": "... мышца", "answer": "Средняя лестничная мышца"},
-        {"hint": "Позвоночная артерия и вена", "answer": "Позвоночная артерия и вена"},
-        {"hint": "... мышца", "answer": "Трапециевидная мышца"},
-        {"hint": "Тело шейного позвонка", "answer": "Тело шейного позвонка"},
-        {"hint": "... артерия", "answer": "Общая сонная артерия"},
-        {"hint": "... нерв", "answer": "Блуждающий нерв"},
-        {"hint": "... вена", "answer": "Внутренняя яремная вена"},
-        {"hint": "...", "answer": "Пищевод"},
-		    {"hint": "... железа", "answer": "Щитовидная железа"},
-        {"hint": "...", "answer": "Гортань"}
+        {
+          "id": 1,
+          "label": "I",
+          "hint": "...",
+          "answer": "U2FsdGVkX18yj3BPMmyO/tWU7qtSaVv3XsoTNF3zMN/2LorXKjpK19oODRnrEOPj1lyQZUH73UY+Ymf2mTvzKA=="
+        },
+        {
+          "id": 2,
+          "label": "II (Голубой)",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/SgMTPm4Foene5+sMlFQcEFIoOrkeYhiOcFtxS5xKVjcmboD58xBywyJrefTaofwSHXYXYmisw/JEGIchAIpRA3XFaTJXdnXPsbbJ1Y0xxHyZvN/T7+NAd"
+        },
+        {
+          "id": 3,
+          "label": "III (Красный)",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/QoGg0Tv46GPULnwBu5Cdewjc8P1+yRtZQiwqwEVJKIn6BSPXzxW/9ewM3utvDOFPLKNtPzGNYsAUI9d46MoyD5DaBl58QcjFDwGulW3WfP6w3DyjDyqsj"
+        },
+        {
+          "id": 4,
+          "label": "IV (Фиолетовый)",
+          "hint": "...",
+          "answer": "U2FsdGVkX18zSOyi1MIvKvAa4cM8gUYc9hWIoLb7dzVtuI/Ky9Kc4ce9DoCY/G17A/N2BCE+IlU/5J4zTInLUg=="
+        },
+        {
+          "id": 5,
+          "label": "V (Желтый)",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/I0N5rtKsDn4qx3qxgCj8l4l/TkOtlKJn/Ru/2Yr8yQhwbfx6QWz4H8Toglka5YtdFH8Au3ZF7PMU6hJbC0A0vlQqoMpZJSkG2M7RzfEzo/Jwpjc79/YNq"
+        },
+        {
+          "id": 6,
+          "label": "(Зеленый)",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/H+QOxN/w6nszth472+CJeLT9IR2SW3bwLWDMV/D4hqwKZdK53/53Q"
+        },
+        {
+          "id": 7,
+          "label": "1",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+zLgxgsb7P3NEJ3xMzsrUgulw+NrBHmH/O4CLC81omrF+ibIPz/PnE8TUFcg2I1QOpGQZs3M/lpzCh36M9wLAA1j88SRJgApM="
+        },
+        {
+          "id": 8,
+          "label": "2",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX183gtbxVD5qfWbRuLor5zoBETZ3K1p0djWXNwHYiqsdmDP+bO40SL4S+Qr7DQQ3om0hH/YCxdPWRuLswXIKI9Elcc+cGhCALGY="
+        },
+        {
+          "id": 9,
+          "label": "3",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+RyHzCLA4iz9rnLU0aqSHz0CTCoeIWH0bLZ/NEWljk3NdkIuZ7aO4QYNjv9JLCMqRjRF8TI1yyCQ=="
+        },
+        {
+          "id": 10,
+          "label": "4",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+bDbEzsomd82el7i7SQmEklHRgwR9M1jcUAbN1Xk+MiZWJdMsq3AkGzuEOkbU0zdy47K144KrI3NMPZrzI/DuTrfW02oJKNJKNJw/ep7kmxvkLdsSBAxcs"
+        },
+        {
+          "id": 11,
+          "label": "5",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX18rGBvSQ4oAKaLJioJvkMfXKF305T2QfPnd84OsC0YZndfOtxUREvbXGtzoe9Gmlpa27RnjXk+Nig=="
+        },
+        {
+          "id": 12,
+          "label": "6",
+          "hint": "... мышца шеи",
+          "answer": "U2FsdGVkX1+kMCNV0y9eDuZUqcYiDhUR/kXEysxP4lWiXmII6lqfB6n1DGkE2fwZ5dHxLUJp7FnBbWEUZFxgeg=="
+        },
+        {
+          "id": 13,
+          "label": "7",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX183SDtMlZrUtwK9dgUwAz9VCahe3AGxw9u+xQ679Vh5ng3eCIdCR7uFxltUqjkQY5lEre4kY4yu6x77GI2lYz0Fk4ewDGHof6A="
+        },
+        {
+          "id": 14,
+          "label": "8",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1/NuRhPm15F+GFq4XIfjlHRzWtqvwjJBHbRAoxYDzT6u5sFBaakdEj6ZGQ/DngcVqU0v6UhBnDw/w=="
+        },
+        {
+          "id": 15,
+          "label": "9",
+          "hint": "Позвоночная артерия и вена",
+          "answer": "U2FsdGVkX19WNjxhWh66QHMocaTI8l3otlxE+YrL5EfDbD6MBTyX/NPROzh6y/M/cM6kYt/NNHJZt9nS0R4xBO2pTiU/FODMBA8uDSLcr04="
+        },
+        {
+          "id": 16,
+          "label": "10",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1/Q7Pg9tEUxMOw6WGbuURc9pCA28ChLoqgwvQLGuP2JKZw6UnGd7hwskd3WoSCrL6Y+IWplho2J2w=="
+        },
+        {
+          "id": 17,
+          "label": "11",
+          "hint": "Тело шейного позвонка",
+          "answer": "U2FsdGVkX1/CjPmyMndveme+8/JFBDGizRuYeQv4YdXvp9KYANOGCtv907dpIsETqhHTazJ60caTby4QA/PtHw=="
+        },
+        {
+          "id": 18,
+          "label": "12",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19m1MkCVMg96Nzdnn6yophjUI6HnHPEFd2s2h9dxxjvRunLKG19H37KLjxOEIVGPlacP95eDQyF5Q=="
+        },
+        {
+          "id": 19,
+          "label": "13",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19MSJSvQ9d5gY03NKrHPkS+NPgTdNZu2+NO6qOzHPv51c5345JCAZDJ"
+        },
+        {
+          "id": 20,
+          "label": "14",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX184DgbtTBL4TcLYBLlV/SQNXrIVWZdKyTABFnyI2Tq4GPcDBnFikAiIqzkQaSDAwXz6S8yuWXBEoA=="
+        },
+        {
+          "id": 21,
+          "label": "15",
+          "hint": "...",
+          "answer": "U2FsdGVkX180xxB/aX5gMNCj0jrXCpzbq/avWPikyGc="
+        },
+        {
+          "id": 22,
+          "label": "16",
+          "hint": "... железа",
+          "answer": "U2FsdGVkX19kKMiHUxF2ZOo6sjyggXaF8YuXBdI/jbV0r4cC7sa+F7QqXjHfZ0tjSim7vMvHCL1E5ld8wJYglA=="
+        },
+        {
+          "id": 23,
+          "label": "17",
+          "hint": "...",
+          "answer": "U2FsdGVkX18xBa39l1CcqWGGF9KUsJ4HD5Ey9zzOiYg="
+        }
       ]
-     },
-     { 
-      "lesson": 3, 
-      "part": 1, 
+    },
+    {
+      "lesson": 3,
+      "template": 2,
+      "part": 1,
       "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "ТОПОГРАФИЯ НАДПОДЪЯЗЫЧНОЙ ОБЛАСТИ ШЕИ",
       "subtitle": "Топография поднижнечелюстного треугольника ",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab3-1-1.png", "caption": "А – структуры расположенные снаружи от поднижнечелюстной железы"},
-        {"src": "images/lab3-1-2.png", "caption": "Б – дно треугольника вид сбоку"}
+        {
+          "src": "images/lab3-1-1.png",
+          "caption": "А – структуры расположенные снаружи от поднижнечелюстной железы"
+        },
+        {
+          "src": "images/lab3-1-2.png",
+          "caption": "Б – дно треугольника вид сбоку"
+        }
       ],
       "questions": [
-        {"hint": "... мышща с ... нервом", "answer": "Грудино-ключично-сосцевидная мышца с добавочным нервом"},
-        {"hint": "Околоушная железа", "answer": "Околоушная железа"},
-        {"hint": "Жевательная мышца", "answer": "Жевательная мышца"},
-        {"hint": "Подкожная мышца шеи", "answer": "Подкожная мышца шеи"},
-        {"hint": "... узлы", "answer": "Поднижнечелюстные узлы"},
-        {"hint": "... артерия", "answer": "Лицевая артерия"},
-        {"hint": "... ветвь ...", "answer": "Краевая ветвь нижней челюсти (из лицевого нерва)"},
-        {"hint": "... мышцы", "answer": "Переднее брюшко двубрюшной мышцы"},
-        {"hint": "Подъязычная кость", "answer": "Подъязычная кость"},
-        {"hint": "... железа", "answer": "Поднижнечелюстная железа"},
-        {"hint": "... мышца и ... мышцы", "answer": "Шилоподъязычная мышца и заднее брюшко двубрюшной мышцы"},
-        {"hint": "... вена", "answer": "Лицевая вена"},
-        {"hint": "... нерв", "answer": "Подъязычный нерв"},
-        {"hint": "... вена", "answer": "Внутренняя яремная вена"},
-        {"hint": "... артерия", "answer": "Общая сонная артерия"},
-        {"hint": "... петля", "answer": "Шейная петля"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... мышща с ... нервом",
+          "answer": "U2FsdGVkX1+f0rN6qPymPWkXIi+ddedRcC+vSFd8FpfEMxI6F50fyVQ+9ig8UyjTgiB2Fne6lUb9g4aHITXRq9pjDxB8ALdHG/5a5Vyak65grcqVZaL9+oEJoVtft3KfOG/dwZl6PBPk4qg3VA4ForH8RlwSfaPc07fIHT6pzPQ="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "Околоушная железа",
+          "answer": "U2FsdGVkX1/SroOIwN0v3vtQ3VwmoMgfpBAfmI2Wh2uiJRYnJO5+1Vu6wYE+GXojfmN6EblLwLNlv6W0aouCyg=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "Жевательная мышца",
+          "answer": "U2FsdGVkX1/IjZtLM3TakeW1p5XY5/SR1/MOMEdcAp8dCj6RIDR9OeiKW2JCwPn13rGHWubi+ekeJaSv/bj9Tg=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "Подкожная мышца шеи",
+          "answer": "U2FsdGVkX19ePHEMuwMm3AJefi86YFuNEPWf1B+3FvImg1rOdiUIl+po6MJvJc25wWuQRxSooIyHdGxnqwhmbg=="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... узлы",
+          "answer": "U2FsdGVkX1/BWZJDWxxKa73rHTdYUrMYd9fe22iWidg8ZUXbCmNmJOixwx53BBzrsJV1MPPsMmFdoN5C2sAqfQ=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1/OOwi6cF4cYKHmLKyVowJlFaDjZs8uIELvOHr6RExr5s5q36fCHLMe"
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... ветвь ...",
+          "answer": "U2FsdGVkX19k4I3K0vCiyprw220mqRtyJ8vHnJmfhnRhixKPFtys9Gleu9cghCvttLj8Kg+Ek3LsobxZdLsR1YRoH1xZ5eV/d9ZqMyUz3KQ="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... мышцы",
+          "answer": "U2FsdGVkX19A8CC11SkQAB+SGCea/fv0kOSVo2kJrObBuZ0zI4SRdzPW+xaVswU14jM1QUzMvYI5cCNZQNcn4IhWxxHcv1U3yckL9E1C7W4="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "Подъязычная кость",
+          "answer": "U2FsdGVkX1/B2TVexgqGy1DvNETMyf7s7qnRfab52cEWjkaLsE9HT0eFarMSZ0SKdoDQY8YuYpzVU+NEtZQr4A=="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... железа",
+          "answer": "U2FsdGVkX1+wrLMObtW1yZ96C6ZRSMUja1dKXBdqzG1GGeYKrTQzvq+rTc8DbaHq6CExFIPKz6EWv+bOYz4Qsw=="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... мышцА и ... мышцЫ",
+          "answer": "U2FsdGVkX19C0uMpV7hgS7UXtwg+YIkCYozWCL6r+T3ZwdPLBT65LYRb/UHxw9z62jShPVfRR1rgZOs/d3cyXwkyN2BOvGCHRLzPWoj6uJ6jzn5ua30K7mkgtkq2FG0toxdNFXtTCwUtZgfUO1jDOTuIT+hcNUlCfEibJXf5Mys="
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1+rE7jyZBFZ08rfATKI2sce7sIojkSvvtG9jLbaVebJFRmAmUTeWNwV"
+        },
+        {
+          "id": 13,
+          "label": "13",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19p7iz/wBRd5c+im1F7Bb2fj8NmzUdhA2eeHkStpcUryF0w4rf7hsMN"
+        },
+        {
+          "id": 14,
+          "label": "14",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX19evL3OscUXtY+DFW+dAZyJzNehuZ4WrYPEAw4wzu/HHx6Ql4QtmKxxGjbnng9nAYTL4i0f/SZXkQ=="
+        },
+        {
+          "id": 15,
+          "label": "15",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+8YfFsq5GsySoONnUNJxp/TOX9dHksV6ofYf2Kd80T4aGJeFbcj/12n7NOeBAlq06tqQ/VCk7JRQ=="
+        },
+        {
+          "id": 16,
+          "label": "16",
+          "hint": "... петля",
+          "answer": "U2FsdGVkX1+WQGmPPM9vO2kfAJOkevmi6Sc3rotyjWQgfteyMkrP42lPEb7rbbYo"
+        },
+        {
+          "id": 17,
+          "label": "16",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1+3hDqHQ6kPPtxnAhUBJCUf42Sus8Ngk8cq793x89lyiWyd1zeitd0s4uGb4mx9hRizZzgFmroOkw=="
+        },
+        {
+          "id": 18,
+          "label": "16",
+          "hint": "... мышцы",
+          "answer": "U2FsdGVkX1+kIlWZvf/JA3jGHLJA6sRW5cU5959I/anxEAtlkL55v2ya6xTl2qA1CaJ5Fs1Zai3kJ0WY7JXpM9ZH9u+48YJ/PWyCKGFLD5eZb/By0dDh9V3D5VMW6nCE"
+        },
+        {
+          "id": 19,
+          "label": "16",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+4SttIoqpYmMsXuKcOyGs3cE4NuFB2in+kNdfQijnjcKAOxJzXxZY4nLww0NgpNw3mbxXm7N08BZ4M3kDSQ1wiXTmCZsa3Jbs="
+        }
       ]
     },
-    { 
-      "lesson": 3, 
-      "part": 2, 
+    {
+      "lesson": 3,
+      "template": 2,
+      "part": 2,
       "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "ТОПОГРАФИЯ НАДПОДЪЯЗЫЧНОЙ ОБЛАСТИ ШЕИ",
       "subtitle": "Клетчаточные пространства надподъязычной области",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab3-2-1.jpg", "caption": "А – фронтальный"},
-        {"src": "images/lab3-2-2.jpg", "caption": "Б – поперечный распил головы"}
+        {
+          "src": "images/lab3-2-1.jpg",
+          "caption": "А – фронтальный"
+        },
+        {
+          "src": "images/lab3-2-2.jpg",
+          "caption": "Б – поперечный распил головы"
+        }
       ],
       "questions": [
-        {"hint": "(содержит язычную артерию)", "answer": "Парный межмышечный промежуток"},
-        {"hint": "... пространство", "answer": "Подъязычное пространство"},
-        {"hint": "Язык", "answer": "Язык"},
-        {"hint": "... железа", "answer": "Подъязычная железа"},
-        {"hint": "Нижняя челюсть", "answer": "Нижняя челюсть"},
-        {"hint": "... мышца", "answer": "Челюстно-подъязычная мышца"},
-        {"hint": "... железа", "answer": "Поднижнечелюстная железа"},
-        {"hint": "Подъязычная кость", "answer": "Подъязычная кость"},
-        {"hint": "", "answer": "Подбородочно-язычная мышца"},
-        {"hint": "", "answer": "Подъязычно-язычная мышца"},
-        {"hint": "", "answer": "Непарный межмышечный промежуток"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "(содержит язычную артерию)",
+          "answer": "U2FsdGVkX19sTZW3uLahTLIv+55H/bTvIxEyb6CuilV+Y1owXw+aejgcnd8X+XkhUl84kxeHslnNJaodyCA1vomCA6kBGq3GqtA0dM2qXf8="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... пространство",
+          "answer": "U2FsdGVkX19ZwbM9rRSPxV0g9ROsIEv/DY0D10FdDUwPes2GkQ6MTkLQZldwXYmSZ/msduI07+YX1inMJrwcWQ=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "Язык",
+          "answer": "U2FsdGVkX18v7LUSrZUEvMN+qozjJAC6K8iKs8DcBo8="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... железа",
+          "answer": "U2FsdGVkX19PY0lOpO3iccD6b0epAxC77RCADOTuyAZ735cpNYLojw7eqGRs5QNmYa8+GRdBEYnI1mfFh15hIw=="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "Нижняя челюсть",
+          "answer": "U2FsdGVkX1/R4il+X4ygu6Bqh6NeTNPPp1cuscDhFG6W1NfxUYtXGU1u5+rxJl/Q"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+XKgdaqzvAGXbbXTGhjcr6NjT60v2onEroP6IIIildvKbU0xzmNYZux6TSFPooNXAPagMJv7DJb6o2R4ZZ0LhiM94r2CU9O3s="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... железа",
+          "answer": "U2FsdGVkX1/CLC6vPr+hFULxeEhmfThDDzLI8yWAzZkr/lHl0RsULOg6H9Uu6bMg8QTwpUp7i2B5Dnubp2Nosw=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "Подъязычная кость",
+          "answer": "U2FsdGVkX19B+VsWW5sm1PL6u48FZ28WDjqLy9FCzwNKAL0+U18UrlyIpkZt3mYjV+ZgS839BnS7DkY+TJi0GA=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "",
+          "answer": "U2FsdGVkX18wDyrOMs9MVolhaKXwLeMxZ4fX5+si00ETfutqi9Zz0fO56FjfEH69sBWK920wdjpZ6A0syJxfThaE7GRfs0drKYzHBiMdqOM="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "",
+          "answer": "U2FsdGVkX19piWGdr59MNps2OTSFilOeDNeMa4NxbgXkoNvsAmDslOptalw/AwEA+1JkJqhry4DIgdk3bI9nIg=="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "",
+          "answer": "U2FsdGVkX19O2bi6LXJISVaNdNeyhLMphd4ER9VSjesaO4oLlBWhIB0sTIbeeyqAGznH/Nid6xS7DCeEDhdcY89xwVI/h0PNsYdA5xmNnZ8="
+        }
       ]
     },
     {
-      "lesson": 3, 
-      "part": 3, 
+      "lesson": 3,
+      "template": 2,
+      "part": 3,
       "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "ТОПОГРАФИЯ НАДПОДЪЯЗЫЧНОЙ ОБЛАСТИ ШЕИ",
       "subtitle": "Топография подъязычной и поднижнечелюстной железы",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab3-3-1.jpg", "caption": "Cагиттальный распил дна полости рта"}
+        {
+          "src": "images/lab3-3-1.jpg",
+          "caption": "Cагиттальный распил дна полости рта"
+        }
       ],
       "questions": [
-        {"hint": "Челюстно-подъязычная мышца", "answer": "Челюстно-подъязычная мышца"},
-        {"hint": "... сосочек", "answer": "Подъязычный сосочек"},
-        {"hint": "... протоки", "answer": "Малые подъязычные протоки"},
-        {"hint": "... железа", "answer": "Подъязычная железа"},
-        {"hint": "... проток", "answer": "Поднижнечелюстной проток"},
-        {"hint": "... железа", "answer": "Поднижнечелюстная железа"},
-        {"hint": "Подъязычная кость", "answer": "Подъязычная кость"},
-        {"hint": "", "answer": "Подбородочно-подъязычная мышца"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "Челюстно-подъязычная мышца",
+          "answer": "U2FsdGVkX1+TQNAivWc8duQkkJRCi1unF1fxVqxjRPa2tvXPE53QYmK5vyyAVj72yUmxXOog0HL6qqoKWQK+bYQ33kaZXz1BYnkGbc6JN+I="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... сосочек",
+          "answer": "U2FsdGVkX181C6AvyUoiw3pelkja+dN5yA1fs8Ghes1sUtjACHIWc3rhJj4V1GMWNjwAg4jQexdCqN4Y4nlLhQ=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... протоки",
+          "answer": "U2FsdGVkX1+hLVpjo9tPoyDD5cbZCycSvN1VNThPleFw++0LtQNvRpr0etBXK3+nFB7L3IbqcORxcSJyUlzfxrixDtDBwwqgpUVB5fBsnTk="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... железа",
+          "answer": "U2FsdGVkX18sZUdcyEd6PQ4A6e2IWgt4UHFrOlZCm6UpNqoOl5aQtHKZquxFk4Q+tvwAQCuwBnpygtXDxshzOw=="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... проток",
+          "answer": "U2FsdGVkX1876vocMkO+uENrctTBlr7m83RKmyVdGYAEJ/1EVhyfzE1GFSZ1x5JeraH7DCkf+5XtLMlsQmE4HA=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... железа",
+          "answer": "U2FsdGVkX19ivfsmTtp89C4Fg9tcHVxPGT71s5UDI3SqbxGCncvpVcpCFtjXpDcbNYRdRY6ObFizUK88Z73wDg=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "Подъязычная кость",
+          "answer": "U2FsdGVkX1++HVm2X9Qadm1kw+yohHx/AObzrtErjph+keREpXSqA9byNhvfBrIbGHV5aVe1lzgsPCQgG+Usug=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "",
+          "answer": "U2FsdGVkX18/vUaaNStKMfkIfG6XiFA6eZZm7wq0SdBrLlQXJdBVUvGCtW7wrKELIueTzDrLDaR8EDFFhGlQS/nz1D2J+0rz42ugyBgZ/Cw="
+        }
       ]
     },
-    { 
-      "lesson": 4, 
+    {
+      "lesson": 4,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "СТРУКТУРНО-ФУНКЦИОНАЛЬНАЯ ХАРАКТЕРИСТИКА ЯЗЫКОГЛОТОЧНОГО (IX), БЛУЖДАЮЩЕГО (X), ДОБАВОЧНОГО (XI)  И ПОДЪЯЗЫЧНОГО (XII) НЕРВОВ",
       "subtitle": "Топография IX, X, XI и XII черепных нервов",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab4-1.png", "caption": ""}
+        {
+          "src": "images/lab4-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... нерв", "answer": "Блуждающий нерв"},
-        {"hint": "... вена", "answer": "Внутренняя яремная вена"},
-        {"hint": "... нерв", "answer": "Добавочный нерв"},
-        {"hint": "Нижний узел блуждающего нерва", "answer": "Нижний узел блуждающего нерва"},
-        {"hint": "... артерия", "answer": "Внутренняя сонная артерия"},
-        {"hint": "... артерия", "answer": "Наружная сонная артерия"},
-        {"hint": "Мыщелковый отросток нижней челюсти", "answer": "Мыщелковый отросток нижней челюсти"},
-        {"hint": "... нерв", "answer": "Языкоглоточный нерв"},
-        {"hint": "... нерв", "answer": "Подъязычный нерв"},
-        {"hint": "Внутренняя ветвь ... нерва", "answer": "Внутренняя ветвь верхнего гортанного нерва"},
-        {"hint": "Наружная ветвь ... нерва", "answer": "Наружная ветвь верхнего гортанного нерва"},
-        {"hint": "Щитовидный хрящ", "answer": "Щитовидный хрящ"},
-        {"hint": "... артерия", "answer": "Общая сонная артерия"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1+05UOzQkG8o5QKkJ+I+wSOuBa6agSoi7Mz/xaj7gB7zv8XApes0NCi"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX19mOOfkS4TsG4rJOpybAEHV8GBZy/rB986lgcBdeiGGMGCECiZONveBMu6F8fxfVwPDLhv97rYVow=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19ZNHh2k3+IVigN21v/Q1BWMDnn2b+gljvH1LDr0M8Tec45mb4YaA+P"
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "Нижний узел блуждающего нерва",
+          "answer": "U2FsdGVkX19ndhJ1rsHn8QQXLehsbfxS3rsfR43sk1Z2s9utsScoi5mFpd94Lan/+dBpxfAKqp2V9Nqbl7oX9XBZNv/QAvB6OtctHuzD1Gk="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19irJS0aN+lm2HY+uk++AFr0b1CO4U72G70dxXeMCaz7kstHlAMa0xyGvyu95xpHx2W2LxPacz4B7DwvFw3V7ZEVTrfVpkwhd4="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19ok2rynXCfA+1GzCBUWxCM8KPw3uGf83oTbsVbc3aMULnKtfV9ucqpjnB+Erbd0H8mhbRCVwExnQ=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "Мыщелковый отросток нижней челюсти",
+          "answer": "U2FsdGVkX19WxWXOaP14R11BVL2SyhpEYX/1iPvWmE9oSQ9GYt0BXx3UpjP8c4SPfcEl7g/9b0XCOWwWBKHA06efhurNS9uCmheLJ7Ka6EynqdYofHVm19NhCK4V6cIN"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1+1RiGOp2I8r++W/j8q8DL7FXD7M1cG51GCRNUC29UlxaY9ftzw8Ijp/YKfJ6xXibwUbIl/LxHR0w=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1/OVLrxqsGglGvh1DULaYfGawiaQeAGFyb5lXnhJw23iU49nITK7lZE"
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "Внутренняя ветвь ... нерва",
+          "answer": "U2FsdGVkX18zU9lQY7ht4YsSUb9rDRnpiJhDRYJsn3dLFAVKqJK+6KFZJ/Djk1LSmHkt5zksSy1J3S7qlD/ERo07LAVETZdRbUhlWn7860H5mBqmwJ0ThvorByqfCdLPLblndEKGQsVqbIOfXnFDnA=="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "Наружная ветвь ... нерва",
+          "answer": "U2FsdGVkX182AaSxlmHgrQxg7pwEYO7ISnCAyvZeqOTD94muDrCM1xUFwKpMDSyasdIUG7LmBKo3EnHAjXKomTVLoqWdExEMWrJ8WZtwKeLWn7FFUHKGcM1jZZDCSCXQ"
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "Щитовидный хрящ",
+          "answer": "U2FsdGVkX19ktA6ploDDiaDnn5mF08YA8oqWyzx+bV/iDAV9xiN1Zc7fnvxiA/nd"
+        },
+        {
+          "id": 13,
+          "label": "13",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX18wMqT6b6aCHhywGt7uExremz2yzdQqX6jNTFg3pOnYlY0TGa8NZd/NatyVxDuzcch7HI1v7Ts3wA=="
+        }
       ]
     },
-    { 
-      "lesson": 5, 
+    {
+      "lesson": 5,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "ТОПОГРАФИЯ НАДПОДЪЯЗЫЧНОЙ ОБЛАСТИ ШЕИ.ПОСЛОЙНОЕ СТРОЕНИЕ СОННОГО ТРЕУГОЛЬНИКА",
       "subtitle": "Главный сосудисто-нервный пучок шеи (вид справа) ",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab5-1.png", "caption": ""}
+        {
+          "src": "images/lab5-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... артерия", "answer": "Общая сонная артерия"},
-        {"hint": "... артерия", "answer": "Наружная сонная артерия"},
-        {"hint": "... артерия", "answer": "Внутренняя сонная артерия"},
-        {"hint": "...нерв", "answer": "Блуждающий нерв"},
-        {"hint": "...", "answer": "Сонное влагалище"},
-        {"hint": "... вена", "answer": "Внутренняя яремная вена"},
-        {"hint": "... нерв", "answer": "Добавочный нерв"},
-		    {"hint": "Заднее брюшко двубрюшной мышцы", "answer": "Заднее брюшко двубрюшной мышцы"},
-        {"hint": "... артерия", "answer": "Лицевая артерия"},
-		    {"hint": "Подъязычно-язычная мышца", "answer": "Подъязычно-язычная мышца"},
-        {"hint": "... артерия", "answer": "Язычная артерия"},
-        {"hint": "... нерв", "answer": "Подъязычный нерв"},
-        {"hint": "...артерия", "answer": "Верхняя щитовидная артерия"}		
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1/IykncnM+/8IC2eSk6l5TKsLKYi7RURuvXpd8okcQQiVO8s9hJkWlswA9cedRvKumsGm4KWU1OsA=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+btvzWRRw0B5Qv45QkrIKV4+oipNBIJMcdYf3lEFNW9vvTXsErwbmAdw3E3L2Lx5OYKf/JnkkMMg=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19k0ylzbf8XtSh7lP5LD0pAPq0iscX5wlDxxfE42nU7EeQzdViAuu54xFl5cAozjd99hlOop6Asit+3nyz+8tZr+KiIGwP0gSY="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...нерв",
+          "answer": "U2FsdGVkX19P83dv0IeHPBJ/qwE4O+8eewXg6hTZh66MBhlhroa8WAoEfojzilCe"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "...",
+          "answer": "U2FsdGVkX1824ff1Xd09nU/WOsLI7tg4NZwsJzLwK5T5v/OvGn5BaRUgrxSxr862"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1/OsxLCvo2cFd3aN5T3DAa8O5HCmZOgnj0aztr//wdSFymkzQ45KqrzUpcPTU65rsGQdXQK7W/l3Q=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1+xLKD8Pf0mVnETcdWQcrWDOsY1j6Q16Z5ZaRH2jO3Cp6GrgNu9upCK"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "Заднее брюшко двубрюшной мышцы",
+          "answer": "U2FsdGVkX1+oq+0VO5YiyCRCX+FhIcjDFeQMChVpvMFInRcFUh/yLzVRQ0vnsWdhGpBbAax1pJP7sN8dfttSZHBNDx9013wJ26OtxzsMcTI="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19A2TIkqbXIb+rxeYuxIRvqWUT10QJ5cIXsMc80amJC8GmVOyHwvTOZ"
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "Подъязычно-язычная мышца",
+          "answer": "U2FsdGVkX19dk/Zp0gizC5CKzzOGOzoTzzM3qTLDxFG/sqbgzHTQ9xr7RVSQrSPUFBh6kLPm7cgdYm/m/ZXD0w=="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+0iqIhqwPpySkNbauB7ywZQB/uzs5sq1fg1viydxF3uh9PComnvgID"
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1/M/JLDLZUJBKu8E306sq0s6gMISFMxe+YJqj0YaglNvGdkjjeKotbd"
+        },
+        {
+          "id": 13,
+          "label": "13",
+          "hint": "...артерия",
+          "answer": "U2FsdGVkX1/Qql3bruxjlfA3Aq2+n8hfls+bXt9Tu+2NRFjKqa1GKY7WQxq+g5fjW6NRGs79icQ90DqCQFAZwdaqgJKHZSHAUoR7I7rkL10="
+        }
       ]
     },
-    { 
-      "lesson": 5, 
+    {
+      "lesson": 5,
+      "template": 2,
       "part": 2,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "ТОПОГРАФИЯ НАДПОДЪЯЗЫЧНОЙ ОБЛАСТИ ШЕИ.ПОСЛОЙНОЕ СТРОЕНИЕ СОННОГО ТРЕУГОЛЬНИКА",
       "subtitle": " Ветви внутренней сонной артерии (виллизиев круг)",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab5-2.png", "caption": ""}
+        {
+          "src": "images/lab5-2.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... артерия", "answer": "Средняя мозговая артерия"},
-        {"hint": "... нерв", "answer": "Зрительный нерв"},		
-        {"hint": "... артерия", "answer": "Передняя мозговая артерия"},		
-        {"hint": "... артерия", "answer": "Передняя соединительная артерия"},
-        {"hint": "... артерия", "answer": "Глазная артерия"},
-        {"hint": "... артерия", "answer": "Внутренняя сонная артерия"},
-        {"hint": "... артерия", "answer": "Задняя соединительная артерия"},
-        {"hint": "... артерия", "answer": "Задняя мозговая артерия"},
-        {"hint": "... артерия", "answer": "Базилярная артерия"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19wJmEKtd0DKnO2hPdBNv4eeIbRkIloAxkan4A1n5GKCuYOjJu6c+s5j+eaZp6PT6AwFD+XGLwFgA=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19s10+c1HDssLnTJnd7dPNqBjWqMRF1dM4Axh2FS3oJeE3KqgURMX7G"
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+v0MujUShHKaalqfYXZd8qtbNQoN8rmAwIeEDm9KhaPrXaueLc8tnFixXy4iJT+rxq+ZZKrGnbM2p9CM4k1oZIUyfgF0kcfJY="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19SNmY9lYkIr3yhRc1WPO77XSjxbthaxW8RYCUXtBg8bfomIGgY6OVwMG1gWDiOdYDrU/H0D4AD3cDmE1l6Hn9kidw/2ACttsM="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX18wJf22XciGgz2dwXJHlzJzqTENGepICk2/Kf07lPtUpeHXWWzFYXsW"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+ZttjQThnM5PZ/XIQG8uds3VRV8Ivb1SHECbsSPVSoChdxeHccaYVjAreLq1dAgYYWui4mjWW/itxeN3kV5OkXzB0ryIZCRiA="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1/TpvlHnurLFvUNS0dRNWj1oAdx+3Vr/bkkdVbin0iC6Putw7qXn86HTomF++pYg8zTxwfr69QZ8050QPIHGJdbiwmxDmy/bzY="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+SwBLyppauVZSQmqW0f8CHxWSlwpJfqUKgg7EnKvwpOVMiqzzh5AeZERwc2RhXMFUsOKeZ1QKW7Q=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19mQtr6Xf2ZB+UMP+URpjUtCJWwsPOVrv2h+95AZ/wwfRO3ZfxNDGe7ynF5xivkQcH79zVWrEfoVg=="
+        }
+      ]
     },
-	  { 
-      "lesson": 5, 
+    {
+      "lesson": 5,
+      "template": 2,
       "part": 3,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "ТОПОГРАФИЯ НАДПОДЪЯЗЫЧНОЙ ОБЛАСТИ ШЕИ.ПОСЛОЙНОЕ СТРОЕНИЕ СОННОГО ТРЕУГОЛЬНИКА",
       "subtitle": "Ветви правой наружной сонной артерии",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab5-3.png", "caption": ""}
+        {
+          "src": "images/lab5-3.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... ствол", "answer": "Плечеголовной ствол"},
-        {"hint": "... артерия", "answer": "Подключичная артерия "},
-        {"hint": "... артерия", "answer": "Общая сонная артерия "},
-        {"hint": "... артерия", "answer": "Верхняя щитовидная артерия"},
-        {"hint": "... артерия", "answer": "Язычная артерия "},
-        {"hint": "... артерия", "answer": "Лицевая артерия"},
-        {"hint": "... артерия", "answer": "Наружная сонная артерия"},
-        {"hint": "... артерия", "answer": "Внутренняя сонная артерия"},
-        {"hint": "... артерия", "answer": "Затылочная артерия"},
-        {"hint": "... артерия", "answer": "Задняя ушная артерия"},
-        {"hint": "... артерия", "answer": "Поверхностная височная артерия"},
-        {"hint": "... артерия", "answer": "Верхнечелюстная артерия"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... ствол",
+          "answer": "U2FsdGVkX18xMSKnxeZylktEUEW5M2jPew60aBgpeqe9VkJkswJyKKZsWD99fcd0/4bLURfW3mfNnrA8Q8OThw=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19i/gQwW/iEr5Qwlc/k9X0dUmShqWI5qZnhyfGeSubnhFmZMTrgJrbxKSupTL1vXOTYdffkhPJz6g=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX18uS3exWj7JlgsBp15NpKc4lB2lM9EbPsYjALYGiNrkwdnm1gwdv21ZPhVGEvgo6map00Dh4DRNWQ=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX18yv4skmT/In3Bd0eFhNFwR8NWR8RGF1TOVjCtptP+txGyZh3jeRbqnSRhWne+gQvaRAP/fIBuchgbtmPhz4Hjc2WWdnDxtDBo="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19UBroloq7+akay2asDa4DpCSyBh3NhF389AJotbeZxPX5nNHlFWDtB"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+jrI1wVthiQJprod5JBnG6rqWZlVE9u5NP7xggI0MjYYCYmksOfyTv"
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1/IunwnV3A4KMXS6A4nuoefKE7aZf+OVRXFFtGf0INrbIJfqL15mKcJuzs5vaeEU4rMBbLJNlt1gA=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+3AeZ4NPec3vh6NaEmS2i8leB/mbL9ujlSsx9ewzV+XVqmHsKdtU3Zi8KEsauFpl8LU4o5LTMFkFqGzNZXoSAltKN7Wt5Z/zM="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+3vbtgyv3BaFVQZ2sgUboe+z6moYhclvbxMs6sDXwcIXoksa9gClNzJcCiiKkJxlC856nmgSKf/A=="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19OpAcJrvN121EgAZa7BKu/CnK7GY4C65eReqF4slZcPdaOKjCKi1P6fEAZzmlO4RhMIZUn67774A=="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19kSUPCQeJQ0LOTkmeZN6wsOcw7NjCbLnGp559gwDi/5Betc9qjFXAMPha2Qa3hihA6JU6kwG1/KkOeV/yOD2VUKjlxviKMv9E="
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1/PgZWNUL5613AK1b2WsSqVZ/MAyHzOA4Dv6giRhe1c8Zwv+8+qA2aqHoKL3w7YmJWsqaE6CRN2eA=="
+        }
       ]
     },
-	  { 
-      "lesson": 5, 
+    {
+      "lesson": 5,
+      "template": 2,
       "part": 4,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "ТОПОГРАФИЯ НАДПОДЪЯЗЫЧНОЙ ОБЛАСТИ ШЕИ.ПОСЛОЙНОЕ СТРОЕНИЕ СОННОГО ТРЕУГОЛЬНИКА",
       "subtitle": "Вены головы и шеи (вид справа)",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab5-4.png", "caption": ""}
+        {
+          "src": "images/lab5-4.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... вена", "answer": "Плечеголовная вена"},
-        {"hint": "... вена", "answer": "Подключичная вена"},
-        {"hint": "... вена", "answer": "Наружная яремная вена"},
-        {"hint": "... вена", "answer": "Позвоночная вена"},
-        {"hint": "... вена", "answer": "Внутренняя яремная вена"},
-        {"hint": "... вена", "answer": "Средняя щитовидная вена"},
-        {"hint": "... вена", "answer": "Передняя яремная вена"},
-        {"hint": "... вена", "answer": "Верхняя щитовидная вена"},
-        {"hint": "... вена", "answer": "Язычная вена "},
-        {"hint": "... вена", "answer": "Занижнечелюстная вена"},
-        {"hint": "... вена", "answer": "Лицевая вена"},        
-        {"hint": "... лица", "answer": "Поперечная вена лица"},
-        {"hint": "Крыловидное сплетение", "answer": "Крыловидное сплетение"},
-        {"hint": "... вена", "answer": "Надглазничная вена"},
-		    {"hint": "... вена", "answer": "Поверхностная височная вена"},
-		    {"hint": "... вена", "answer": "Затылочная вена"},
-		    {"hint": "... вена", "answer": "Верхнечелюстная вена"},
-        {"hint": "... вена", "answer": "Угловая вена"},
-		    {"hint": "* - венозный угол", "answer": " * - венозный угол"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1+ULykxnhwv4QW4uBAHlpPdwqeaqq9cstxboQCfQzDXSANTLJ9kj0ToWT/ueVqA3ZGALsvWykvRjQ=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX19d7ufNoZGhpjAtLwx1OoA6NSOSaSG8x257M+4gZUNA0oLjFWZbtQsswshUdrUaAQfiY6kbDLwBTw=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1/CR2Pxl1TlOwxouGpWuk/7VnTxwRsxOcVvXEhnFD02M0chWD1ptMJhKpwlznUzF7HA+mkut4cvYw=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX187Ig9FwLjFjkuDUGVbWDj31TIKY6hZnPPC5UCpZguXOiHuO1J8K7kx"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1+4x7NdLLkSuqHFy5mTLljasTmRl6OBcbgweYW2N54SmvnjpVNngaPVtOP+th99Z5vLZLUbYjzpUw=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1/NflkqSaYnzmp5AsBmrTKnHxdltsdAGUEj/ow8z+qQ9tqjP286zYvLZxdVnkoyy5LaSUgbcpL7lw=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1+/ztYbr3xIvQXd9xsIDquY11/Zq9IKRyGrqzDh5mN6KF89bXb0/rW4ubKxtU3XqMOrTHhtQAJl0Q=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX19bdB12yAraraJBc+8CBFDm2c0oKUmK77UVF0KRwq7VXYPZLCYwHKLn/akOnCRxiIgyAXVIwPtDkA=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX19jhkoXLQym4OH3aXNC9NrVhUV7Ld55y2tXfW7I40kz3IspGt3tK58m"
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX19kh5OUOfu9w2OGqMsEq7WnZkVNs41NPCO+Ao7h7oFGxzJtzOyUYSHiJ+C6D7o0yQDpRTxgjWJMgw=="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX19frIZnz1ma2fgs25MnyckgbMjzPFWiR/3f8Nv4edCL+NSmYJrV2GDs"
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "... лица",
+          "answer": "U2FsdGVkX19s+AWrZL6SxOMQLsLiQXpPVxs7+EcX6DE07jArqdFySPBbNcQfj0pcshIEH36lJHBEoHV/O99H4A=="
+        },
+        {
+          "id": 13,
+          "label": "13",
+          "hint": "Крыловидное сплетение",
+          "answer": "U2FsdGVkX19ihIlRQ/bL4DDjzcWGzdcVsjNlJ1HbU+40E9dyHpUMlS+RWBCTGcGBCasZ67V3u+Xoc1pSlmuKdQ=="
+        },
+        {
+          "id": 14,
+          "label": "14",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1/DeVwocLPVSg6OdFcJAxYIOg8WpGWV330wpHjovxFaLDzVxktifVwLnAOKPwCDyuSkyV9TlXmFxQ=="
+        },
+        {
+          "id": 15,
+          "label": "15",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1+3MT5YxZWS2tNaelofAZLq10Yz5RWG0WCv7DH/TP3dQpjLhaNjlFOVmzwT6B691SdtTfa4mxN7IsZdkSXcX0UCwhVtEKTKrZ8="
+        },
+        {
+          "id": 16,
+          "label": "16",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX188y8HLLTektI0x7Cyrl8f03w96tSZXgsSXsR3V2B94IfpH3kg9hfKf"
+        },
+        {
+          "id": 17,
+          "label": "17",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1+cxjjLXprTx/Z25x6HKUzvfYQSap7UaxPif6zwpSPQkqhxNB3ppGLlQOdgf7dLws2uSIXOy9yqxw=="
+        },
+        {
+          "id": 18,
+          "label": "18",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1+Qil/Ap+VjLmgwWJ6GKwbGx2VK0zN6qV+FOmxUp5S5GPAXzMYkigWX"
+        },
+        {
+          "id": 19,
+          "label": "",
+          "hint": "* - венозный угол",
+          "answer": "U2FsdGVkX19K9zsWXZq3tFAUZB9Fbj4jaqnSCJzKzonwVpI+kmJ+3Iv2DBVmNuIX"
+        }
+      ]
     },
-    { 
+    {
       "id": 1,
-      "lesson": 6, 
+      "lesson": 6,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "ТОПОГРАФИЯ ПОДПОДЪЯЗЫЧНОЙ ОБЛАСТИ ШЕИ. ПОСЛОЙНОЕ СТРОЕНИЕ ЛОПАТОЧНО-ТРАХЕАЛЬНОГО ТРЕУГОЛЬНИКА",
       "subtitle": "Топография органов шеи",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab6.png", "caption": ""}
+        {
+          "src": "images/lab6.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... нерв", "answer": "Диафрагмальный нерв"},
-        {"hint": "Первое ребро", "answer": "Первое ребро"},
-        {"hint": "Купол плевры", "answer": "Купол плевры"},
-        {"hint": "...", "answer": "Плечевое сплетение"},
-        {"hint": "Передняя лестничная мышца", "answer": "Передняя лестничная мышца"},
-        {"hint": "Средняя лестничная мышца", "answer": "Средняя лестничная мышца"},
-        {"hint": "Подъязычная кость", "answer": "Подъязычная кость"},
-        {"hint": "... вена", "answer": "Внутренняя яремная вена"},
-        {"hint": "... артерия", "answer": "Верхняя щитовидная артерия"},
-        {"hint": "... хрящ", "answer": "Щитовидный хрящ"},
-        {"hint": "... артерия", "answer": "Общая сонная артерия"},
-        {"hint": "... железа", "answer": "Щитовидная железа"},
-        {"hint": "...", "answer": "Трахея"},
-        {"hint": "... нерв", "answer": "Блуждающий нерв"},
-        {"hint": "... нерв", "answer": "Возвратный гортанный нерв"},
-        {"hint": "... артерия", "answer": "Подключичная артерия"},
-		    {"hint": "... вена", "answer": "Подключичная вена"},      
-		    {"hint": "... вена", "answer": "Плечеголовная вена"},
-		    {"hint": "...", "answer": "Дуга аорты"},
-		    {"hint": "... проток", "answer": "Грудной проток"},
-        {"hint": "... вены", "answer": "Нижние щитовидные вены"}		
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1+sJBtoLUVRf5SU3NfUSgZtFmT8cKCbskjO6sSs54GOP86TRkZd4g8MHEH2OCWwX8rjVhLoQ2mBFw=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "Первое ребро",
+          "answer": "U2FsdGVkX19O4QC1pC+OWVEirl2vaEyhF7iOY4gREzqlZCUEUnJvLPyUFB1+95IP"
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "Купол плевры",
+          "answer": "U2FsdGVkX1/CqAMzPl4MGJ+OR2+0Xnr35uhLg30jNGcTbcYD3AYNqOjMVLpdHMTj"
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...",
+          "answer": "U2FsdGVkX18ueSz+0/K3RSgqorZVgX8l0tlNdKCO+wJ9HhkIcgs8mffP5lfcEQqhNlwq4N0D8tDn6boZXbx/zw=="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "Передняя лестничная мышца",
+          "answer": "U2FsdGVkX18++JSXbgqgAqcfvWYLoov5f/Kby5l+F4qJ/fCwqgVXjngY7TF/oK3Pm5ZzoWRlXbkvnwGgNB1J+9sdi0Q4xsfUUUCJOTM1bpA="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "Средняя лестничная мышца",
+          "answer": "U2FsdGVkX19cJZR6oO3ya8TMwd0s8qju725ew1Mlu3RD1wMVAcZNW/RNGOzigCWD9UNN25XnH6Sdo7MQBcC4Cg=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "Подъязычная кость",
+          "answer": "U2FsdGVkX1/FgmchM9QmiSv7IAVaD2aaHJ43TKXeOGLgE3qa/eV3+NviAhmqylKIn/9jZnHyRuXTiCHNzGgcWQ=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX19i2j/pR7vS9/euPgzHwP7Fl6rTlFET/eLGuWo0mjgxzzPjbuV/P4S7mDUBesU3tzFmq5cZiZX/6w=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX18uJi8EnFNjwpzsaQzYgodEZbxI93kEO6YDOsywIEUyDTRD20iPt9AM9IZ217kVgZLx/vX12mLTQ/Ry8QTDmoq4ys9rC9KZscs="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... хрящ",
+          "answer": "U2FsdGVkX1+kBGP/ZUBtv2mz6RsahTaQHksq/x6KnWw9FMYb9+Hfo0Joc3yEt2JV"
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1/AOhNqbQmd6bkjKG5rSdv7Ucfeqdko9V8bq2fsEF4QcFLm62KjJo3BbbbzH5CymzQnffvez9Z2iA=="
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "... железа",
+          "answer": "U2FsdGVkX1/TnTavXI0ZjQ4c5zrxQmILeINcIB4YgZaoqwwJ6oGFcMiSSw5c6US5zk1mMjNsKi2KRg9ms9xZeQ=="
+        },
+        {
+          "id": 13,
+          "label": "13",
+          "hint": "...",
+          "answer": "U2FsdGVkX19fHtP/Ni0lRRjtHrUgwSeO4WH3eUB3maI="
+        },
+        {
+          "id": 14,
+          "label": "14",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19sLmXRcBn6NbevQLLyPMo8E9LZ8k0is0RMRtp904cEeBALi3glv1zm"
+        },
+        {
+          "id": 15,
+          "label": "15",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1+rbg5Do5adacZyZUbluW8FsJlx1Tt2Nbb8u9P80WTKhS61NblAyMh9lhleZkLhnJhGot6+bKZm8ywUTKy0Oe0GnYD7vfscvg8="
+        },
+        {
+          "id": 16,
+          "label": "16",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+k6gJ3aC8nggSFPHxSUq9hKYfiIuZv+FpMr2GCmYyUUfOJ/FtZoDZ8J9PlNlRwYTceqqGxpOMUQg=="
+        },
+        {
+          "id": 17,
+          "label": "17",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1+qfwzZq4Jzhl7Md4tTOk9XEMg1Fr8nLVylCTkbKdy4bjahbyescRntZ+Ju4XYev6YR31tuDffkxA=="
+        },
+        {
+          "id": 18,
+          "label": "18",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1+XUMt6Oqpr07IwM6RBfjJQB8qWJNxlJB5xJwAk+m0OlomHMuTTFNMPdwdK+9bg6RqPmSW2jzoNGA=="
+        },
+        {
+          "id": 19,
+          "label": "19",
+          "hint": "...",
+          "answer": "U2FsdGVkX181fX1tR0y9rv4MrUM2QPBNZZOEyHGoITa0MMqXMu+rg2VSZfuKEerK"
+        },
+        {
+          "id": 20,
+          "label": "20",
+          "hint": "... проток",
+          "answer": "U2FsdGVkX1/Ughpvr+fCE3V8HxYuC1ePoWtuOweqx/bQJoP3INiREH80ozuj4+jF"
+        },
+        {
+          "id": 21,
+          "label": "21",
+          "hint": "... вены",
+          "answer": "U2FsdGVkX1+wd80atlW/0xGrusSWSP4cQYx1srccQjdmnJTGnvB9YTtmqs4aKVysOTC5lPFq1iKO8otR700Rbg=="
+        }
+      ]
     },
-    { 
-      "lesson": 7, 
+    {
+      "lesson": 7,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "ТОПОГРАФИЯ ГРУДИНО-КЛЮЧИЧНО-СОСЦЕВИДНОЙ ОБЛАСТИ И ЛАТЕРАЛЬНОЙ ОБЛАСТИ ШЕИ",
       "subtitle": " Поперечный срез шеи",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab7-1.png", "caption": ""}
+        {
+          "src": "images/lab7-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "Шейный позвонок", "answer": "Шейный позвонок"},
-        {"hint": "Длинная мышца шеи", "answer": "Длинная мышца шеи"},
-        {"hint": "...", "answer": "Пищевод"},
-        {"hint": "...", "answer": "Трахея"},
-        {"hint": "Щитовидная железа", "answer": "Щитовидная железа"},
-        {"hint": "... мышца", "answer": "Лопаточно-подъязычная мышца"},
-        {"hint": "... мышца", "answer": "Грудино-ключично-сосцевидная мышца"},
-        {"hint": "... пластинка", "answer": "Поверхностная пластинка фасции шеи"},
-        {"hint": "... вена", "answer": "Внутренняя яремная вена"},
-        {"hint": "... артерия", "answer": "Общая сонная артерия"},
-        {"hint": "... нерв", "answer": "Блуждающий нерв"},
-        {"hint": "... ствол", "answer": "Симпатический ствол"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "Шейный позвонок",
+          "answer": "U2FsdGVkX1+3jonivN1oXKwBeEKamaFj4BNgVXn0JsCwPojSVFzJnhw+QccxAPgD"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "Длинная мышца шеи",
+          "answer": "U2FsdGVkX19jnNqiwyOEYOu5jCAjxuSLweUnglI4pT6BJF9Ni0GSBKVLJFgPyeeUor5EV5b35odZEcp6L6c7eg=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "...",
+          "answer": "U2FsdGVkX187VPctx7Fq5UOeg3QOSkgnGoWdHz8g6Cc="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+uPbBowotkc3sbh59K31tWHqm2Qouw8Aw="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "Щитовидная железа",
+          "answer": "U2FsdGVkX1+/bPWit9d7I9/slEGUlnR8BUfXevem9I3dcZBHmSsSTbFadA9OnsRoNJ3qOdvTre9Qg3e9DMHtAA=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX19HIYtcRwIG5V13ioXk+ctWUJnxZsw6VoQ83k5whmoE0dYDY1MKXcwbalx6xahj7CHxgmVIDTH3bC2ZtdSCNz1bjbyMCZmSBzs="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1/EUo3box3M1vO+1mZgCP1Fp/QAKQrUjGNf7EH3PMZ9lD4dQiBmFNziqCN+PyEuDHDf0GX02nddvVffQ4A8f7C7uvP8mOKgphCf7G49RMGZyAhzdrfAzVCZ"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... пластинка",
+          "answer": "U2FsdGVkX18xEGKFRRIJx6osZz8DyaepuZroDRtpAnWIHFhW/ePmuOGmMSZFBuaoSFot+nvUPn15Pcd66Wm9uMzLydWrYKTpwRxZvwfCmOoLlXakVnpY2vc9BNJ2mI9B"
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX188kWtaR690tEylfBGevHyGOhJVaxjsGKNuQMnBiGVxrM2SMxhW2K3+LT1Hu1DtJXJATC8SNBAQPw=="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19VAr9FwMk37iMi50a4JCpeEgS+PrcjwpHAN6fNnlsLSamiC/XCaL9EdF5BXWHtjTazblIcXHft2Q=="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19LMMXVlF3C+Ry6v8CFvd1T+fU9QvetRZoIh5wnIZJQx3Z6XTSYNLNA"
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "... ствол",
+          "answer": "U2FsdGVkX1/Kn0IzOcUT7QfyTfx6DCm/Z9BPuCaMy8OdxRZX/AB4ikDTx8dxzztUL+TVJ4r5kmYdqS/82EHz2A=="
+        }
       ]
     },
-    { 
-      "lesson": 7, 
+    {
+      "lesson": 7,
+      "template": 2,
       "part": 2,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
       "title": "ТОПОГРАФИЯ ГРУДИНО-КЛЮЧИЧНО-СОСЦЕВИДНОЙ ОБЛАСТИ И ЛАТЕРАЛЬНОЙ ОБЛАСТИ ШЕИ",
       "subtitle": " Топография лестнично-позвоночного треугольника",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab7-2.png", "caption": ""}
+        {
+          "src": "images/lab7-2.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... артерия", "answer": "Внутренняя грудная артерия"},
-        {"hint": "... вена", "answer": "Подключичная вена"},
-        {"hint": "... артерия", "answer": "Подключичная артерия"},
-        {"hint": "Плечевое сплетение", "answer": "Плечевое сплетение"},
-        {"hint": "Дорсальная артерия лопатки", "answer": "Дорсальная артерия лопатки"},
-        {"hint": "Средняя лестничная мышца", "answer": "Средняя лестничная мышца"},
-        {"hint": "Передняя лестничная мышца", "answer": "Передняя лестничная мышца"},
-        {"hint": "... ствол", "answer": "Щитошейный ствол:"},
-        {"hint": "а-... артерия", "answer": "восходящая шейная артерия"},
-        {"hint": "б-...", "answer": "поперечная артерия шеи"},
-        {"hint": "в-...артерия", "answer": "надлопаточная артерия"},
-        {"hint": "... нерв", "answer": "Диафрагмальный нерв"},
-        {"hint": "... артерия", "answer": "Нижняя щитовидная артерия"},
-        {"hint": "... артерия", "answer": "Позвоночная артерия"},
-        {"hint": "... ствол", "answer": "Реберно-шейный ствол"},
-		{"hint": "Купол плевры", "answer": "Купол плевры"},
-		{"hint": "... артерия", "answer": "Общая сонная артерия "},
-        {"hint": "... нерв", "answer": "Блуждающий нерв"},
-		{"hint": "Рукоятка грудины", "answer": "Рукоятка грудины"}
-      ]    
-    },
-    { 
-      "lesson": 8, 
-      "part": 1,
-      "section": "ОПЕРАЦИИ НА ШЕЕ", 
-      "title": "ПЕРЕВЯЗКА НАРУЖНОЙ СОННОЙ АРТЕРИИ. ТРАХЕОСТОМИЯ ВСКРЫТИЕ ФЛЕГМОН И АБСЦЕССОВ ШЕИ. ВАГОСИМПАТИЧЕСКАЯ БЛОКАДА ",
-      "subtitle": " Дренирование флегмон и абсцессов шеи:",
-      "task": "",
-      "images": [
-        {"src": "images/lab8-1.png", "caption": ""}
-      ],
-      "questions": [
-        {"hint": "Флегмоны ... ", "answer": "Флегмоны латеральной области шеи"},
-        {"hint": "Абсцесса ... ", "answer": "Абсцесса влагалища грудино-ключично-сосцевидной мышцы"},
-        {"hint": "... флегмоны", "answer": "Поднижнечелюстной флегмоны"},
-        {"hint": "Флегмоны ...", "answer": "Флегмоны влагалища сосудисто-нервного пучка"},
-        {"hint": "... флегмоны", "answer": "Предтрахеальной флегмоны"},
-        {"hint": "Абсцесса ...", "answer": "Абсцесса верхнего средостения"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+bi2AGW8rCPXcfbEGMjOW78SPfCnhfDThC5Yye8U191ODOtGK4QbOkDOni+XYc1dRyUhRCjlZ4cketuqVfQO1ZhaS+vJtc2ss="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1/Q5xMiMqDE9Wc5FQHshaqTl2ERfke7E2e5kmbNRSTZNUvCamrvnYQmboWhEAu16BIQ4y9B9CREhA=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19QL0n30YKCB2Hau0cSDZaBsoD/ZwGQHX2lUcXYwVRyU/4nnavuD/WMBGN0ZUdIGnRK6AM7I4e99g=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "Плечевое сплетение",
+          "answer": "U2FsdGVkX19ZSml4TGK8UQ+lNNNw0wTKVa05EX8fbmW1BlStg2abE9GoPc/dme/EeiDG+V9vQkq71TjYkahr7g=="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "Дорсальная артерия лопатки",
+          "answer": "U2FsdGVkX1+TPYfQNIg7F4IRW9pY7KgDA/MdFbYU7Cs0lOgEao2moHAoRMErGTY11i1bP7Z7aiWxTDB6148Bmrx3ZH+lm9L5I11NJiuyqo8="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "Средняя лестничная мышца",
+          "answer": "U2FsdGVkX1860tamzvN9bkyJyL2Ipg5vj08NIxEWY5QAJikeEdHSfqQEGX8PAlkosGr2vn6Vvwhza2g/4f5VGw=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "Передняя лестничная мышца",
+          "answer": "U2FsdGVkX19BuPtvzFzofUdFworWSuLELPBMsVNlJW8b/KislynM5FNHDfoY279o9e2xHHvLhOlBntK5oXVkAdkqsl4AQ74Vn2qOa/RWGPw="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... ствол",
+          "answer": "U2FsdGVkX1/D3TSCPs1VkY2vMtYZ/6Ivi/a040vUR1UeS43owE9PaZ0CTF4qc/CKI1EbpsU8Ic0bGeF4rBp+og=="
+        },
+        {
+          "id": 9,
+          "label": "а",
+          "hint": "а - ... артерия",
+          "answer": "U2FsdGVkX19mohayUWzZh6sjZsgJNSQpPkz+Gk9lDRYxyaws3NVpOI3Ti74NLFw07r3esoPd3YCa6VTYkqLul2gG25rTbK+8uzsjTm+lglA="
+        },
+        {
+          "id": 10,
+          "label": "б",
+          "hint": "б - ...",
+          "answer": "U2FsdGVkX1/DQ1dSkq9KajFRFDiayutXcCyUFG+oMjjr1LAOnPYpbXrZyo20fD4aUgGOrSz/tcKPccpWX+RdZw=="
+        },
+        {
+          "id": 11,
+          "label": "в",
+          "hint": "в - ...артерия",
+          "answer": "U2FsdGVkX19iTss8Q4vH0iY56wh87R+XmU1onMR9e7tapIZypgT49GQ6CGz7IYlSMmLMqiVPE0v3nvrPQMFmtw=="
+        },
+        {
+          "id": 12,
+          "label": "9",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX18romDN0ElOKYGU2GFmphH0D5/49x2Gzlcpu59ksngZRZ4glZvs+lIgnh5w5Y/ZYkoNYMqpTf+s0A=="
+        },
+        {
+          "id": 13,
+          "label": "10",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX18ushfUsvjvHDq/WntMmlmaQd+cnzdWYX+SpnYJGVqtCOR03AZaLvccnXwfvsRjIxKlU8OQDSlYusm8HZ4YTynZLnKsRwJTzC8="
+        },
+        {
+          "id": 14,
+          "label": "11",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19wWVLKNOjjma+odIhlp0bMO3ricYKi7gLJMhy9XqaAwJOzH+r2jYJgtasbqnRRysXjZWr5wAiC5w=="
+        },
+        {
+          "id": 15,
+          "label": "12",
+          "hint": "... ствол",
+          "answer": "U2FsdGVkX19QPsuJj12cYfPaacmk1xnsQ9aH5NJsfYYmNSkKeYrIzgSNt9Fw48sjZ2Iq7iiC19bdUYrDPMee6Q=="
+        },
+        {
+          "id": 16,
+          "label": "13",
+          "hint": "Купол плевры",
+          "answer": "U2FsdGVkX1+8f9jSSQj5ARbhNKrsQexJhkjAPaso5b6v3OYtqPYunQgzGEaDMVTB"
+        },
+        {
+          "id": 17,
+          "label": "14",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX18smdZRmdh8c4LatK8ss6jJncsbVRSJxwmg4SP1CMookt4J0TjtZymVG67X/h+8fqo0IyZjpp8fAA=="
+        },
+        {
+          "id": 18,
+          "label": "15",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19tHzGYl00xL0qdQIlG2tXWN33Rj3cC5SBZzPE1CJHM0ZdAMNjil4pI"
+        },
+        {
+          "id": 19,
+          "label": "16",
+          "hint": "Рукоятка грудины",
+          "answer": "U2FsdGVkX1/USc/CPZo31C5U/7lxxN37MFWmshUHV7eGeIvEljXOP3D7aXCSObqL"
+        }
       ]
     },
-    { 
-      "lesson": 10, 
+    {
+      "lesson": 10,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ГРАНИЦЫ И ОБЛАСТИ ЛИЦЕВОГО ОТДЕЛА ГОЛОВЫ. КОСТНАЯ ОСНОВА И МЯГКИЕ ТКАНИ ЛИЦА: ИСТОЧНИКИ КРОВОСНАБЖЕНИЯ,ИННЕРВАЦИИ И ПУТИ ОТТОКА ЛИМФЫ",
       "subtitle": " Области головы (схема)",
       "task": "Назовите обозначенные на рисунке области:",
       "images": [
-        {"src": "images/lab10-1.png", "caption": ""}
+        {
+          "src": "images/lab10-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... ", "answer": "Скуловая область"},
-        {"hint": "... ", "answer": "Височная область"},
-        {"hint": "...", "answer": "Лобно-теменно-затылочная область"},
-        {"hint": "...", "answer": "Область глазницы"},
-        {"hint": "...", "answer": "Область носа"},
-        {"hint": "...", "answer": "Подглазничная область"},
-        {"hint": "...", "answer": "Область рта"},
-        {"hint": "...", "answer": "Подбородочная область"},
-        {"hint": "...", "answer": "Щечная область"},
-        {"hint": "...", "answer": "Околоушно-жевательная область"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+S4/MqR2rI7hV4HoD7TpJboHH92/zqYyp5bIyvwspwoPKnxtJMT80Y"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+ZChP1xrhXWOEuBKnTBPy6McHh8iOjF/8H3MXEJ28rO+YWlRuwcM3V"
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "...",
+          "answer": "U2FsdGVkX19dBP+aZ73mlpaBS/3MFDdeItwSN+eMJvsWqUQ19tzy7kHwP6P76dP4CqGiAtrb0V6Bb1nCwn1LV8J1gIYIprIySGUlzcnzpYc="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+2oAvOOFXdfJ6PrWtaflGCshPl+m7xterNO5WDl0vf1VYyWZShstMt"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "...",
+          "answer": "U2FsdGVkX19ATkEBYBtW8dFKOt+72zgvhiEK6UPLXCoLGROGQuSHUD0pmmY1fwX7"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+aFddFPdUICxZ6DJtmfQg/LWHAHX5KXQZSzpC05EIyG1ceDy2eRQCkWXzszLyx35HmtvgWPAalRQ=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+h360dv7ETyqkr/rWZAotna7eDxo2s+ncEUP08vJxVY8v3CjWVPe1b"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "...",
+          "answer": "U2FsdGVkX19cvOM1ZdRq3dco4/numb4DXj7cFyvbMHR40izNKVclhFmvak+45xLqc/vjgdDpHqcz3GSN6LbCIw=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "...",
+          "answer": "U2FsdGVkX19wCevouTSCrAo0hYFZZb8yisYn0T/kIei9MPR5j7EKV/6cbOQpR8nx"
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+UkuvcpR/rZuvBZlZ9TBgpb+q0eUnGah7YcK7tAa1V1MmFErazd6mhevW4GZpZxOTnc8j6HzfhhtUrxNbxOk4/eMDmye3NwBc="
+        }
       ]
     },
-	  { 
-      "lesson": 10, 
+    {
+      "lesson": 10,
+      "template": 2,
       "part": 2,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ГРАНИЦЫ И ОБЛАСТИ ЛИЦЕВОГО ОТДЕЛА ГОЛОВЫ. КОСТНАЯ ОСНОВА И МЯГКИЕ ТКАНИ ЛИЦА: ИСТОЧНИКИ КРОВОСНАБЖЕНИЯ,ИННЕРВАЦИИ И ПУТИ ОТТОКА ЛИМФЫ",
       "subtitle": "Иннервация кожи головы",
       "task": "Назовите обозначенные на рисунке нервы:",
       "images": [
-        {"src": "images/lab10-2.png", "caption": ""}
+        {
+          "src": "images/lab10-2.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... нерв", "answer": "Подбородочный нерв"},
-        {"hint": "... нерв", "answer": "Подглазничный нерв"},
-		    {"hint": "...носовая ветвь (...нерва)", "answer": "Наружная носовая ветвь (носоресничного нерва)"},
-        {"hint": "ветви ... нерва", "answer": "Ветви лобного нерва"},
-        {"hint": "... ветвь", "answer": "Скулолицевая ветвь "},
-        {"hint": "... ветвь", "answer": "Скуловисочная ветвь"},        
-        {"hint": "...  нерв", "answer": "Ушно-височный нерв"},
-        {"hint": "... нерв", "answer": "Большой затылочный нерв"},
-        {"hint": "... нерв", "answer": "Малый затылочный нерв"},
-		    {"hint": "... нерв", "answer": "Щечный нерв"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1+ZD5z7zQODnLlosvIpv6Bw+Ix71jWqLZn0xOghNU37tbMWRERm+PiikT7xgOjzjiL+szhdFRJThw=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1+hHYHcYFsF1NvJ6XAvmllu7TvXZhUgqFjySjvwAqmqkLV9Ofrmn9z8ERdOUs5tC6TyjO75DzCtng=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "...носовая ветвь (...нерва)",
+          "answer": "U2FsdGVkX19RQBrxsCJT8QQIyXc0ZH0PEjZnjpmSqtIHPLk5kWHqYb8rNNimoi8zoivWs8deKL24qnC8tRERie5tCwO5N+v8AAevqnuNrcYdxwHiOgWUct6yZguEfc2Zdkt7kPY8gcs9T3+GFIldLw=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "ветви ... нерва",
+          "answer": "U2FsdGVkX1+98tsstnx0q3IEXH8GFYhL07ZCQXmEuWu5pos4Qm8So/svW56Vxjx8i74JjrvMtbSE9jvQkwPEZg=="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... ветвь",
+          "answer": "U2FsdGVkX19YDO3fMkVfg4ej4iPuNg11FelAWeuJ0NnhmHYWxcHEenfXnV7qHvJ1f1dhLlZv6uzagjou0drh2g=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... ветвь",
+          "answer": "U2FsdGVkX19KN4MrKu8Z2hEUnKIF+69wr8YMy6FUakr0prsWLMzxd/eloSGDhtewomWL6Auvh9r6s7673TNRvg=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "...  нерв",
+          "answer": "U2FsdGVkX1+83yCIwULIFMh6IAHza3g/Lqnd4w9GYci7nEWZPBV7TzEHx4JR26V6tBjDAcuCyALvETURTBjBCQ=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19bVdW9uy87MV6FXFTyH/6Zuo5rAVXiGDlbll9iPlX1hBZKfBMl2XrCAe6MRGAQ6iZ9Y1LHvE9+CA=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1/TymN5N7ZQhCKK+JgXOrilfyx4eVpXokfpko2Ae+vC3bHUcYinJ7+PmLAWy1pZPoz7Cv2dd8iGaA=="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX18wQ7IAT17VsUhjhK4Q9Wyd3ODMZny4TehN5JqukM26m7cS0ZRE1DKI"
+        }
+      ]
     },
-	  { 
-      "lesson": 10, 
+    {
+      "lesson": 10,
+      "template": 2,
       "part": 3,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ГРАНИЦЫ И ОБЛАСТИ ЛИЦЕВОГО ОТДЕЛА ГОЛОВЫ. КОСТНАЯ ОСНОВА И МЯГКИЕ ТКАНИ ЛИЦА: ИСТОЧНИКИ КРОВОСНАБЖЕНИЯ,ИННЕРВАЦИИ И ПУТИ ОТТОКА ЛИМФЫ",
       "subtitle": "Топография ветвей лицевого нерва",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab10-3.png", "caption": ""}
+        {
+          "src": "images/lab10-3.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "Подкожная мышца шеи", "answer": "Подкожная мышца шеи"},
-        {"hint": "... ветвь", "answer": "Шейная ветвь"},
-        {"hint": "... железа", "answer": "Околоушная железа"},
-        {"hint": "...ветви", "answer": "Височные ветви "},
-        {"hint": "Надчерепная мышца", "answer": "Надчерепная мышца"},
-        {"hint": "Круговая мышца глаза", "answer": "Круговая мышца глаза"},
-        {"hint": "... ветви", "answer": "Скуловые ветви"},
-        {"hint": "... ветви", "answer": "Щечные ветви"},
-        {"hint": "... ветвь ...", "answer": "Краевая ветвь нижней челюсти"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "Подкожная мышца шеи",
+          "answer": "U2FsdGVkX19f4CamLwiIBwEGXmNMwuLsKPJI0YZwAJIVMtH7U0CSajXJefBjk8iDuh6HVZH54B9SE8NiEjdZJQ=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... ветвь",
+          "answer": "U2FsdGVkX1+6/p2uxBxvAIB3o6chMhETcA/TXcVffMPwBZCFeQprbGUlOARBc6HT"
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... железа",
+          "answer": "U2FsdGVkX1/HK37OP3CLH3MxOyLUYjydYUbkG7Og+5y74+7CyQu1mfMA59U/B/zLGvTlsMHun5s6s220zncbRw=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...ветви",
+          "answer": "U2FsdGVkX1/Us9TFYIP5zx5zTYGxRTgrgcglqiONeUzEpFWpCT9dnVdeH9/wMIK4"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "Надчерепная мышца",
+          "answer": "U2FsdGVkX19HhBk6qUMWX/F8usrCKM2QM2MCCNNFAd7E0cBYQj/zAHN88lO4l/67RH68xL5rbYGbLNxFIh2EBg=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "Круговая мышца глаза",
+          "answer": "U2FsdGVkX18sNy1hOfnZipxXs+0ytM1LZSQnYqhHjuG/LbU1ECG4obKiTSD23uznEcHV3oDzTB27RHZ0Cmqdtw=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... ветви",
+          "answer": "U2FsdGVkX19HPcAAu6NETXJL8h12N75Yo+MUpzr7SGY9pdSLlkMMp1nyK0IgmIyI"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... ветви",
+          "answer": "U2FsdGVkX1+ZLszdQ2fN+3Wa0CyFK/LnKZNvKenl1A1A3rjHJ/Azz0hGH8py6eAs"
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... ветвь ...",
+          "answer": "U2FsdGVkX19r014PMp26Bzb/YlymJbxcXT/yLTOgCYf8CZiffvZBka/gLZfZnX7wp6Ml4WMrU9S/PpFPPe5/ZDbC425DjnuZApyeds1fHT4="
+        }
+      ]
     },
-    { 
-      "lesson": 10, 
+    {
+      "lesson": 10,
+      "template": 2,
       "part": 4,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ГРАНИЦЫ И ОБЛАСТИ ЛИЦЕВОГО ОТДЕЛА ГОЛОВЫ. КОСТНАЯ ОСНОВА И МЯГКИЕ ТКАНИ ЛИЦА: ИСТОЧНИКИ КРОВОСНАБЖЕНИЯ,ИННЕРВАЦИИ И ПУТИ ОТТОКА ЛИМФЫ",
       "subtitle": "Венозные анастомозы",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab10-4.png", "caption": ""}
+        {
+          "src": "images/lab10-4.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... вена", "answer": "Лицевая вена"},
-        {"hint": "...  вена", "answer": "Верхняя губная вена"},
-        {"hint": "... вена", "answer": "Верхняя глазная вена"},
-        {"hint": "... вена", "answer": "Нижняя глазная вена"},
-        {"hint": "... синус", "answer": "Пещеристый синус"},
-        {"hint": "... вена", "answer": "Подглазничная вена"},
-        {"hint": "...", "answer": "Глубокая вена лица"},
-        {"hint": "... сплетение", "answer": "Крыловидное сплетение"},
-        {"hint": "...вена", "answer": "Верхнечелюстная вена"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1/OcGtbVLi/S2yG2xPrba8nhOUAHf441lxYzzJlryC+aAsOgYtRs8qj"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "...  вена",
+          "answer": "U2FsdGVkX1+zLPoxYarukbeLXEfFqs15wp8sr+qLAp+NpnUy+rwQxj+0f0EuKYidE74nHZs0ZmqiJfW/fFppQw=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1+22AkRx/lVPHBJOQ1xtzGweqBxC/ZlBVhCA87pJD9OX0qcgCHhXjtqPsvfMrIF37v3sPgT7oIQGg=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX19gthLtLVq1FcPp4sHfWrTZez3hH21rnPGEeUp6K5eEWPa5vlYpye9Xg1zWCyOesZnau46QnTAesQ=="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... синус",
+          "answer": "U2FsdGVkX19nXMqqzyg5tL5QBorukOIYw4oKEXEVLBDIKFZzlBVaXWsSEX91t6XM"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX19GCdxX1DZxnhGXXD2xDYs0sy3kBsbVI5vE3Oz7HCDZZ+5ioWWXD6dIdEhg6hrA9+TU2qhHazMGFw=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "...",
+          "answer": "U2FsdGVkX18wNqKESJBce2Zxg/poZPPSXlGqKgVQ8l7oSoXLfz2Xvkdlg08mtgQxUzGzITwJF6e1w+FJlRbJvA=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... сплетение",
+          "answer": "U2FsdGVkX19g2pnWZQoiZUqQXfdHxOzlYhNPkOYbBdPz08SNcauRSFFEW6OBo/l1xWibGYv5wab4EqUIadZw4w=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "...вена",
+          "answer": "U2FsdGVkX183QLDExgawVx2Y+NfTbxraJ9xjBp4EhZPtB0rUATtWR8OMKvyMb8Uc07H0UVEfp3wHIEWV0cGYoA=="
+        }
+      ]
     },
-    { 
-      "lesson": 11, 
+    {
+      "lesson": 11,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ТОПОГРАФИЯ ЩЕЧНОЙ И ПОДГЛАЗНИЧНОЙ ОБЛАСТИ. ПЕРВИЧНАЯ ХИРУРГИЧЕСКАЯ ОБРАБОТКА РАН ЛИЦЕВОГО ОТДЕЛА ГОЛОВЫ",
       "subtitle": " Щечная область (поперечный распил головы)",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab11-1.png", "caption": ""}
+        {
+          "src": "images/lab11-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... пространство", "answer": "Окологлоточное пространство"},
-        {"hint": "... железа", "answer": "Околоушная железа"},
-        {"hint": "Нижняя челюсть", "answer": "Нижняя челюсть"},
-        {"hint": "Верхний ... глотки", "answer": "Верхний констриктор глотки"},
-        {"hint": "... мышца", "answer": "Щечная мышца"},
-        {"hint": "... проток", "answer": "Околоушной проток"},
-        {"hint": "... мышца", "answer": "Большая скуловая мышца"},
-		    {"hint": "...", "answer": "Круговая мышца рта"},        
-        {"hint": "... артерия и вена", "answer": "Лицевая артерия и вена"},
-		    {"hint": "Жировое тело щеки", "answer": "Жировое тело щеки"},
-		    {"hint": "... внутри сонного влагалища", "answer": "Внутренняя сонная артерия, внутренняя яремная вена и блуждающий нерв внутри сонного влагалища"},
-        {"hint": "... мышца", "answer": "Медиальная крыловидная мышца"},
-        {"hint": "... мышца", "answer": "Жевательная мышца"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... пространство",
+          "answer": "U2FsdGVkX185xC7npoFLkjmblUc0loTvJhMZl1dQ1ZNjXqx0P15i4ZaMky6rFbBHYBZHk6T8RGxAPiYAuWVw0XDC+4DPI9ffyNM9gZHve0w="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... железа",
+          "answer": "U2FsdGVkX1+kxWtkzIzkk/DfRzcccnA5dyVHr/H+G2k1F3OM6rfPyP5jT3N6qBm6xAXWq1uEG1Xmv0fdBaai8A=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "Нижняя челюсть",
+          "answer": "U2FsdGVkX1+USMgaZcILehyv1lUSyTX/MEsRkQsNORYGciAQs5AfLPwZZoI0+hlW"
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "Верхний ... глотки",
+          "answer": "U2FsdGVkX1+gt/LgmZsT1q0mUb9f5LVE4WKlgq1ErnPVBq5hLW1SVKD6DLsZwNFYtOJT6NVdaHsYj1OduEQPXU6PXB1LlKlyn7l11BS+MJ0="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+8rWBDWGICOkOmXDM5wKr7QvNLT6xg7chUWR20TWz7JjU5BkVo3tip"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... проток",
+          "answer": "U2FsdGVkX19FUS5iVdLely9QWjGGB/fgtho7B0iAvtMe76zunHHsT8t/UOjJR3tjmg+7hb2BkKovdbZrXn7wuA=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX18trsRv1SJfyOp7LCs8k60DycuwlNk+CskMJ25H49dZqfLA5eaB30EFZe4yfAXT0GzWZ18lNjQOLg=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+1VmthTCBXXhr/4Hcci+MYewkjascuxDrf2auzRhFBI3YRaTojYQcr8Hum0f+pE+rRDtV8PiG4Fw=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... артерия и вена",
+          "answer": "U2FsdGVkX19urfo9MqvI4DD/E1fUera5HJ2JF5JKBQmZoDEGQoA2EcnCFVHMzHBYsDY2d/RJgke2WWc3cUGEZQ=="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "Жировое тело щеки",
+          "answer": "U2FsdGVkX1+TnTLmRA2abLZHrlASsuJ4g5GNIU4hSWOGU4MYNQhNU+nrYVhgYD83gVOQRIbNasjtJRuj1wFyxA=="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... внутри сонного влагалища",
+          "answer": "U2FsdGVkX19Bcigkqe0PPF1FbRiavAZGZpMEI6oo24tHKMHCs4uKHmMulb74EH/o/hAXZxJxoGtAwuRCSNXOdRwcCuCbJlNuklsSlibUDJDQGGjeWoVtADybgo2rbBqBu6GygsJhKxfoyArY2N5rQSaJyWq0lF3oGujmVNUirelMUdV/9Cu844MKmrFjjPYxOuoi8c7ATXUU9dDDSDuPlZvLSRAh0nIsxdSPclRBOwjSSvK057CsdZXBUV7B1HQj"
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX18r0Qc31RibSzXtqwd6Gr/VshqWzfhG9IypJ78l5BsgqAxpR5VYRGp4YLvEcWw7XpBVa1IA3n0U/p0c5FGJEIGZVk00k3iSD0U="
+        },
+        {
+          "id": 13,
+          "label": "13",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX18w8TbGOwSORZmCUq3oVX+/NDd+dn24oCxfd2k6z/AUf6XHtnvpVAkf2o3fxReXnqOPIMZlso2Rvg=="
+        }
       ]
     },
-    { 
-      "lesson": 11, 
+    {
+      "lesson": 11,
+      "template": 2,
       "part": 2,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ТОПОГРАФИЯ ЩЕЧНОЙ И ПОДГЛАЗНИЧНОЙ ОБЛАСТИ. ПЕРВИЧНАЯ ХИРУРГИЧЕСКАЯ ОБРАБОТКА РАН ЛИЦЕВОГО ОТДЕЛА ГОЛОВЫ",
       "subtitle": "",
       "task": "Назовите разрезы, которые производятся для вскрытия флегмон и абсцессов:",
       "images": [
-        {"src": "images/lab11-2.png", "caption": ""}
+        {
+          "src": "images/lab11-2.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... , направляются параллельно ходу ... ", "answer": "Радиальные, направляются параллельно ходу ветвей лицевого нерва"},
-        {"hint": "... ", "answer": "Поднижнечелюстной"},
-        {"hint": "...", "answer": "Позадинижнечелюстной"},
-        {"hint": "...", "answer": "Подглазничный"},
-        {"hint": "...", "answer": "Радиальные височные"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... , направляются параллельно ходу ... ",
+          "answer": "U2FsdGVkX1+drVk0YnOsw85sBhITDG2TuhCnoQcX8ZiEVaOs0Bx3XsClPQoUkhzzW5zO83IV964lLfLQadsEfKV8eqrJDPm2Azlx7QKxkAI+mn74Xn+J9cbezha9Z8T7g3Gw9TXEtLhQ0SHdlF5H/SMNQGgqDIMJfLyuHHrDVu2n+EwHUJzvKcatW30LA5Wm"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1/Saj+AWiZmDlXhROIyyl65GdUWUkBLe2bk/22h/y3lWb1JqoFgJvd9T5nI+ugNyXEv/4Kcv163kg=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "...",
+          "answer": "U2FsdGVkX19p0H6BpSeriLGxYdFa6bmyZArJCnsIZjKfA4qKInRXB0joO3cfwkyfuSVVcvZRebxv3UsmmK6vtA=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...",
+          "answer": "U2FsdGVkX19Yz8rcm56eUorwZfCbwrmVeYTLw67DNrRGIS9QGm0g0UGRx96cQbJI"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "...",
+          "answer": "U2FsdGVkX180IZvey9GVYIh+Hi5TCMLvMWFZ173DuhdmE6OOOJc18mvhR8b1NUx6UBQYdLKbbo9QIZxeRxhvKQ=="
+        }
+      ]
     },
-    { 
-      "lesson": 12, 
+    {
+      "lesson": 12,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЛАСТЬ РТА. ПОСЛОЙНОЕ СТРОЕНИЕ СТЕНОК ПРЕДДВЕРИЯ И СОБСТВЕННО ПОЛОСТИ РТА",
       "subtitle": "Строение нижней губы (сагиттальный срез) ",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab12-1.png", "caption": ""}
+        {
+          "src": "images/lab12-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "Нижняя челюсть", "answer": "Нижняя челюсть"},
-        {"hint": "Резец", "answer": "Резец"},
-        {"hint": "...", "answer": "Преддверие рта"},
-        {"hint": "...", "answer": "Слизистая оболочка"},
-        {"hint": "...", "answer": "Красная кайма губ"},
-        {"hint": "...", "answer": "Кожа нижней губы"},
-        {"hint": "...", "answer": "Круговая мышца рта"},
-        {"hint": "...", "answer": "Мышца, опускающая нижнюю губу"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "Нижняя челюсть",
+          "answer": "U2FsdGVkX19GJ26PRW86LjuWbcTX9ycLmA6B0qb2hsbyg4Fh9CVF0rmGi27QxAVe"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "Резец",
+          "answer": "U2FsdGVkX1/Le/qrnhYgEB3l7lhxaawkgSdnbfyCd9k="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/FRmlIQHtk7/pt7val2WysIPMMweNgqxbmxsnmU9xltTNmmuopp/uS"
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...",
+          "answer": "U2FsdGVkX19EW2kjWS6pR3VcaDR4VGBo8uctrXJFOGvZf1iULxkLOV1AEuz7TRZVaRUQU5tiXyLC27Q1DCXkRA=="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "...",
+          "answer": "U2FsdGVkX19JrGl3tbvx7MTHYU3cFXOPrL2B8lAgobR5sOXKel9y7Qu/UMkuxIACjpjfOSaY+lmPbEXPYOu/VQ=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/H487/Yfh9D8qL3UAxFTRBTU4JgaW0ClaS7pB/NOSx4kmjqfgVlkxP"
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "...",
+          "answer": "U2FsdGVkX18ueeeDPXmuaJOmQYeunf0RsJlo4oVlsdQeRthwEgz6dDJzKnO2o6D4BcbCbwq76f/LeE42KQWtrw=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+tEJ6+odOJFNR2gMhKq9Y7fV9onqnYvq5cC+6tmrAA6DzKi6Hsk09NFvOfQPlUjTsUFuEfE9DpTGZyy/p0XV6rwN519uE1Bic="
+        }
       ]
     },
-	  { 
-      "lesson": 12, 
+    {
+      "lesson": 12,
+      "template": 2,
       "part": 2,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЛАСТЬ РТА. ПОСЛОЙНОЕ СТРОЕНИЕ СТЕНОК ПРЕДДВЕРИЯ И СОБСТВЕННО ПОЛОСТИ РТА",
       "subtitle": " Строение мягкого неба (вид снизу)",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab12-2.png", "caption": ""}
+        {
+          "src": "images/lab12-2.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... ", "answer": "Язык"},
-        {"hint": "... миндалина ", "answer": "Небная миндалина"},
-        {"hint": "... мышца", "answer": "Небно-язычная мышца"},
-        {"hint": "... мышца", "answer": "Щечная мышца"},
-        {"hint": "... артерия и нерв", "answer": "Малая небная артерия и нерв"},
-        {"hint": "... артерия и нерв", "answer": "Большая небная артерия и нерв"},
-        {"hint": "... нерв в области ... отверстия ", "answer": "Носонебный нерв в области резцового отверстия"},
-        {"hint": "... верхней челюсти", "answer": "Небный отросток верхней челюсти"},
-        {"hint": "... кости", "answer": "Горизонтальная пластинка небной кости"},
-        {"hint": "... мышца", "answer": "Небно-глоточная мышца"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... ",
+          "answer": "U2FsdGVkX18u/151tMRnr50AkzqWzscUHE5t6OpEO0E="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... миндалина ",
+          "answer": "U2FsdGVkX18+ttFUS5l7qJyQIW5htuNDJ9s+qm3CCtpmkf4lA4xN9amGdJq6sk0P"
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1/HcnC9Tv1O/JVtqZzemcuIzUvtRyF35tjzpvh6D2lDkT7LZEJSBPOUszvJUBt5cfzptLlhjRoBzQ=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX18uhFhkWxBQRveMHcjaJS4eTiJzf/v1mfMN+Tya9Ocd95HaW7hTIcqW"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... артерия и нерв",
+          "answer": "U2FsdGVkX1+YEQOwbLSz0KuojLH3GYnD4x5rq2+jl7rc99zBUZ/Cu4EcSesgkE6D+oi8UBquNCsi5KexZnaZtWv27+o785IBZ76dEGMc3l0="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... артерия и нерв",
+          "answer": "U2FsdGVkX19njrb5plxGN76AhijX8nq8yTc4DazxSR5h5YOpZ3trGwmqlGF6YUbP6oOdRDBWZION/btDw/ZtakYCCwM8a7oRVU9/d9Lkq8E="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... нерв в области ... отверстия ",
+          "answer": "U2FsdGVkX19Ck9j7Yx6DI656D1f61OaQTxAY0v1QeQMvyQt6Kk0M8Gox/QC5hkluduGDppqNOcVR0M8QQzN3yuEZyeyH8UeDe+K+QcGtV492NN+nArRRUFmOZlUjM3DUqFCm9/G4jxlxz/FucYGUOA=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... верхней челюсти",
+          "answer": "U2FsdGVkX18rv9QDwtscPhMDNlzB6DOk00MS9qkC4Tn9kcpaVn6LS4IDj5rOwg0NVuw+UMtyS9t5k7HsPkB4Qr0g7pj1El4rToetlUYWWFw="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... кости",
+          "answer": "U2FsdGVkX18rlSq2bmJYepUr7/s7ndrKUd5+NbOa1zLnQnh2VGeepfr4ce75CioNg+EDJvjsP7Cg7O55lKhhOqykIJ+x28IDpDlPtVSmVxR64UFcc9PoYcIpkp6Cxv2c"
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1/DaEnWNsoGnqgcwjwhqGplkSB+eHm95uFgAjW4FrpyEtviPhlrJs5JXhAxM2GxQJC/lscrRHxv7A=="
+        }
       ]
     },
-	  { 
-      "lesson": 12, 
+    {
+      "lesson": 12,
+      "template": 2,
       "part": 3,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЛАСТЬ РТА. ПОСЛОЙНОЕ СТРОЕНИЕ СТЕНОК ПРЕДДВЕРИЯ И СОБСТВЕННО ПОЛОСТИ РТА",
       "subtitle": " Топография слюнных желез",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab12-3.png", "caption": ""}
+        {
+          "src": "images/lab12-3.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... железа", "answer": "Поднижнечелюстная железа"},
-        {"hint": "... железа", "answer": "Околоушная железа"},
-        {"hint": "... проток", "answer": "Околоушной проток"},
-        {"hint": "...", "answer": "Язык"},
-        {"hint": "... проток", "answer": "Поднижнечелюстной проток"},
-        {"hint": "... железа", "answer": "Подъязычная железа"},
-        {"hint": "Нижняя челюсть", "answer": "Нижняя челюсть"},
-        {"hint": "... мышца", "answer": "Челюстно-подъязычная мышца"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... железа",
+          "answer": "U2FsdGVkX19okKGvTMgbHyw5FodSrEHA0Qvujt76GGAi7IeMeuH0M7XTpoJweTNehGkk+I5o/ovcoxORMeUr1w=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... железа",
+          "answer": "U2FsdGVkX184E9/Wrbu5/VEJ5PKxg1YRoW7pbFkmHfixg5q8bPiRUPaZYHmlFVW91jr1M39Emq3qElklB/LoLQ=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... проток",
+          "answer": "U2FsdGVkX19WCMJ/T5XtqgA2fndM/NHFU529aQXkN7l4TiZ34IW9cWlS2cs4BvU/gBDZzLzEbe1AeZu7qvXnTw=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...",
+          "answer": "U2FsdGVkX18zNX5PYD7oI1JHfveBuz65PVeyiVnisWM="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... проток",
+          "answer": "U2FsdGVkX188zoe8Sj0gMm1V3j++Ho+83DYcQPxnZkmvh9kFLKIyj/7Yh2DPEcO65FROFQqosudNyDRW+oZCnA=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... железа",
+          "answer": "U2FsdGVkX18+7OiDVbWJKV3riApSY3DP+mc37A4dtnc8zQ6ZbD4w6pWzvOUG8+xMjqB1yYA/ezhqTzpgLKiITQ=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "Нижняя челюсть",
+          "answer": "U2FsdGVkX19UecRrTSYxabITYrXIkl2ipaZ/1dO2sWD2ruscKy2PYXVeqKhjflbK"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX18xVKmAnYYpmskBmPEuL8h/zBWbZTxpZdv+ZbejTKHaiAavNjLipex/8ijLi60bbIgRzbVor6+dV4+uxUyAky8Pek4Apebu3Vg="
+        }
       ]
     },
-    { 
-      "lesson": 12, 
+    {
+      "lesson": 12,
+      "template": 2,
       "part": 4,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЛАСТЬ РТА. ПОСЛОЙНОЕ СТРОЕНИЕ СТЕНОК ПРЕДДВЕРИЯ И СОБСТВЕННО ПОЛОСТИ РТА",
       "subtitle": "Внутренние мышцы языка ",
       "task": "",
       "images": [
-        {"src": "images/lab12-4-1.png", "caption": "А– фронтальный срез"},
-		{"src": "images/lab12-4-2.png", "caption": "Б – фронтальный срез"},
-		{"src": "images/lab12-4-3.png", "caption": "В – сагиттальный срез"}
+        {
+          "src": "images/lab12-4-1.png",
+          "caption": "А– фронтальный срез"
+        },
+        {
+          "src": "images/lab12-4-2.png",
+          "caption": "Б – фронтальный срез"
+        },
+        {
+          "src": "images/lab12-4-3.png",
+          "caption": "В – сагиттальный срез"
+        }
       ],
       "questions": [
-        {"hint": "... мышца", "answer": "Верхняя продольная мышца"},
-        {"hint": "... мышца", "answer": "Нижняя продольная мышца"},
-        {"hint": "... мышца", "answer": "Вертикальная мышца"},
-        {"hint": "... мышца", "answer": "Поперечная мышца"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+0rL9uMoUSHPDDsZPrfKpDu+JyImGYaBJirCSrtfUXFcZAq4hvB0zgJXuXyEtmyvBJneIwuz+hcQ=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+ZfzM7X6TIHQgWuh2CF3672+ZDSiuqBEu31EIwNwpdYkZTLsecUvLrd8zPx5VsXXco9NWF/ce8SQ=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX18u6ZJHoFxofK8lRQ2f0DfV3vifwzdjvoE2HeLGWH3GSL7ANmZ6y6ei2shl79iy6xyXvH6cHv48lQ=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+roMsKrItWKlEyvVUAK+lmin6f1AjqQMrXTs1KBX27nFLBmMHVxaR7"
+        }
+      ]
     },
-    { 
-      "lesson": 12, 
+    {
+      "lesson": 12,
+      "template": 2,
       "part": 5,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЛАСТЬ РТА. ПОСЛОЙНОЕ СТРОЕНИЕ СТЕНОК ПРЕДДВЕРИЯ И СОБСТВЕННО ПОЛОСТИ РТА",
       "subtitle": "Мышцы языка иннервирует подъязычный нерв",
       "task": "Назовите нервы, которые иннервируют слизистую оболочку языка:",
       "images": [
-        {"src": "images/lab12-5.png", "caption": ""}
+        {
+          "src": "images/lab12-5.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... (общая чувствительность)", "answer": "Язычный нерв (общая чувствительность)"},
-        {"hint": "... нерв (вкусовая чувствительность)", "answer": "Лицевой нерв (вкусовая чувствительность)"},
-        {"hint": "... (общая и вкусовая чувствительность)", "answer": "Язычные ветви языкоглоточного нерва (общая и вкусовая чувствительность)"},
-        {"hint": "... нерв (вкусовая и общая чувствительность)", "answer": "Блуждающий нерв (вкусовая и общая чувствительность)"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... (общая чувствительность)",
+          "answer": "U2FsdGVkX1/BDFv9bgZsuR26KKGv1/z5Rwyl0WmYREemTtJG1JQZJFi9vylM1G2TfrL9lBj9Ttg84vYq0IHSxkc5paDZCsvsTf78F3qNVGyuYdJwXSBQZD8ghBfirBlP"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... нерв (вкусовая чувствительность)",
+          "answer": "U2FsdGVkX183PPCVZLJKesBc+K2nE3HSJVevVHUGOpe7ZsLDRXJ3yKcbA9Z7rJitVTUerxeXcXva0AA/+ESlLs/M31UVRC5j2hHOM9GyprUB6uOqoiNEkX/LzXeYmF94"
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... (общая и вкусовая чувствительность)",
+          "answer": "U2FsdGVkX1+j0PFgUKsLrjEkU+W6PeKqZWoZzBnt3Hv24DFTVEVabf/f0DxlZS0qG0vAE3FXBd/7XJLRIqKWNIWCyRluSZOMQnq5fqMjNuLY3JSVd9GXdBijcA44Ym0G+2yRfJ21obvpbDnydScnzkXfX4+Tbf2g8nsxmj44pF8e/686EZH4nTXxG4NjxjkMX0RJuAjU1XjNg/uT7LDozQ=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... нерв (вкусовая и общая чувствительность)",
+          "answer": "U2FsdGVkX18vnvS009gMpNzuHNab/WNTLYpQYGYaya7cNYCIfsvNDN7tlrEOAy4Ob1Ka3NKfqlwQBdwXe0nc9/X9I3iKZFoecIBxatRAyNhrtzqytChm27GVVWdQdJak+l35Y3Nr9OCduQeJWYMUqw=="
+        }
+      ]
     },
-    { 
-      "lesson": 13, 
+    {
+      "lesson": 13,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЩАЯ АНАТОМИЯ ПОСТОЯННЫХ ЗУБОВ; ИСТОЧНИКИ КРОВОСНАБЖЕНИЯ, ИННЕРВАЦИИ, РЕГИОНАРНЫЕ ЛИМФАТИЧЕСКИЕ УЗЛЫ. МОРФОЛОГИЧЕСКОЕ ОБОСНОВАНИЕ АНЕСТЕЗИИ ЗУБОВ",
       "subtitle": "Строение зуба ",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab13-1.png", "caption": ""}
+        {
+          "src": "images/lab13-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... ", "answer": "Корень"},
-        {"hint": "... ", "answer": "Шейка"},
-        {"hint": "...", "answer": "Анатомическая коронка"},
-        {"hint": "...", "answer": "Эмаль"},
-        {"hint": "...", "answer": "Дентин"},
-        {"hint": "...", "answer": "Полость коронки зуба"},
-        {"hint": "...", "answer": "Корневой канал"},
-        {"hint": "...", "answer": "Цемент"},
-        {"hint": "...", "answer": "Отверстие верхушки корня зуба"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... ",
+          "answer": "U2FsdGVkX19PblmIp5jfqLi0yDR0DSaptTCHg51UdHg="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... ",
+          "answer": "U2FsdGVkX19QLElwlrvINikM5XEHbdJiwpeHCm4y5HY="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+okXq4siXAww0v2qcGZnaaB8FwUOOdWdCM70wbIhB6eUJsKQnL4GNEGHVMwXbQOHiQLn+wzOk2wA=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...",
+          "answer": "U2FsdGVkX187pbaJL88LfMfx0PXOFHt6tWgqc83g9yA="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+1E9sfvKZZ3Dytyz7AndhH4+oNz717WhM="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "...",
+          "answer": "U2FsdGVkX19ochsHrBK8HL4UiP73O+d1PkbGAJhaAF7ikF/7+5sGHxaWJx5PtuybEqDccIz3KmyorCQIlamY2w=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "...",
+          "answer": "U2FsdGVkX19GeDblskM5E7Id8JQ2iPxtNF5DLwoOIz1+gVqaeRVO0P96zrmWt3mr"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/JXGHLbDYby4v+gmlrlqmDma4C15fw0mE="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "...",
+          "answer": "U2FsdGVkX19DEl4wN2926fJg9w/AWikUult1xKiiwYGkuoyTbowc4IiToLrvsXhu5mxSLHb7tHoqtSVuFdcD52JEHfteWUfOT3WpKm3ssro="
+        }
       ]
     },
-	  { 
-      "lesson": 13, 
+    {
+      "lesson": 13,
+      "template": 2,
       "part": 2,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЩАЯ АНАТОМИЯ ПОСТОЯННЫХ ЗУБОВ; ИСТОЧНИКИ КРОВОСНАБЖЕНИЯ, ИННЕРВАЦИИ, РЕГИОНАРНЫЕ ЛИМФАТИЧЕСКИЕ УЗЛЫ. МОРФОЛОГИЧЕСКОЕ ОБОСНОВАНИЕ АНЕСТЕЗИИ ЗУБОВ",
       "subtitle": "Строение зуба",
       "task": "Назовите обозначенные на рисунке трети: корня зуба (римские цифры) и коронки зуба (арабские цифры):",
       "images": [
-        {"src": "images/lab13-2.png", "caption": ""}
-      ], 
+        {
+          "src": "images/lab13-2.png",
+          "caption": ""
+        }
+      ],
       "questions": [
-        {"hint": "I- ... ", "answer": "I-верхушечная"},
-        {"hint": "II- ... ", "answer": "II-средняя"},
-        {"hint": "III- ...", "answer": "III-шеечная"},
-        {"hint": "1. ...", "answer": "Шеечная"},
-        {"hint": "2. ...", "answer": "Средняя"},
-        {"hint": "3. ...", "answer": "Режущая"},
-        {"hint": "4. ...", "answer": "Мезиальная"},
-        {"hint": "5. ...", "answer": "Дистальная"},
-        {"hint": "6. ...", "answer": "Губная"},
-        {"hint": "7. ...", "answer": "Оральная"},
-        {"hint": "8. ...", "answer": "Щечная"},
-        {"hint": "9. ...", "answer": "Окклюзальная"}
-      ]    
+        {
+          "id": 1,
+          "label": "",
+          "hint": "I - ... ",
+          "answer": "U2FsdGVkX18rhNAuNj2CFZNUY7BX2VZttzfoZ35zhUsXO2rrMxYNlHvUukkQuLsM"
+        },
+        {
+          "id": 2,
+          "label": "",
+          "hint": "II - ... ",
+          "answer": "U2FsdGVkX18uBMImmyqk3qJf/8/JwV8rwuJTZn9SdsgTSNdz6WC/jfc+CX3a4nXS"
+        },
+        {
+          "id": 3,
+          "label": "",
+          "hint": "III - ...",
+          "answer": "U2FsdGVkX1+mPu5LW+lKDEHnAAni7V2cUp1LJYyUY7edDuh476MtVIM7aFXrQT4N"
+        },
+        {
+          "id": 4,
+          "label": "1",
+          "hint": "...",
+          "answer": "U2FsdGVkX18znN16SAvUxwdWukLPBO1k3kPnECdon+Q="
+        },
+        {
+          "id": 5,
+          "label": "2",
+          "hint": "...",
+          "answer": "U2FsdGVkX19cmW4uvLdPYjwaS7IDGKboFE0tonGCReU="
+        },
+        {
+          "id": 6,
+          "label": "3",
+          "hint": "...",
+          "answer": "U2FsdGVkX180wzK201yA7ZrAplhMvMsKZ+T6xQtyeMY="
+        },
+        {
+          "id": 7,
+          "label": "4",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+tBb81QkuGn/ezlouHRTu+hwy5uGCOjXk5XTqGsx6rHOzCGMT8+MXX"
+        },
+        {
+          "id": 8,
+          "label": "5",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/Iyw+Kbg7A5diI++YdFLuSrrJUiPWqq8AdUJVObV9uVCFruQY6VTFz"
+        },
+        {
+          "id": 9,
+          "label": "6",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+w18CcvzoPi9bN+/eftPglPLV7DF4J77w="
+        },
+        {
+          "id": 10,
+          "label": "7",
+          "hint": "...",
+          "answer": "U2FsdGVkX182y+BmmOil+/DAfMsRN1U403WSCPRez+qeEJ/z6zd2jkYTy49Jm36q"
+        },
+        {
+          "id": 11,
+          "label": "8",
+          "hint": "...",
+          "answer": "U2FsdGVkX19M8RUsUUKKPoY4UMeO7YQIp9Xa/92ez7o="
+        },
+        {
+          "id": 12,
+          "label": "9",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+XLm3DPDkjMARoTFbbIkSYDVjAofFpVsTGRa2fkkb1LjQfS+LY3bw/"
+        }
+      ]
     },
-    { 
-      "lesson": 13, 
+    {
+      "lesson": 13,
+      "template": 2,
       "part": 3,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЩАЯ АНАТОМИЯ ПОСТОЯННЫХ ЗУБОВ; ИСТОЧНИКИ КРОВОСНАБЖЕНИЯ, ИННЕРВАЦИИ, РЕГИОНАРНЫЕ ЛИМФАТИЧЕСКИЕ УЗЛЫ. МОРФОЛОГИЧЕСКОЕ ОБОСНОВАНИЕ АНЕСТЕЗИИ ЗУБОВ",
       "subtitle": "Иннервация зубов верхней челюсти. ",
       "task": "Назовите анатомические структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab13-3.png", "caption": ""}
+        {
+          "src": "images/lab13-3.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... ветви ", "answer": "Задние верхние альвеолярные ветви "},
-        {"hint": "Верхнечелюстной нерв", "answer": "Верхнечелюстной нерв"},
-        {"hint": "...нерв ", "answer": "Подглазничный нерв"},
-        {"hint": "...ветвь", "answer": "Средняя верхняя альвеолярная ветвь"},
-        {"hint": "... ветви", "answer": "Передние верхние альвеолярные ветви"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... ветви ",
+          "answer": "U2FsdGVkX19m/VytXfUJiBzTqqC/3ivdmSSfcOCdAo7inMsFb4lYp0Zl821MmAJoV5j954ilZKUXGtyMo+zAoupEF43vYme7yZJIAbY/9wCMELJUAFz6NabmvldR+5+I"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "Верхнечелюстной нерв",
+          "answer": "U2FsdGVkX1/RLNUDs9ApD+CZddi80V/I1X0HJkkAiuenIBLmaZTfn0gAL9EEluB2foGvrdCLcLw4aFCpwwpnlA=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "...нерв ",
+          "answer": "U2FsdGVkX1+1tIonVWMBFOlzsLec/QvILSyUNqrybraa0eDAgWNVpQBc/b6BOgKEejfkm+x23HmtW5yVD07X+A=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...ветвь",
+          "answer": "U2FsdGVkX1/OtGXfZlyq8oEYVtBCat30dX7euUXY4hyB/XjNx8tRpExhdv9MlEoB6TEkHtx4byICdu+olrdbSUg1X98P7aWQN/Qf9Dx2VNxXUzAk6l+kjxaGLroQwlH8"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... ветви",
+          "answer": "U2FsdGVkX1/MNtYbnP1ljPmvBoKfBafh9xLq9tV7SCd17Mn5tDWlcF6nF5gSUDTLm/CtJeEpdDaP2Xt0C0mz/DURBVsqG2UCmQmeZB0h53atXPYAaRUyflr+7Q6ksgBb"
+        }
+      ]
     },
-    { 
-      "lesson": 16, 
+    {
+      "lesson": 16,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ТОПОГРАФИЯ ОКОЛОУШНО-ЖЕВАТЕЛЬНОЙ ОБЛАСТИ",
       "subtitle": " Топография правой околоушной железы",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab16-1.png", "caption": ""}
+        {
+          "src": "images/lab16-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... мышца", "answer": "Жевательная мышца"},
-        {"hint": "... часть ... железы ", "answer": "Поверхностная часть околоушной железы"},
-        {"hint": "... мышца", "answer": "Грудино-ключично-сосцевидная мышца"},
-        {"hint": "Нижняя челюсть", "answer": "Нижняя челюсть"},
-        {"hint": "... вена", "answer": "Внутренняя яремная вена"},
-        {"hint": "... артерия", "answer": "Внутренняя сонная артерия"},
-        {"hint": "Небная миндалина", "answer": "Небная миндалина"},
-        {"hint": "... часть ... железы", "answer": "Глубокая часть околоушной железы"},
-        {"hint": "... нерв и артерия", "answer": "Нижний альвеолярный нерв и артерия"},
-        {"hint": "... мышца", "answer": "Медиальная крыловидная мышца"},
-        {"hint": "... нерв", "answer": "Язычный нерв"},
-		    {"hint": "... мышца", "answer": "Щечная мышца"},
-        {"hint": "... вена", "answer": "Занижнечелюстная вена"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX19XpFB1npUPbEz3z8p94si255VEFZNL1irFVKB+fIytotyB4gXu//SPA3Ee7a/guDVgUn1SAYl8NA=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... часть ... железы ",
+          "answer": "U2FsdGVkX19TrrEwNJ5pGRnyF+skEKWeLEWqpesXtwI9zxPicDnKwO7CZgRkH2l+y8Lxf45eRLbODYtoCxTm1Dq5q/0SwbveM6Umw8+ohtkaea2TKxwcOJFOn7IUVc4I"
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1/OfWf3nCMEyi2trnvIijCj9PITJne5wTvcNRQ7oCU8PRuO5WuKdH87k+As4Jtnx2vRVjRuoREZVmJMXbLMS4u6Mvt0v9WSQ1gQYgI9PYXj1WOagbf6AVOp"
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "Нижняя челюсть",
+          "answer": "U2FsdGVkX182Ktqgmtr+PqRadIM5Mn0Hp+uh+6ZpyDkVz8IOE8gX6wAVOxfvYyiS"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX19AT6LwsdDVS2b7geAKwEMlIyTQcAS/vt4HJ3jRUpPoAumP6OCMf3Qui9GZ59LJvRrOgPqFC7DZUQ=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1/T4Ev4V7F5agv9GhdlmrUd/xwnFRbTKOTLt5fr8dDJm/ME0QuhSBruASIWVwQhRWDINXviakGjur9VMhfvlFQh7Qt4VS13vw8="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "Небная миндалина",
+          "answer": "U2FsdGVkX1+SW5L6XCxS1MSZx+u8tPQh9URDUZyqmwIfWQlxGh6jaDBcDSeMbhtA"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... часть ... железы",
+          "answer": "U2FsdGVkX19pVQS7uSy0z0Sinyy1ZO1GSLMox3XHzoBrTyEag0UbZacZuutlLNwch8DJS/05ykhlIo/YB8AP+EYC6BMr7RHIn/lWdBPbJPQ="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... нерв и артерия",
+          "answer": "U2FsdGVkX1+sLKC4uez62kvkTrBpA1F3CoPLIdAO11k/b2vGBEmhYsp9VFakPtDDMC3BCrNOUxJ9lSEgdG6WZ3C/ahJxh3V4wdZSoLni0MmEq9rJKyuGRt9B+wHgasGv"
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+qSUNJcOiIOj8CnDHzdxQHipZUW43+t21rZ9R/TLdsEu6k+HsxCW9nv/FZZC2TCvYEMF3oCJVUjK65PIY3sw71NQKeXqtVC+0="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1+4eM0Mj1G5/eWHDdS8c6InxYS61PRtSK9eQMbCsyCTZxKf/IRDIZdY"
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX19f0M9KlMstcbtcDHjpL5jKUig3ox3UvqWXNzx6M9epdHNzRsIDk384"
+        },
+        {
+          "id": 13,
+          "label": "13",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1/H8VJ3m2SOXhbNZQn1Q8+y90vGd1eLfxmn2MBWB9G15pFAP8SiwTRBGv+WNRqCr5JQ0fbltoKXaQ=="
+        }
       ]
     },
-	  { 
-      "lesson": 16, 
+    {
+      "lesson": 16,
+      "template": 2,
       "part": 2,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ТОПОГРАФИЯ ОКОЛОУШНО-ЖЕВАТЕЛЬНОЙ ОБЛАСТИ",
       "subtitle": "Топография сосудов и нервов в толще правой околоушной железы",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab16-2.png", "caption": ""}
+        {
+          "src": "images/lab16-2.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... артерия", "answer": "Наружная сонная артерия"},
-        {"hint": "... вена ", "answer": "Занижнечелюстная вена"},
-        {"hint": "Грудино-ключично-сосцевидная мышца", "answer": "Грудино-ключично-сосцевидная мышца"},
-        {"hint": "Заднее брюшко двубрюшной мышцы", "answer": "Заднее брюшко двубрюшной мышцы"},
-        {"hint": "... нерв", "answer": "Лицевой нерв"},
-        {"hint": "... нерв", "answer": "Ушно-височный нерв"},
-        {"hint": "... артерия", "answer": "Поверхностная височная артерия"},
-        {"hint": "Скуловая дуга", "answer": "Скуловая дуга"},
-        {"hint": "Головка нижней челюсти", "answer": "Головка нижней челюсти"},
-        {"hint": "... артерия", "answer": "Верхнечелюстная артерия"},
-        {"hint": "... часть ... железы", "answer": "Поверхностная часть околоушной железы"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+oqv89WTam7wVvLN1hdpHEzdlvGW89IobAZhSyKycEE/9T/PbwJ0Lq8gzPymp6j9lUSKOoESYY+g=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... вена ",
+          "answer": "U2FsdGVkX1/CH1x1mV7zcTf0Ld+0yudiiADewZzsbxRDJUvL/4+IIxT75YUU/YhlBn4Fw6kJ1r/cJi5vAE54LA=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "Грудино-ключично-сосцевидная мышца",
+          "answer": "U2FsdGVkX1/Hc2M7V71D6QmbpAcy5Rh6gK4cxW7P9Wqa8UxWM9Ts7mErcLIrKhB2S/Dg+Us9zZB0grGCoFqeO8WbX/qwmKVQQaeNtWQbQ9kQU6woi+uG0AX8dD9pGnnb"
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "Заднее брюшко двубрюшной мышцы",
+          "answer": "U2FsdGVkX1/TBP3/xmxDm+n1ODj4DQf4ekQDV4cr1AwuSjMDThK6xu2QU0BthJ7PxHWddna1zNda0jWs/3+X6YfgSCdtDaxo51EQhaPNYmA="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19L4X9Na8QLyPb6urjynsGR+T5I9DmHVqyi6zUOWJdKfjW08iDQIzqA"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19SwQ8NZ0E4j7/3FjsSXkt9UB7kzt75GIvvp5cSVKXPbPEYuJZey6NgWvW+bCnMOeQIavBBYMWBAA=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1/CQqZlmOLYFDiqImu3msbV1SDE/0BoTq2cKrMt8YPb0okbaqZ6KXWuIOGy0vkUtPmOy+e3MEz3att7bNhIM53MpXv+bKbGrKk="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "Скуловая дуга",
+          "answer": "U2FsdGVkX19e+l9/ZP2TG9mdvzsDTZYEUka7bqWiVyPqaliOM/TIFRQMXZ9BwTAs"
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "Головка нижней челюсти",
+          "answer": "U2FsdGVkX1853ZNzyNy+48PZI9TsvB2Y1I51CgA15TN8lw+uYOkVsjAV1YUreBx2HX3w+Gi9gHCdhAl5WrIjiA=="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1/OcFvLWRlaS6T8J0AI8mKZTQ3O1QI3F5ntNOeL3fY9BOpcYxaLZ02//q9pd2L4zeN6CxT5xcf0cg=="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... часть ... железы",
+          "answer": "U2FsdGVkX19VAM4ZXglkWRIG0MZ+18Rzada7dN5PXfuSnWrsym9iJhHJuC/e4cOsZ1hQhMRXhQs0KZ5axrzfI4vE8LgOdX+h+I+E0ghk8DQMimMe4RM03pUt+wDJL+vp"
+        }
+      ]
     },
-    { 
-      "lesson": 16, 
+    {
+      "lesson": 16,
+      "template": 2,
       "part": 3,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ТОПОГРАФИЯ ОКОЛОУШНО-ЖЕВАТЕЛЬНОЙ ОБЛАСТИ",
       "subtitle": "Клетчаточные пространства головы",
       "task": "Назовите жевательные мышцы и клетчаточные пространства, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab16-3.png", "caption": ""}
+        {
+          "src": "images/lab16-3.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... мышца", "answer": "Жевательная мышца"},
-        {"hint": "...  мышца", "answer": "Височная мышца"},
-        {"hint": "... мышца", "answer": "Латеральная крыловидная мышца"},
-        {"hint": "... мышца", "answer": "Медиальная крыловидная мышца"},
-        {"hint": "А — глубокая боковая область лица(... пространство)", "answer": "А — глубокая боковая область лица (крыловидно-нижнечелюстное пространство)"},
-        {"hint": "Б- ...пространство", "answer": "Б — Поджевательное пространство"},
-        {"hint": "В- ... пространство височной области", "answer": "В — Подапоневротическое пространство височной области"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX19UHtr2VooyiZCsioja6pZoqMFVIHRqibJWAGerQBZMEaCYBg5fUq67kKMbpMZdvnt5X8uITxvQ9g=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "...  мышца",
+          "answer": "U2FsdGVkX1+37H1NW7ZXN9//SkaJD+MXHeBpcGlhwWyhpAhuTVcucDV01Mfe7xMr"
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1/QXT6kSFr1GKPJpFkkV3jzaXABr5TUa5oh5C392dAFJk17ZHMNrfPHVNEvyE1vAyOOhux129yHJVPvxRDjjg1x7A9vMqzNVd4="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX19pwjYILg3q5ITDEdO4nV1ciVqhwF3fMh18iibHCblR5bLU/seVkySpu/BjdL6uCQYpGSgcPH9un+ZCDpdBkY/OzsH7Q5KJ0C8="
+        },
+        {
+          "id": 5,
+          "label": "А",
+          "hint": "А — глубокая боковая область лица(... пространство)",
+          "answer": "U2FsdGVkX18v1ZhsK2Ls2nD6p9YlOoOidYuW6qwakVWjlwzU2bSj3GTUYtKdxfumA28PibImnX9TMV6LoiglYXk7Le7BDm+0uWLgOCt/YeBHkQAmh4d0LrDa6/ln8Xg6nO1khjz2DCnsaOIBWuWMGdnjSOs38BuvuJTthGxGsLmMCAtHq5dkYLRF1/xJVvI9pvd2kpEKvaO4unSMW7JW/w=="
+        },
+        {
+          "id": 6,
+          "label": "Б",
+          "hint": "Б- ...пространство",
+          "answer": "U2FsdGVkX18zwgIdzT4FRUYRlx5Cs578KqzO4HWtspDRccnYeVmsug4QRkg0LrIoDBnQzHsaZlAuFjeIHHU3/lJM9LLm6dYjApMTYPY/aEQ="
+        },
+        {
+          "id": 7,
+          "label": "В",
+          "hint": "В- ... пространство височной области",
+          "answer": "U2FsdGVkX19uuN3MZvKxgFAIAK6slVW3FdacrIP4xiAn/Vub9XGVsiH6ulCAAGEEkCAbn41drt0cbZ6iXwlisJO5lU3e6Vw+M8MOJnoF+90t4C2Q0tZhdJ3GMETGLJSA92oSDXmgv/3krzx8t8a48sEflnS+A8GiXdXQJVyBiik="
+        }
+      ]
     },
-    { 
+    {
       "id": 1,
-      "lesson": 17, 
+      "lesson": 17,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ТОПОГРАФИЯ ГЛУБОКОЙ БОКОВОЙ ОБЛАСТИ ЛИЦА",
       "subtitle": " Топография глубокой боковой области лица (фронтальный распил головы)",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab17-1.png", "caption": ""}
+        {
+          "src": "images/lab17-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "Поднижнечелюстная железа", "answer": "Поднижнечелюстная железа"},
-        {"hint": "Верхний констриктор глотки", "answer": "Верхний констриктор глотки"},
-        {"hint": "... миндалина", "answer": "Небная миндалина "},
-        {"hint": "...  пространство", "answer": "Боковое окологлоточное пространство"},
-        {"hint": "... нерв", "answer": "Нижнечелюстной нерв"},
-        {"hint": "... мышца", "answer": "Латеральная крыловидная мышца"},
-        {"hint": "... мышца", "answer": "Височная мышца"},
-        {"hint": "... пространство", "answer": "Височно-крыловидное пространство"},
-        {"hint": "... нерв", "answer": "Нижний альвеолярный нерв"},
-        {"hint": "... пространство", "answer": "Крыловидно-нижнечелюстное пространство"},
-		    {"hint": "... мышца", "answer": "Жевательная мышца "},
-        {"hint": "Нижняя челюсть", "answer": "Нижняя челюсть"},
-        {"hint": "... мышца", "answer": "Медиальная крыловидная мышца"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "Поднижнечелюстная железа",
+          "answer": "U2FsdGVkX19szWC5kRoknHQpV1WNZyDL0tr0ba6aqrNEV8TEdU063d7gbos0ZDm0moWl/x0voY/y2GARX8iGFg=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "Верхний констриктор глотки",
+          "answer": "U2FsdGVkX1+WnSUVWIjk8OW1siDWMticV6lF+5+1YRj6XQImVjHCtC0kaGhGVt0aIMAVvUEPHnBeQWfK++bYV7OOxSA7HEeZSMWaK4z7CcY="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... миндалина",
+          "answer": "U2FsdGVkX184I6d9rUzRefNXosMyY6pnYMIXZwky+436FdvfqKAx8vd8ivTFKt0XnltFezU3FDpLUJiYShOcqA=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...  пространство",
+          "answer": "U2FsdGVkX1+v8t4uSEm2yaC4wy8SrAp1HwZu1rfoCljUHVOOXw+HvN90JTRjt/+VCcas9TUKzAoB/9nL43vDFLYmQq7LbCy4tlkmKQbaNiEIzzf75G/tFb0mMrpuz57i"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1+jGexgnmJ1K8ygvXRNM6fbGCAHMwsR2niy2RJX7h0oLJZEonkSUv4nB3l5bSbsM/Xrtl/4WPBXpw=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX19OVibOtJ/eVgcosJj/Xq/qbe6ta/CmgUffjeaHvn92YN48Bk4J0y2H+bximPCd7T2DUQtplJEUELL82z0M267Ta8QaFKLBsFw="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX181HEsXtWdsoO5cNfdR1/oTx8ZXXF7AnACQ1E+bVq5BnG2EIUN0RTAp"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... пространство",
+          "answer": "U2FsdGVkX1/TSsWaMy+GtK/0Zxk/d2XD7Ghvwgi3MMUwue+izqqgIQj1wkFoRkEZPrQVSyIOmwtDfibtDraIEc3N15Rf0WMlBKQkdsjflBg="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1+fP08gcQgJtLLgAkDUCc1u1jLekRyTqcp4YZ22Z4iZdhI9y8x0f3lIlyolipRMPGM/Z6utGudnFw=="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... пространство",
+          "answer": "U2FsdGVkX1+RgralU424NQcwiQ+GjnUFM1enTqmiJs6faXp3wxBCtdeU5ct4zrCHDXHTDb97tQ7H/H6J/iH8aZocTsQXv64c7+R3kBGgzoSYokfqorShatVsAXR+koXn"
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1/S/zHsQWTwQXFrYLnVRUacUyGsvSp2k0xOV6kMrW3ROvCct35/Pp02erUHBBbBVq/7ia/zGsYOtQ=="
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "Нижняя челюсть",
+          "answer": "U2FsdGVkX19jS1FCpTYctMrB3y1CuGPtWauiZP23YesJXMoiSkMU2q6WTSlyFn0p"
+        },
+        {
+          "id": 13,
+          "label": "13",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1/LvJbXwDU/ntAaFvuArYNPE7225yvGhfjbEQYc/1onEKdJVeNNSG1NBYpaXKxam36vGlizzJRlOSf9DBBaSRbr5LzYGg0ps/k="
+        }
       ]
     },
-	  { 
-      "lesson": 17, 
+    {
+      "lesson": 17,
+      "template": 2,
       "part": 2,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ТОПОГРАФИЯ ГЛУБОКОЙ БОКОВОЙ ОБЛАСТИ ЛИЦА",
       "subtitle": " Топография глубокой боковой области лица (поперечный распил головы)",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab17-2.png", "caption": ""}
+        {
+          "src": "images/lab17-2.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... вена", "answer": "Внутренняя яремная вена"},
-        {"hint": "... артерия", "answer": "Внутренняя сонная артерия"},
-        {"hint": "Глотка", "answer": "Глотка"},
-        {"hint": "... мышца", "answer": "Медиальная крыловидная мышца"},
-        {"hint": "Нижняя челюсть", "answer": "Нижняя челюсть"},
-        {"hint": "... мышца", "answer": "Жевательная мышца"},
-        {"hint": "... артерия", "answer": "Наружная сонная артерия"},
-        {"hint": "... нерв", "answer": "Лицевой нерв"},
-        {"hint": "... вена", "answer": "Занижнечелюстная вена"},
-        {"hint": "Околоушная железа", "answer": "Околоушная железа"},
-        {"hint": "IX – языкоглоточный, X – блуждающий, XII – подъязычный нерв", "answer": "IX – языкоглоточный, X – блуждающий, XII – подъязычный нерв"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX19DeF6nNTAjpvnsNwyjkE64O/Aoom+qKM1vUXAl3w9VzABM+RxFNxiJ/6x0uuR1OBULbq0D1CR6UQ=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19mDxjlTZLlXtcYjQiHzPY1jkblxa7V/YZVSbmMdHoEVqd9LgJif2ztkenG/SJd6H8dBmrDzyCPBvlYz+PiQf8kpir41m/3qEw="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "Глотка",
+          "answer": "U2FsdGVkX1+7sQ/vzetEHqypnN1m0BicKbQgg4DkPpk="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1/Qavbdph5uGOHWSVCGPe1Hwhcp9vWG7UuR/yoK24FaTStsm9CpiZldTuMH2beGzuOnq2iKXjpeCMYCVgKF75Pfzf1e8I3c/SI="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "Нижняя челюсть",
+          "answer": "U2FsdGVkX1/SUPEZOTZqWSjIu4TYld2bzsgANsM80/ue8x2+RTn3d/9X4e9VPTjU"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX187pLXilJ50Cga1aG3cV4Y42TuKGaNxJU5bzt09VrL3zwvVflpCsX/rpzdkvKhjooc7SIaJD4KZBw=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19ZvZvhzpVj+9eowKcWmEtoJN+1OE3O76PsW9giqGK9aJ+S1Aj3+glA4EbkBFpboHq12FA9yd9xJA=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19QzRMUK34A0K65NT4plxV7a3fXfhsJZUtXUpArcznkwCmwVbJ30PXO"
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... вена",
+          "answer": "U2FsdGVkX1+sS48p0QyUs7GVoiuajyfPq2Bru3o6RI8LHISjzgD/UIB5oDDldPapD+/hAh5ZEXqFxpPYDVgaHw=="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "Околоушная железа",
+          "answer": "U2FsdGVkX19nlqDCLqwCDUjUJ3+Wa/K8+Qv+S7t9qeyqfldc8vYqEdKXRyobkc0pYZWSndF1JqilkpKEC64Hvw=="
+        },
+        {
+          "id": 11,
+          "label": "IX",
+          "hint": "IX – языкоглоточный, X – блуждающий, XII – подъязычный нерв",
+          "answer": "U2FsdGVkX1/Pz0lHYbUBVZ01Ed/RafqCLP6RSjDgiiyfCNvnhjXqZC9uo2WxrmXurBdPXgD+zC3QJbO/yoGCASEqOILgZnNJ1bUUzpnypw6qIDD3+w5Slnrvk7MTjehXp9iZdajhJZnA3Gtv1/nkbRRqNwV0WSOI4i3rDc2jeHo="
+        }
       ]
     },
-	  { 
-      "lesson": 17, 
+    {
+      "lesson": 17,
+      "template": 2,
       "part": 3,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ТОПОГРАФИЯ ГЛУБОКОЙ БОКОВОЙ ОБЛАСТИ ЛИЦА",
       "subtitle": " Глубокая боковая область лица: верхнечелюстная артерия",
       "task": "Назовите артерии, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab17-3.png", "caption": ""}
+        {
+          "src": "images/lab17-3.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... артерия ", "answer": "Лицевая артерия"},
-        {"hint": "... артерия", "answer": "Наружная сонная артерия"},
-        {"hint": "... артерия", "answer": "Верхнечелюстная артерия"},
-        {"hint": "... артерия", "answer": "Нижняя альвеолярная артерия"},
-        {"hint": "... артерия", "answer": "Подглазничная артерия"},
-        {"hint": "... артерия", "answer": "Задние верхние альвеолярные артерии"},
-        {"hint": "... артерия", "answer": "Передние верхние альвеолярные артерии"},
-        {"hint": "... артерия", "answer": "Подбородочная артерия"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... артерия ",
+          "answer": "U2FsdGVkX19pvViGNuV0zckMNlz+sIfL/qrAeJqjj+QYKaE896d0DpIbxGMWRYKx"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19g+WG3qyBP/f99L4c7KfCXohbkpoWIxKympvebb9hGGCCEJpIP90uBwOTQAnuBbS4CqElwOJkz9Q=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+eXKoCOTpWxl57Y9Ms69xha0nK2u/88jcDRk6l9bSUECtgLBHpHi6VYCzR4y/eVk9N72cCNiJtCw=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX188bzYLRiqwy4Kf1ZytsJYH7v0Hmh5VhnE+KWQzS4hSy3A2TDLD2RUh8iL2sVpEDRkmBSk9fUiTcJEDEHcuwhs6JkTJiDLsaCs="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19uUtrhyrGNQtPOah8cHJAVDclDZnfifOIenslkSCQ7bGU3l5FNm29vDgArUipsyZD3YowDrJvFig=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19J7Mc4x7Eeio01Dy9aj0C5ozjt73IS9u5exXejSrTPVEuOxeV6PadgBojI8eJyDJxBEmUmTkz9/72KYgnLuCq0m3PJSte7emEqLMUkjH01w+/vwf/SrxBO"
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+h89mQ0DAQjVPWgGiOwM/zLFeZJUqF/o9oayksQyBRxmnDZCrRH91XG/f16Rh2SANHLaoL1Vzd+MUphcHgn7xqQclc7qezV+vgyTymhZa5qByIVpJdrtgg"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX1+gjobzTd68ro70oSLAHyGhGphqqSA7eB8ABoNtgXXN6vFPHVsx6jW8VSS0I8iyeWVDgWT7KIeWCg=="
+        }
       ]
     },
-    { 
-      "lesson": 17, 
+    {
+      "lesson": 17,
+      "template": 2,
       "part": 4,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ТОПОГРАФИЯ ГЛУБОКОЙ БОКОВОЙ ОБЛАСТИ ЛИЦА",
       "subtitle": "Топография нижнечелюстного нерва (вид сзади)",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab17-4.png", "caption": ""}
+        {
+          "src": "images/lab17-4.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "Нижняя челюсть", "answer": "Нижняя челюсть"},
-        {"hint": "... мышца", "answer": "Медиальная крыловидная мышца "},
-        {"hint": "... мышца", "answer": "Латеральная крыловидная мышца "},
-        {"hint": "... нерв", "answer": "Латеральный крыловидный нерв"},
-        {"hint": "Овальное отверстие", "answer": "Овальное отверстие"},
-        {"hint": "...нерв", "answer": "Медиальный крыловидный нерв"},
-        {"hint": "Щечный нерв", "answer": "Щечный нерв"},
-        {"hint": "... нерв", "answer": "Нижний альвеолярный нерв"},
-        {"hint": "... нерв", "answer": "Язычный нерв"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "Нижняя челюсть",
+          "answer": "U2FsdGVkX1+ymhwvLM9erOi5OIOJP66fpio0lvEkXR2W3iF1het66Juj8YUByqAo"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX19LtMn5VYtWB+ej62UQsUMAqzXZ6j1LrbuYIsxnyeLezObyoN6i29bVwbWgvbdaquVpGCJHsVgddC/UlAcA7DkSyXTsaoq9dVE="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX1+X3WIhqr6RZN437WqfrmveFk6CW0fVoRJ36mUPQZWdyZe7Asm3ucaAK0V+Z6pXaTxYShe/f/seDlw6WGDPnukCM3Zze2zykI0="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1+zvlIpRZASkFDevOq7bz6BltvbUBWjDsIh6laIzQbwcHaOCKOX0sIZ7R6cr1nqNQzDXScwQMTtZ0gvdA2/qsMnePF+Nh0FOso="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "Овальное отверстие",
+          "answer": "U2FsdGVkX18rlA4eSfingw+EsmgKlk34VvyoI2CsS8YBYE7tn+HvMOiSWud1kZH2b/79t/ANtoD1vwapXYT7Jw=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "...нерв",
+          "answer": "U2FsdGVkX1+hhWSTLJdy8P3wD/nZHdlnSaI+VnMoasV32x1VD93ojqfS+7ro1lmYDqtO97Bqwn4Hyb4fJ0NVCJndqVNe461//Uv3TmgtFkk="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "Щечный нерв",
+          "answer": "U2FsdGVkX19qNMmKXZCfcqf7LKYtbNBa0Me8VfmPcmBeJ5cM8fxQ0rWTz+J8B6Oj"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1+7zcFHyDeyBBXR72VXXSTkT5P6vLOX3UHMWTwozE+FAgJjqr89XcfsD/72uIijAvPUzEv9gkA0ug=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1/F90zDL9H6IO+t9/Rqf6qK4QT2f85mLwHmqgI7G1fXWTIxrxznXHc7"
+        }
+      ]
     },
-    { 
-      "lesson": 18, 
+    {
+      "lesson": 18,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЛАСТЬ ГЛАЗНИЦЫ. ГЛАЗ И СВЯЗАННЫЕ С НИМ СТРУКТУРЫ. ТОПОГРАФИЯ НЕРВОВ И СОСУДОВ ГЛАЗНИЦЫ",
       "subtitle": " Нервы глазницы",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab18-1.png", "caption": ""}
+        {
+          "src": "images/lab18-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-	      {"hint": "Тройничный узел", "answer": "Тройничный узел"},
-        {"hint": "... нерв", "answer": "Глазодвигательный нерв"},
-        {"hint": "... артерия", "answer": "Внутренняя сонная артерия"},
-        {"hint": "... нерв", "answer": "Блоковый нерв"},
-        {"hint": "... нерв", "answer": "Глазной  нерв"},
-        {"hint": "Верхняя косая мышца", "answer": "Верхняя косая мышца"},
-        {"hint": "Мышца, ...", "answer": "Мышца, поднимающая верхнее веко"},
-        {"hint": "... нервы", "answer": "Длинные ресничные нервы"},
-        {"hint": "Нижняя прямая мышца", "answer": "Нижняя прямая мышца"},
-        {"hint": "... корешок", "answer": "Парасимпатический корешок"},
-		    {"hint": "... узел", "answer": "Ресничный узел"},
-        {"hint": "... корешок", "answer": "Симпатический корешок"},
-        {"hint": "... нервы", "answer": "Короткие ресничные нервы"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "Тройничный узел",
+          "answer": "U2FsdGVkX1+g8Ol/u8oTPA2d9RDl4bC4odB7eFlWxnzotRxNF7V9CH1ENEtMsewB"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19pj/QNY7edaunkbP0MLcsG3AC369hZeyjmQJaiEAEu4mDvfg6MoxXpO5eRa2AASyXiI0xHLUnuwA=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... артерия",
+          "answer": "U2FsdGVkX19PMH9UTJVrchKKqBm6AGir84vSKPsZn6hkCwb4hP8mICr4ttWDX0zuGIu7R5v0nBNZepmRZqH9OJsKl0jV8yTWmzRhvo+bGCA="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX1/OeCGCxP8D7jFB7paWjS3Ick549f4Ssv3B7c2QdZXWq9LB3lnuhH3D"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19QJRpVYsF/7E1VYHBPW2byxlWks2JOfR4mVk4oFdIlLY0hSxZjovaO"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "Верхняя косая мышца",
+          "answer": "U2FsdGVkX1882M9ZNn75c26q8gfWoSJUhWHr7XSnnTxmbxgSuBljVOZSGat84EUzPPTsuUG4JbcBFXtW0U//fA=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "Мышца, ...",
+          "answer": "U2FsdGVkX1+udM1lY/AOFWAeDmdJQqTNitQWN9/PAK/Kt1oPQcZlTRAjt6q0JDMRZXFAP0OZAxrpTvr4MuzMdwAxVXS+i8N288uUVtSS6Ng="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... нервы",
+          "answer": "U2FsdGVkX1+2zECGqfE3ZhA6NHOU56jywwLxoMr/L8rkeuDiWZqhcGyyIhkxie2t0N3hagns4m5jn/hzlSqEYA=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "Нижняя прямая мышца",
+          "answer": "U2FsdGVkX1/FNzIVWxqQxR+VJu3DirR7FPqMIZkhgizECP5qlXF9XeUEm2/bb8mtwSlh+oTWwIIvW0qIsplfhg=="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... корешок",
+          "answer": "U2FsdGVkX1+2VMvDu9BybtOKtq3H24IWFmvGSxnXQabP6R6Qy8l3YV1EN8zLcVWYTqdc2KHDyl+at5IMqdnmfloj/27uGUuEMfDB8uVMds8="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... узел",
+          "answer": "U2FsdGVkX1+hwre3QDjgIAqDJfWcF0+XTVzOfBLHZlEctSby1nLpE5V4ZDL6QGTE"
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "... корешок",
+          "answer": "U2FsdGVkX1+e4bmm0dq+vrpSjU6yWjZpwjbXb+2/tgmQodR2inFh0/br/W3uHzPZxW8jGNc1yYiN9GtB86XV+A=="
+        },
+        {
+          "id": 13,
+          "label": "13",
+          "hint": "... нервы",
+          "answer": "U2FsdGVkX19veluyo8GDNVtSPBGiLPdmXtblGMSj3gX8s8be17PvjhzDbe764U08F9G+erGF3uLOZESWZ5g0XQ=="
+        }
       ]
     },
-    { 
-      "lesson": 18, 
+    {
+      "lesson": 18,
+      "template": 2,
       "part": 2,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЛАСТЬ ГЛАЗНИЦЫ. ГЛАЗ И СВЯЗАННЫЕ С НИМ СТРУКТУРЫ. ТОПОГРАФИЯ НЕРВОВ И СОСУДОВ ГЛАЗНИЦЫ",
       "subtitle": "Послойное строение верхнего века",
       "task": "Назовите анатомические структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab18-2.png", "caption": ""}
+        {
+          "src": "images/lab18-2.png",
+          "caption": ""
+        }
       ],
-      "questions": [	  
-        {"hint": "... ", "answer": "Конъюнктива "},
-        {"hint": "... ", "answer": "Верхний хрящ века"},
-        {"hint": "...", "answer": "Вековая часть круговой мышцы глаза"},
-        {"hint": "...", "answer": "Глазничная часть круговой мышцы глаза"},
-        {"hint": "Лобная кость", "answer": "Лобная кость"},
-        {"hint": "...", "answer": "Мышца, поднимающая верхнее веко"},
-        {"hint": "...", "answer": "Глазничная перегородка "},
-        {"hint": "...", "answer": "Жировое тело глазницы"},
-        {"hint": "...", "answer": "Склера"},
-        {"hint": "...", "answer": "Ресничное тело"},
-		    {"hint": "...", "answer": "Ресничный поясок "},
-        {"hint": "...", "answer": "Хрусталик"},
-        {"hint": "...", "answer": "Радужка"},
-        {"hint": "...", "answer": "Роговица"}
-      ]    
+      "questions": [
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1/POpsXw5T4hcXcSyE7ks+CAOyI+b8dlXBw62kwQv12gl67tIO0CqBh"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+Ph3A+yzneyGMO4BZX7dDzbUBN0s7omCYjjaKNq1xuy39+voemIb5S+QfhYBO79D+r4sqouBcnPg=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "...",
+          "answer": "U2FsdGVkX18q9GX8wc4pv/V2fcw4MGah1GoBERqTERZOYxf01SijjOclOojz//Lj2W/ippsNYqS+oVSASLBDH90Mv4Bg6jU/Xjcd4Jn2P+3kXKZjAcAsc2QFsJejtiul"
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+3Pf9jLArRkeHPuQQnH8j9h2zaKdqRLIu6qC9wyzm+k2eHZuZhY1J/2v3xlQrJwILJkAtg5Apu4VsAPD05zI0UnaRhXKsyhJBCOhluJJxggPSlsKNvzfKW"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "Лобная кость",
+          "answer": "U2FsdGVkX19SQx1fskbAsyDwR3Oq1vNgr7Tnv8JxonxKIa6iHNr7ev3ywsps9q4s"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+xEooPN29lnMKUr3GrIikkltyyN+jU5NCoOQmDf5yTCo/z+GOTqNkb6juiJSmqttW6+HnN1aBvmP/v0zpeJGeFozyRuIgUy7o="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "...",
+          "answer": "U2FsdGVkX19qLTZCpOoVDevYBl3sGslswBDhoOA/vOLTNFQUfgfZ62+dfF1hRM22ySqqZGU19VSmIeftXhhqNQ=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "...",
+          "answer": "U2FsdGVkX19dyq0zj/ys7pznVSbYPGQhGpNrAf6MNCKXE9XMbjIT4GcFKP2avlGsgOMtVS46Uc4O2Fnb8MwhaQ=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "...",
+          "answer": "U2FsdGVkX19vbpmhaE1Jj71Naq4rJ0UZC8vBaRsmjPM="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "...",
+          "answer": "U2FsdGVkX19XwnLVX0CisV4FAF7nPqQQ373LqAiR/G0T1Ro7QEs81sl1l0NZyGZl"
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/GZuC5aaZ4cKX0T60R1raojWqGrRhpe50NwQuddmd5eaRXVIbY0jUIJvfrZ4IYdQ2fhsjgBc7Pxg=="
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+4FV0eMXpo6e5g0CyGcHbxxF+aTFdrXvnEFYRe0YXFO6qpcWWhiC5/"
+        },
+        {
+          "id": 13,
+          "label": "13",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+dA9TfOyWUhgNROufvTnmUNuM9nlAT69E="
+        },
+        {
+          "id": 14,
+          "label": "14",
+          "hint": "...",
+          "answer": "U2FsdGVkX19sCZZjYza0Ik8UKjjs1bi2uZPjLU4aDxWv9K+gjnpFzjpuR7TxhNYv"
+        }
+      ]
     },
-    { 
-      "lesson": 19, 
+    {
+      "lesson": 19,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЛАСТЬ НОСА. СТРОЕНИЕ НАРУЖНОГО НОСА И ПОЛОСТИ НОСА. ТОПОГРАФИЯ ОКОЛОНОСОВЫХ ПАЗУХ",
       "subtitle": " Полость носа (фронтальный распил головы)",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab19-1.png", "caption": ""}
+        {
+          "src": "images/lab19-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "...  отросток", "answer": "Небный отросток"},
-        {"hint": "...  отросток", "answer": "Альвеолярный отросток"},
-        {"hint": "... пазуха", "answer": "Верхнечелюстная пазуха"},
-        {"hint": "...кость", "answer": "Скуловая кость"},
-        {"hint": "...", "answer": "Глазница"},
-        {"hint": "...кость", "answer": "Лобная кость"},
-        {"hint": "...", "answer": "Решетчатые ячейки"},
-        {"hint": "... ход", "answer": "Верхний носовой ход"},
-        {"hint": "... ход", "answer": "Средний носовой ход"},
-        {"hint": "... ход", "answer": "Нижний носовой ход"},
-        {"hint": "...", "answer": "Сошник"},
-		    {"hint": " ... пластинка ... кости", "answer": "Перпендикулярная пластинка решетчатой кости"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "...  отросток",
+          "answer": "U2FsdGVkX1+uLT3cVFSeimcGgaIh72xr3SwUudlDj17HYO2qjfsWcflSi5KXpB1I"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "...  отросток",
+          "answer": "U2FsdGVkX18yHX5xp0hN7PKSg3wU2S5kRtcKyBZ6nXOB4Mh8J+eAwFN9XbYCE5CQ5BvLyixab36gG7T85dcN4Q=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... пазуха",
+          "answer": "U2FsdGVkX181nyzYUSszVO0gfW0Q7IaNoaM6YdG5qSIyU5ZKO4cueeoCCHk3hSsNTZDKnb50ORnXkz2xqPzT+A=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...кость",
+          "answer": "U2FsdGVkX1+7+OuvO7X+niXQaFzXI5Kaf2//a4J6NhxPWnlsMy8wuSIA21s9NY4o"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "...",
+          "answer": "U2FsdGVkX19v8ZaZnMHaSl/i8DpJBs2D/fZffgOMynB9l4onWRP6dx7w06QRZzK5"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "...кость",
+          "answer": "U2FsdGVkX19Z4Sq7P1if5NwWvsTUiE9TzMz7/ltpZbdxdZXlLoFSgelyHTCxknQ+"
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "...",
+          "answer": "U2FsdGVkX19WQ6z1v789sDTF8S29UDkDg43l1HmLrvetrVpR+ZzAgeIfiLX3IhCyl7Ub7iCRIdfFVniLkwXhKA=="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... ход",
+          "answer": "U2FsdGVkX19cg2uIO+nmlWVjsS6UT8mfdelha5r+Wb5u9l2Cq2ASfVwLkudCyaREVba0QnrIZAT6kRXxp39vAw=="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... ход",
+          "answer": "U2FsdGVkX19Akib/y+EOftJ4CNWqvsuiJDn0TWXNyG31mAi2jaTBm5IbuPYvBJgYp+pkGXf6yNUnfo9qHR8JJg=="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... ход",
+          "answer": "U2FsdGVkX1+icKqfRCRqWI7djbYHW/aNrDl6dzD+FEKRVYAVr2jMW3rLnw4XIEd7y+qL39iyw8pcamjGUBi9gw=="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/IBRZPRGlfuWnYSTAiPsEKJfxn320flDc="
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": " ... пластинка ... кости",
+          "answer": "U2FsdGVkX185uQSKanPp6gd2B8o/elKXlSh8rmVSrIjLd6gl8WXyXW4i/mWQtOzC2iNOef4osQlR/aU3BWq5dpqcFqpwPWO6YjykJuf3CBmhtqSuxwbmuy7WgnOaeFFKWDJ03kmNOOSWB235DITIww=="
+        }
       ]
     },
-	  { 
-      "lesson": 19, 
+    {
+      "lesson": 19,
+      "template": 2,
       "part": 2,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЛАСТЬ НОСА. СТРОЕНИЕ НАРУЖНОГО НОСА И ПОЛОСТИ НОСА. ТОПОГРАФИЯ ОКОЛОНОСОВЫХ ПАЗУХ",
       "subtitle": "Кровоснабжение и иннервация медиальной стенки полости носа",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab19-2.png", "caption": ""}
+        {
+          "src": "images/lab19-2.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... ", "answer": "Твердое небо"},
-        {"hint": "... нерв", "answer": "Носонебный нерв"},
-        {"hint": "... пазуха", "answer": "Клиновидная пазуха"},
-        {"hint": "...", "answer": "Решетчатая пластинка"},
-        {"hint": "... артерия и нерв", "answer": "Передние решетчатые артерия и нерв"},
-        {"hint": "Носовая перегородка", "answer": "Носовая перегородка"},
-        {"hint": "... ветви ... артерии", "answer": "Задние перегородочные ветви клиновидно-небной артерии"},
-        {"hint": "Зона Киссельбаха", "answer": "Зона Киссельбаха"},
-        {"hint": "... канал", "answer": "Резцовый канал"},
-        {"hint": "зона носа (Киссельбаха) — анастомоз задней перегородочной ветви ... артерии и ... артерии", "answer": "Кровоточивая зона носа (Киссельбаха) — анастомоз задней перегородочной ветви передней решетчатой артерии и верхней губной артерии"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+/sWkoRh5tUIgJbPz4J+XjN726i+Y79Ob2mdAN22X65zmamGAJ6gLl"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... нерв",
+          "answer": "U2FsdGVkX19aYM0v0glHxava4JJ8tLHPBa7ScQx8IWcVxB/qSy8ejkbEwixIqWap"
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... пазуха",
+          "answer": "U2FsdGVkX18txVPPMp0LEmZ8tULoL522U4pJy94v9HA7xjlEz0aX4F2e4U4rvQDEZ0hjJKVBR+6pA1KMDayjOw=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/EMR4hsCXNA2XPFaaDR1UOMWH1gHZYMGeJZ9b3cIKHSieEtWOPMnc/+FqvH9NOaTz0cjYforLP4g=="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... артерия и нерв",
+          "answer": "U2FsdGVkX1+wi9z4zf8HvD0v+GgCCbdq0honTtffMsFxivJTQV7NKV5b1gbbeS5JYESRnCg1ucWvtqoKrDl1MlCWDOtBbelQetemcHd0rUYN8QX5URltFbRWIp/Mj7Ne"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "Носовая перегородка",
+          "answer": "U2FsdGVkX19jwp99kQghX41B48SgiOHqfKx2q7BkQ6Bp+KHmv+fRutC+ufwJraZ9MGFJK0b7hdiAmuFAEqVAhg=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... ветви ... артерии",
+          "answer": "U2FsdGVkX1/KwU+Tn/pfC4uDuSjAqoqueHbef15RxmpxWepSW9PSeErZiZE5XWxsejj6PiFkHuNmL9nNMe3Na3F4NbIoayn/3ZbYhoG9iY044Zs8RvcaD56fVJz0aPJqNy23hJR5oYVycIR2TlOb6v3HVw5p9S2aiNgUL2OfBGw="
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "Зона Киссельбаха",
+          "answer": "U2FsdGVkX1+0awpYmJrkIDFUx13Ts02feYvx0+qCWYiDnoCY0oIsrmfLLii7Xjc/"
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "... канал",
+          "answer": "U2FsdGVkX18tWpKh0WaqplVTvm/oljdXMyiciPha2U4YCtCWhLvsoLImpQYPg8wv"
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "... зона носа (Киссельбаха) — анастомоз задней перегородочной ветви ... артерии и ... артерии",
+          "answer": "U2FsdGVkX19N3RBXSwtUi2jCo4Vsq418JrhIByPST/Isg+SqI/+E/3psaAUQ9tsjhMLXdIIpgxm/lJPv3WYLFnClKG6V7gs4oPFtHo/kxpYM3+xhYEUmR/vW0gtOa/uhYGsKRf/sti9W2h2Ei2Taw38N5Dbo6ZgJBnT0m58bKgYqdU6QqF0HUTd32/HdD7hdMyiuzc0+vUdakdo8jgJAXTYaDJx5CuvIf/qfe3G3gmVA/u21YQrNrCxpbRbJJ7v0+HD6h9u0wJ2+rU9tU09H7T+LI3MhI3y+ln7EnjT5Aq/Lk80fGrF/wOCWpEVfivAvldZS+OdyV7ecdrsiZkUCBuziHNVg9BJRNUODHa60Rx4="
+        }
+      ]
     },
-    { 
-      "lesson": 19, 
+    {
+      "lesson": 19,
+      "template": 2,
       "part": 3,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "ОБЛАСТЬ НОСА. СТРОЕНИЕ НАРУЖНОГО НОСА И ПОЛОСТИ НОСА. ТОПОГРАФИЯ ОКОЛОНОСОВЫХ ПАЗУХ",
       "subtitle": "Кровоснабжение и иннервация латеральной стенки полости носа",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab19-3.png", "caption": ""}
+        {
+          "src": "images/lab19-3.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... ", "answer": "Твердое небо"},
-		    {"hint": "... раковина", "answer": "Нижняя носовая раковина"},
-        {"hint": "... раковина", "answer": "Средняя носовая раковина"},
-        {"hint": "... артерия и нерв", "answer": "Передняя решетчатая артерия и нерв"},
-        {"hint": "...", "answer": "Решетчатая пластинка"},
-        {"hint": "... артерия и ... ветви", "answer": "Клиновидно-небная артерия и задние носовые ветви"},
-        {"hint": "Носовая часть глотки", "answer": "Носовая часть глотки"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... ",
+          "answer": "U2FsdGVkX18tJ8cEnhzkm33sUig8PVpIjRMbHAo97bVz9oX96zfLqtkF0s41DKH5"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... раковина",
+          "answer": "U2FsdGVkX19qtcQvPsxgS5Ncu03YgL9M1fL2jBZXxz2/j/pia2vtQgrF9+I6ojNbzE/g0ru+pXuki2HsDzgprw=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... раковина",
+          "answer": "U2FsdGVkX19BkVWDY27sOeMaZ0l0TSOnUFupqTuaupTpvOrOY+gwUte+2R2RSy0myHJSNyOUppx+/He3VEs4mA=="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... артерия и нерв",
+          "answer": "U2FsdGVkX1+giL96xdnlFloQ7vt5LOJyaoyjPlvjXKrS+13yiAWf7P4R83ASoNR90AmUUBK0s36jbN6iL0ToVmcoOBM64zj3i3Tzdb8JNUmsEC7032jKSQwHYykC9lMA"
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/DD2hvlTZZ4Ao7Gj5GqsZKrrVuOljloo1RXiUbNI0648hUxEb6dsi9MtVgepJQyJEu6unjgnjAxQ=="
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... артерия и ... ветви",
+          "answer": "U2FsdGVkX1+sy5dCo2AOW3AhUKgADtV3vBocDa56tKlC8PBG7inuqZzYkdarIMe2MF9OqIExZ353U2d0eGf80IAOReBnyhCldwApMaAb0z5lH0o11qO3U9eBs8w6PcTNcY4zBVWu3nKSfuzLTL5Tmg=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "Носовая часть глотки",
+          "answer": "U2FsdGVkX19LcehnLeIBaONNnxJRUQKjBgg/YmtG6BEiEQn0ia2r0/P0fjM1Zuwm+5J+S+RI5PWkxTJcn/Ec+g=="
+        }
+      ]
     },
-    { 
-      "lesson": 20, 
+    {
+      "lesson": 20,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ГОЛОВЫ",
       "title": "МОЗГОВОЙ ОТДЕЛ ГОЛОВЫ. ТОПОГРАФИЯ ЛОБНО-ТЕМЕННО-ЗАТЫЛОЧНОЙ ОБЛАСТИ",
       "subtitle": " Послойное строение лобно-теменно-затылочной области (фронтальный распил головы) ",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab20-1-1.png", "caption": ""},
-		    {"src": "images/lab20-1-2.png", "caption": ""}
+        {
+          "src": "images/lab20-1-1.png",
+          "caption": ""
+        },
+        {
+          "src": "images/lab20-1-2.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... ", "answer": "Кожа"},
-        {"hint": "... ", "answer": "Подкожная клетчатка"},
-        {"hint": "...", "answer": "Сухожильный шлем"},
-        {"hint": "... пространство", "answer": "Подапоневротическое пространство"},
-        {"hint": "... ", "answer": "Надкостница"},
-        {"hint": "... пространство", "answer": "Поднадкостничнрое пространство"},
-        {"hint": "Теменная кость", "answer": "Теменная кость"},
-        {"hint": "... оболочка головного мозга", "answer": "Твердая оболочка головного мозга"},
-        {"hint": "...", "answer": "Грануляция паутинной оболочки"},
-        {"hint": "...синус", "answer": "Верхний сагиттальный синус"},
-        {"hint": "... оболочка головного мозга", "answer": "Паутинная оболочка головного мозга"},
-        {"hint": "... пространстов", "answer": "Подпаутинное пространство"},
-		    {"hint": "...", "answer": "Головной мозг"},
-		    {"hint": "... вены", "answer": "Диплоические вены"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... ",
+          "answer": "U2FsdGVkX1+s7i5VRWUOsYx74Prv+j43IlA+Qg8TTH0="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "... ",
+          "answer": "U2FsdGVkX19ci5GL0pq/B7x91VjEMR2T+RjC0lNqWxAtLDqU+hUCYiw3XxaawvJjQ8IItrM1uegYFaM8f4i21A=="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "...",
+          "answer": "U2FsdGVkX1+dO7Tlsb2XksHCl4SqHZPk/Rlhf7KSokEKypfl3Bn3WjL1F3aK9NE5"
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... пространство",
+          "answer": "U2FsdGVkX1/M3OhRWr7+JIZclISzcIBAjFWVldLTibT2B7svhA2zPYn/zU3Wk50RW/tiWGT1373g32gwyr/mjyn8KT3+3vXMA3zMjKdSDak="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... ",
+          "answer": "U2FsdGVkX19wl27msjjbmnQXRQ5rYboCti2xbQ5xG5Ejo0K+9IaO52/El1u9Ig+p"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "... пространство",
+          "answer": "U2FsdGVkX181+ySMwRPUnyRsAKyFmwv+TzkocovKc2pcYNUbIFUt+xx5EK4W9FI0YjjmhXC+loumh5yfZrR2++ayvbbD7vh33kJLLFNDYc8="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "Теменная кость",
+          "answer": "U2FsdGVkX18tGsYdVDUHO3qOyz5eUJS2fqm0AljApsYPvKq54h+cTdlt69R32Ms5"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... оболочка головного мозга",
+          "answer": "U2FsdGVkX18/CFo8uDPlGfKuYG5sBAduQyCPJzBeudclZsiUW28HB4ZFvg191wApdf03MnYJh3kicvnxo/Onpuv+SC52/7sV7wC02svCPY4="
+        },
+        {
+          "id": 9,
+          "label": "9",
+          "hint": "...",
+          "answer": "U2FsdGVkX1++FDB1KxbG/dTOnS31Dyox0Ws3YIVv3WoeWyKM1wup19FvOPAYWuhxynk0aUvoFhYxFcCkdXXduLbCfpjeIZrXIYvgqhQ3gRQ="
+        },
+        {
+          "id": 10,
+          "label": "10",
+          "hint": "...синус",
+          "answer": "U2FsdGVkX18uzR/kq1Zifc5N8hN6QQmZo+G0GYMWqOyCuEa1PkABCaTP6SmuU7V2dX06+RyMUdD6oHQJL8sNMdpXcpcR1Gi6LJPQqE+V6MA="
+        },
+        {
+          "id": 11,
+          "label": "11",
+          "hint": "... оболочка головного мозга",
+          "answer": "U2FsdGVkX19X1qtxvDGqTwINuphYECsRAuS++CvzDwZCA9WF5jbEMZ3mbmgxUyCo+i0Ha6TjHBcDenpmRilpioh0u+9HLPpNn/t3fvQuSAaM8uIsPypVklhx+I3QBXzg"
+        },
+        {
+          "id": 12,
+          "label": "12",
+          "hint": "... пространстов",
+          "answer": "U2FsdGVkX19QQn2WyRci4gZp1rsXZG92OB19Y/g2LWUG5R/Xej40FObqn2x31FU8hv3xsVwVd2IfzfNant+Ssj4qz0S0Ayeda1j77lvTmn8="
+        },
+        {
+          "id": 13,
+          "label": "13",
+          "hint": "...",
+          "answer": "U2FsdGVkX1/QbvillJX/dZvs+zxNcAj9lTyoN8fnyDUzLyaOu5sfEg7sFTQ4lgAj"
+        },
+        {
+          "id": 14,
+          "label": "14",
+          "hint": "... вены",
+          "answer": "U2FsdGVkX1+O9iT3tTae+XK/Gab+K1SOX5B3kabyM+sEpEFcoPr4w6V9WahyGUOrVOL9hlTeAOmeVPUfTGpy5w=="
+        }
       ]
     },
-    { 
-      "lesson": 21, 
+    {
+      "lesson": 21,
+      "template": 2,
       "part": 1,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ И ОПЕРАЦИИ НА МОЗГОВОМ ОТДЕЛЕ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ И ОПЕРАЦИИ НА МОЗГОВОМ ОТДЕЛЕ ГОЛОВЫ",
       "title": "ТОПОГРАФИЯ ВИСОЧНОЙ ОБЛАСТИ И ОБЛАСТИ СОСЦЕВИДНОГО ОТРОСТКА. ХИРУРГИЧЕСКАЯ ОБРАБОТКА ЧЕРЕНО-МОЗГОВЫХ РАН. ТРЕПАНАЦИЯ ЧЕРЕПА",
       "subtitle": " Топография височной области (фронтальный распил головы)",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab21-1.png", "caption": ""}
+        {
+          "src": "images/lab21-1.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... кость", "answer": "Скуловая кость"},
-        {"hint": "Скуловая ветвь лицевого нерва", "answer": "Скуловая ветвь лицевого нерва"},
-        {"hint": "... пространство", "answer": "Межапоневротическое пространство"},
-        {"hint": "... пространство", "answer": "Подапоневротическое пространство"},
-        {"hint": "... мышца", "answer": "Височная мышца"},
-        {"hint": "Клиновидная кость", "answer": "Клиновидная кость"},
-        {"hint": "... фасция", "answer": "Височная фасция"},
-        {"hint": "... фасция", "answer": "Височно-теменнная фасция"}
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... кость",
+          "answer": "U2FsdGVkX1/HTz35av6v2812oMOySjAN4almCH1nschpKX5pGDPbXRUeFtaPy9hC"
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "Скуловая ветвь лицевого нерва",
+          "answer": "U2FsdGVkX1+0wVR0yLSYWpcfBKDkTwlsow8lAXtT3dGPQqb2So1a4Y9SMTqNGfnAfKwa3/QGn55m7E79j9YtxN7d1ZnS6ArtgkDQCPfgN3o="
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... пространство",
+          "answer": "U2FsdGVkX19ZFkW9QCVRG4loJzdp4fZRBKyHYWPKby43sLwuGJvyV0W+xJZfG/+9bMLJeT8GZoxWX/4loVLIYre7cvGviZA5QY0vmkEXWNs="
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... пространство",
+          "answer": "U2FsdGVkX1+h2fX5oPD2wttSh+wb1nnDOoqmJWhVp6oMF4z2OrYUq8JrbLuXKKTGR60/zTyao9zSaOqs+Ev1BxVFD6EjJqMJ0BqZ7sHvMXs="
+        },
+        {
+          "id": 5,
+          "label": "5",
+          "hint": "... мышца",
+          "answer": "U2FsdGVkX19fHpNOwohqae2YFusV6mvwHm/jJVEhetBqmHkEIdlZBRKrjtiQxz4p"
+        },
+        {
+          "id": 6,
+          "label": "6",
+          "hint": "Клиновидная кость",
+          "answer": "U2FsdGVkX1/DgCl1tS0mSrg67OnorhyMsabJLx+AuNG0zNkYAWV7eA7qoKzemDwbh8O1YN2E9rYBuUOcNT7h2Q=="
+        },
+        {
+          "id": 7,
+          "label": "7",
+          "hint": "... фасция",
+          "answer": "U2FsdGVkX19R3AW5w+29U/FHxPQRq1b2Bv25wZbxpZ01A9/IYvH9LiqJb1ShZhPc"
+        },
+        {
+          "id": 8,
+          "label": "8",
+          "hint": "... фасция",
+          "answer": "U2FsdGVkX1+bk1lLbfEU8ubJ4QopmVA9AgS+nh7ZQFuT9j/wQWjlDBu3EoqDXJW71/3xNtjbNOTaWkVALGctZg=="
+        }
       ]
     },
-    { 
-      "lesson": 21, 
+    {
+      "lesson": 21,
+      "template": 2,
       "part": 2,
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ И ОПЕРАЦИИ НА МОЗГОВОМ ОТДЕЛЕ ГОЛОВЫ", 
+      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ И ОПЕРАЦИИ НА МОЗГОВОМ ОТДЕЛЕ ГОЛОВЫ",
       "title": "ТОПОГРАФИЯ ВИСОЧНОЙ ОБЛАСТИ И ОБЛАСТИ СОСЦЕВИДНОГО ОТРОСТКА. ХИРУРГИЧЕСКАЯ ОБРАБОТКА ЧЕРЕНО-МОЗГОВЫХ РАН. ТРЕПАНАЦИЯ ЧЕРЕПА",
       "subtitle": "Места локализации фрезевых отверстий для доступа к эпидуральной гематоме, образо-вавшейся в результате повреждения средней менингеальной артерии",
       "task": "Назовите структуры, обозначенные на рисунке:",
       "images": [
-        {"src": "images/lab21-2.png", "caption": ""}
+        {
+          "src": "images/lab21-2.png",
+          "caption": ""
+        }
       ],
       "questions": [
-        {"hint": "... синус", "answer": "Сигмовидный синус"},
-        {"hint": "Ствол ... ", "answer": "Ствол средней менингеальной артерии"},
-        {"hint": "... ветвь", "answer": "Теменная ветвь"},
-        {"hint": "... ветвь", "answer": "Лобная ветвь"}
-      ]    
+        {
+          "id": 1,
+          "label": "1",
+          "hint": "... синус",
+          "answer": "U2FsdGVkX1+PnFbWrQTTFaHNZ87g8P71q19P8cSZlCuQW27t1DOOlSTEVEDM4Mw1pJdH9T6tzA41/bC6S0Bofw=="
+        },
+        {
+          "id": 2,
+          "label": "2",
+          "hint": "Ствол ... ",
+          "answer": "U2FsdGVkX18ul+3SsNVTGKuJawY3n+/aw+EzqQnK6pUNJrtgavSSm8A8v+Hok0mQsZc5ZNu38o3q2cWjtFmNTd23HLdEnsVOVitAY6jMLwCRKUxKgm8CqHX4oJJ0C3Jy"
+        },
+        {
+          "id": 3,
+          "label": "3",
+          "hint": "... ветвь",
+          "answer": "U2FsdGVkX18/8G/XpNb3MYwwyNLYYaSwqRIjnUZbEkXSzYfcVY77mYXM51eg0yH6"
+        },
+        {
+          "id": 4,
+          "label": "4",
+          "hint": "... ветвь",
+          "answer": "U2FsdGVkX19XRrklXDBMt1WIkZCEEE8EwHAGT0gfPYOxlKl+cmnk/bJSYr5bMs4c"
+        }
+      ]
     }
   ]
 }

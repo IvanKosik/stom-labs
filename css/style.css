@@ -4,6 +4,54 @@
   right: 16px;
 }
 
+#documentation {
+  position: fixed;
+  top: 150px;
+  right: 16px;
+}
+
+span.text-red {
+  color: red;
+}
+
+span.text-yellow {
+  color: #c8c800;
+}
+
+span.text-green {
+  color: green;
+}
+
+span.text-gray {
+  color: gray;
+}
+
+#modal1 h5, #modal1 h6 {
+  font-weight: 500;
+}
+
+.flex-rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  min-height: 128px;
+}
+
+.flex-rows > * {
+  width: 50%;
+}
+
+.flex-rows > * img {
+  max-height: 256px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.flex-rows > * .input-field {
+  margin-top: 0;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,7 +59,8 @@
 }
 
 .flex img {
-  width: 100%;
+  width: 90%;
+  margin: auto;
 }
 
 .flex #question-list {
@@ -164,6 +213,5 @@ nav h1 {
   padding: 0 10px;
   font-weight: bold;
   font-size: 1.2rem;
-  margin-bottom: -16px;
 }
 /*# sourceMappingURL=style.css.map */

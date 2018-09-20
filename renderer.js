@@ -4,7 +4,22 @@ const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 
 const adapter = new FileSync('db.json')
+
+/*
+const adapter = new FileSync('db.json', {
+        serialize: (data) => encrypt(JSON.stringify(data)),
+        deserialize: (data) => JSON.parse(decrypt(data))
+    })
+*/
+
 const db = low(adapter)
+
+const CryptoJS = require("crypto-js");
+const secret_key = 'Alex Glinsky 2018'
+function decrypt(cipher, secret_key) {
+    return CryptoJS.AES.decrypt( cipher, secret_key).toString(CryptoJS.enc.Utf8);
+}
+
 
 let lessons =  db.get("labs").map("lesson").uniq().value();
 
@@ -38,14 +53,47 @@ for (const lesson of lessons) {
     }
 }
 
+function refresh_main() {
+
+    let template_body = document.getElementById("image-answer-scheme");
+    template_body.innerHTML = "";
+
+    const image_list = document.getElementById("image-list");
+    const q_list = document.getElementById("question-list");
+
+    image_list.innerHTML = "";
+    q_list.innerHTML = "";
+
+    return [template_body, image_list, q_list]
+
+}
+
+function render_questions(questions, div) {
+
+    for (let question of questions) {
+
+        let [value, lclass] = ["",""];
+        if ( question.hint === decrypt(question.answer, secret_key)) {
+            value = question.hint;
+            lclass = "active";
+        }
+
+        div.innerHTML += `
+        <div class="input-field">
+            <input id="${ 'q' + question.id }" type="text" class="validate" value="${ value }">
+            <label class="${ lclass }" for="${ 'q' + question.id }">${ question.label + ' ' + question.hint}</label>
+            <p><span>${ question.label }.</span>${ question.hint }</p>
+        </div>
+        `
+    }
+
+}
+
 const tasks = document.getElementsByTagName('a');
 
 for (let task of tasks) {
     if (task.hasAttribute("data-task")) {
         task.addEventListener("click", (event) => {
-
-            console.log(event);
-            console.log(event.target.dataset.task)
 
             if (document.querySelector("ul[data-lesson] .active")) {
                 if (document.querySelector("ul[data-lesson] .active") === event.target.parentElement) {
@@ -61,55 +109,86 @@ for (let task of tasks) {
 
             document.getElementById("section_name").textContent = current.section[0].toUpperCase() + current.section.slice(1).toLowerCase();
             document.querySelector("main div > h5:first-child").textContent = `Лабораторное занятие №${lesson}. ` + current.title[0].toUpperCase() + current.title.slice(1).toLowerCase();
-            //document.querySelector("main div > h6").textContent = current.subtitle;
-            document.querySelector("main div > p").textContent = "Задание: " + current.task;
+            document.querySelector("main div > p").textContent = current.task;
 
-            console.log(current);
-            let image_list = document.getElementById("image-list");
-            let list = document.getElementById("question-list");
-            //let questions = document.querySelector('div.questions');
-            
-            image_list.innerHTML = "";
-            list.innerHTML = "";
-            list.style.height = "0px";
-            console.log(image_list.offsetHeight, list.offsetHeight);
+            const template = Number(current.template);
 
-            const subtitle = document.createElement("p"); // add classes to p
-            subtitle.classList.add("center-align","img-line-header")
-            subtitle.textContent = current.subtitle;
-            image_list.appendChild(subtitle);
+            if (template === 1) {
 
-            for (const image of current["images"]) {
+                const [template_body, image_list, q_list] = refresh_main();
 
-                let img = new Image();
-                img.onload = () => {
-                    list.style.height = image_list.offsetHeight + "px";
-                    console.log("image-list height:", image_list.offsetHeight);
+                for (const image of current["images"]) {
+
+                    let img = new Image();
+                    img.src = image.src;
+                    img.classList.add("materialboxed", "responsive-img");
+
+                    const line = document.createElement("div");
+                    line.classList.add("flex-rows");
+
+                    const image_div = document.createElement("div");
+                    const input_div = document.createElement("div");
+
+                    image_div.appendChild(img);
+
+                    const questions = db.get("labs").find({"lesson": lesson, "part": part}).get("questions").filter({"to": image.src}).value()
+                    
+                    render_questions(questions, input_div)
+
+                    line.appendChild(image_div);
+                    line.appendChild(input_div);
+
+                    template_body.appendChild(line)
+
                 }
-                img.classList.add("materialboxed","responsive-img");
 
-                image_list.appendChild(img)
-                let p = document.createElement("p");
-                p.classList.add("center-align");
-                p.textContent = image.caption;
-                image_list.appendChild(p)
-                img.src = image.src;
+            } else {
 
-                //image_list.innerHTML = image_list.innerHTML + `<img class="materialboxed responsive-img" src=${image.src}>`
-                //image_list.innerHTML = image_list.innerHTML + `<p class="center-align">${image.caption}</p>`
-            }
+                const template_body = document.getElementById("image-answer-scheme");
+                template_body.innerHTML = "";
 
-            //questions.style.height = image_list.offsetHeight + "px";
+                console.log(current);
+                let image_list = document.getElementById("image-list");
+                let list = document.getElementById("question-list");
+                //let questions = document.querySelector('div.questions');
+    
+                image_list.innerHTML = "";
+                list.innerHTML = "";
+                list.style.height = "0px";
+                console.log(image_list.offsetHeight, list.offsetHeight);
 
-            for (let i = 0; i < current["questions"].length; i++) {
-                list.innerHTML = list.innerHTML + `
-                <div class="input-field">
-                    <input id="${ 'q' + i }" type="text" class="validate">
-                    <label class="" for="${ 'q' + i }">${ (i+1).toString() + '. ' + current.questions[i].hint}</label>
-                    <p><span>${(i+1).toString()}.</span>${current.questions[i].hint}</p>
-                </div>
-                `
-            console.log("list height:", list.offsetHeight);
+                const subtitle = document.createElement("p"); // add classes to p
+                subtitle.classList.add("center-align","img-line-header")
+                subtitle.textContent = current.subtitle;
+                image_list.appendChild(subtitle);
+    
+                for (const image of current["images"]) {
+    
+                    let img = new Image();
+                    img.onload = () => {
+                        list.style.height = image_list.offsetHeight + "px";
+                        console.log("image-list height:", image_list.offsetHeight);
+                    }
+                    img.classList.add("materialboxed","responsive-img");
+    
+                    image_list.appendChild(img)
+                    let p = document.createElement("p");
+                    p.classList.add("center-align");
+                    p.textContent = image.caption;
+                    image_list.appendChild(p)
+                    img.src = image.src;
+                }
+
+                render_questions(current.questions, list)
+
+                console.log("list height:", list.offsetHeight);
+                for (child of list.children) { 
+                    if (child.firstElementChild.value !== "") {
+                        child.firstElementChild.classList.add('low-distance');
+                        child.firstElementChild.disabled = true;
+                    }
+                }
+
             }
 
             // Reassign eventHandler
@@ -123,9 +202,15 @@ for (let task of tasks) {
     }
 }
 
+
+
 function updateInputCheck() {
 
-    list = document.querySelectorAll("#question-list div.input-field");
+    const template1_list = document.querySelectorAll("#image-answer-scheme .input-field");
+    const template2_list = document.querySelectorAll("#question-list div.input-field"); 
+
+    const list = [... template1_list, ...template2_list];
+    console.log(list);
 
     for (elem of list) {
 
@@ -135,10 +220,15 @@ function updateInputCheck() {
             const [lesson,part] = answer_tag.dataset.task.split(",").map(Number);
             const answer_id = Number(e.target.id.slice(1));
             console.log(lesson, part, answer_id);
-            const answer = db.get("labs").find({"lesson": lesson, "part": part}).value().questions[answer_id].answer;
+            let answer = db.get("labs").find({"lesson": lesson, "part": part}).get("questions").find({"id": answer_id}).value().answer;
+            answer = decrypt(answer, secret_key);
+            
             console.log(answer);
-            const res = levenshtein(e.target.value, answer);
-            console.log(res)
+
+            const entered_answer = e.target.value;
+
+            const [res, abs_res] = levenshtein(entered_answer, answer);
+            console.log(res, abs_res)
             console.log(e.target.classList)
 
             if (res < 1) {
@@ -146,11 +236,11 @@ function updateInputCheck() {
             }
     
             
-            if (res > 10) {
+            if (abs_res > 0.4) {
                 e.target.classList.remove('low-distance','medium-distance');
                 e.target.classList.add('high-distance');
                 console.log(e.target.classList);
-            } else if (res > 4) {
+            } else if (abs_res > 0.15) {
                 e.target.classList.remove('high-distance','low-distance');
                 e.target.classList.add('medium-distance');
                 console.log(e.target.classList);
@@ -159,7 +249,7 @@ function updateInputCheck() {
                 e.target.classList.add('low-distance');
                 console.log(e.target.classList);
 
-                e.target.nextElementSibling.nextElementSibling.textContent = `${Number(e.target.id[1]) + 1}. ${e.target.value}`;
+                e.target.nextElementSibling.nextElementSibling.textContent = `${Number( e.target.id[1]) + 1}. ${e.target.value}`;
                 e.target.nextElementSibling.nextElementSibling.classList.add("correct");
             }
         });
@@ -170,14 +260,16 @@ function updateInputCheck() {
             const [lesson,part] = answer_tag.dataset.task.split(",").map(Number);
             const answer_id = Number(e.target.id.slice(1));
             console.log(answer_id, lesson, part)
-            const answer = db.get("labs").find({"lesson":lesson, "part":part}).value().question[answer_id].answer;
+            let answer = db.get("labs").find({"lesson":lesson, "part":part}).get("questions").find({"id": answer_id}).value().answer;
+            answer = decrypt(answer, secret_key);
+
+            console.log(answer);
             const res = levenshtein(e.target.value, answer);
             if (res > 3) {
                 e.target.value = "";
-            } 
+            }
         });
     }
-
 }
 
 window.addEventListener("resize", () => {
@@ -210,8 +302,8 @@ print.addEventListener("click", () => {
 
 function levenshtein(a, b) {
 
-    a = a.toLowerCase();
-    b = b.toLowerCase();
+    a = a.toLowerCase().replace(/\s/g,'');
+    b = b.toLowerCase().replace(/\s/g,'');
 
     if(a.length === 0) return b.length;
     if(b.length === 0) return a.length;
@@ -243,7 +335,7 @@ function levenshtein(a, b) {
         }
     }
     
-    return matrix[b.length][a.length];
+    return [matrix[b.length][a.length] , matrix[b.length][a.length] / b.length];
 }
     
 M.validate_field = function() {

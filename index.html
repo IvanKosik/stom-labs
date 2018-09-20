@@ -29,7 +29,13 @@
         <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a>
         <h1 id="section_name">Клиническая анатомия головы и шеи</h1>
         
-        <button id="print" class="btn-floating btn-large waves-effect waves-light red right"><i class="material-icons">print</i></button>
+        <button id="print" class="btn-floating btn-large waves-effect waves-light red right">
+          <i class="material-icons">print</i>
+        </button>
+
+        <button id="documentation" data-target="modal1" class="btn-floating btn-large waves-effect waves-light red right modal-trigger">
+          <i class="material-icons">local_library</i>
+        </button>
       </nav>
   </header>
 
@@ -52,14 +58,53 @@
         <h5 class="center-align">Выберите лабораторное занятие и тему</h5>
         <!--<h6 class="center-align">Выберите тему</h6>-->
         <p class="center-align">Прочтите задание и приступайте к выполнению</p>
-        <div class="flex">
+        <div id="image-answer-scheme">
+
+        </div>
+        <div id="image-answers-scheme" class="flex">
           <div id="image-list"></div>
           <div id="question-list"></div>
         </div>
       </div>
     </main>
+  
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h5 class="center-align">Инструкция по использованию программы</h6>
+      <div>
+        <h6 class="center-align">1. Процесс ввода</h6>
+        <p>
+          Система ввода проверяет правильность введенного ответа в реальном времени и 
+          сигнализирует об этом пользователю с помощью трех цветов: 
+          <span class="text-red">красный</span>, <span class="text-yellow">желтый</span> и <span class="text-green">зеленый</span>.
+          Фактически цвет является индикатором расстояния до правильного ответа.
+        </p>
+        <ul>
+          <li><span class="text-red">Красный</span> - введенный ответ неверен, либо введен не полностью и надо продолжать ввод.</li>
+          <li><span class="text-yellow">Желтый</span> - вы находитесь довольно близко от правильного ответа, но его необходимо уточнить.</li>
+          <li><span class="text-green">Зеленый</span> - ваш ответ верен, однако содержит опечатку либо грамматическую ошибку.</li>
+        </ul>
+        <p>
+          В случае, если ваш ответ полностью соответсвует правильному, он принимается системой и поле ввода блокируется.
+        </p>
 
+        <h6 class="center-align">2. Подсказки</h6>
+        <p>Некоторые поля ввода уже содержат часть правильного ответа (подсказку <span class="text-gray">серого</span> цвета). Ваш ответ обязательно должен содержать ее.</p>
+        
+        <h6 class="center-align">3. Изображения</h6>
+        <p>Все изображения можно увеличить кликом мыши.</p>
+
+        <h6 class="center-align">4. Печать</h6>
+        <p>Заполненнные\пустые бланки ответов можно распечатать с помощью кнопки "Печать", расположенной над кнопкой с инструкцией.</p>
+
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Всё понятно!</a>
+    </div>
   </div>
+
   <!-- Compiled and minified JavaScript -->
   <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
   <script>

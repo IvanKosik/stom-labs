@@ -13,6 +13,8 @@ function createWindow () {
     title: 'Клиническая анатомия головы и шеи',
   })
 
+  mainWindow.setMenu(null) // uncomment for default menu
+
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 
@@ -24,8 +26,8 @@ function createWindow () {
   //mainWindow.webContents.openDevTools()
 
   // Custom Menu.
-  const mainMenu = Menu.buildFromTemplate(mainMenuTemplate);
-  Menu.setApplicationMenu(mainMenu);
+  //const mainMenu = Menu.buildFromTemplate(mainMenuTemplate);
+  //Menu.setApplicationMenu(mainMenu);
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
@@ -36,6 +38,7 @@ function createWindow () {
   })
 }
 
+/*
 function createAddWindow(){
   addWindow = new BrowserWindow({
     width: 200,
@@ -112,6 +115,7 @@ if (process.env.NODE_ENV !== 'production'){
     ]
   })
 }
+*/
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
@@ -138,8 +142,7 @@ app.on('activate', function () {
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
 
-const low = require('lowdb')
-const FileSync = require('lowdb/adapters/FileSync')
-
-const adapter = new FileSync('db.json')
-const db = low(adapter)
+//const low = require('lowdb')
+//const FileSync = require('lowdb/adapters/FileSync')
+//const adapter = new FileSync('db.json')
+//const db = low(adapter)
