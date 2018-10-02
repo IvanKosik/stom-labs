@@ -18,7 +18,7 @@ console.log(decrypt(encrypt(test_string, secret_key), secret_key));
 
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
-const adapter = new FileSync('db.json')
+const adapter = new FileSync('db_clean.json')
 const db = low(adapter)
 
 const lessons =  db.get("labs").map("lesson").uniq().value();
@@ -30,8 +30,6 @@ for (const lesson of lessons) {
     for (const part of parts) {
 
         const questions = db.get("labs").find({"lesson":lesson, "part":part}).get("questions").value();
-
-        //console.log(questions)
 
         for (const question of questions) {
 

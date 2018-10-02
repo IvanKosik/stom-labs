@@ -1,3 +1,6 @@
+//import 'node-modules/material-design-icons/iconfont/material-icons.css'
+//import 'typeface-roboto/index.css'
+
 // Modules to control application life and create native browser window
 const {app, BrowserWindow, Menu} = require('electron')
 

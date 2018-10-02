@@ -7,15 +7,18 @@
   <title></title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-
+  
   <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
 
   <!-- Compiled and minified CSS -->
   <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css">
+
+  <!--Import from material-icons node module-->
+  <link rel="stylesheet" href="node_modules/material-icons/iconfont/material-icons.css">
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -75,10 +78,12 @@
       <div>
         <h6 class="center-align">1. Процесс ввода</h6>
         <p>
-          Система ввода проверяет правильность введенного ответа в реальном времени и 
+          Курсор подводится к полю ввода, которое активируется щелчком левой клавиши мыши, после чего,
+          с помощью клавиатуры, осуществляется ввод русского названия соответствующей структры.  
+          Система проверяет правильность введенного ответа в реальном времени и 
           сигнализирует об этом пользователю с помощью трех цветов: 
           <span class="text-red">красный</span>, <span class="text-yellow">желтый</span> и <span class="text-green">зеленый</span>.
-          Фактически цвет является индикатором расстояния до правильного ответа.
+          Фактически цвет является индикатором &laquo;расстояния&raquo; до правильного ответа.
         </p>
         <ul>
           <li><span class="text-red">Красный</span> - введенный ответ неверен, либо введен не полностью и надо продолжать ввод.</li>

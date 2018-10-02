@@ -1,5 +1,3 @@
-console.log("from renderer.js")
-
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 
@@ -37,18 +35,14 @@ for (const lesson of lessons) {
                         </ul>
                     </div>`
     
-    //ul.dataset.lesson = lesson;
-    console.log(ul);
     taskList.appendChild(ul);
 
     let tasks = db.get("labs").filter({"lesson": lesson}).map("part").uniq().value();
     ul = document.querySelector(`ul[data-lesson="${lesson}"]`);
 
     for (const task of tasks) {
-        console.log(task, ul);
         const li = document.createElement("li");
         li.innerHTML = `<a href="#" data-task=${[lesson,task]}>Задание ${task}</a>`;
-        console.log(li);
         ul.appendChild(li);
     }
 }
@@ -75,7 +69,7 @@ function render_questions(questions, div) {
         let [value, lclass] = ["",""];
         if ( question.hint === decrypt(question.answer, secret_key)) {
             value = question.hint;
-            lclass = "active";
+            lclass = "active invisible";
         }
 
         div.innerHTML += `
@@ -147,7 +141,6 @@ for (let task of tasks) {
                 const template_body = document.getElementById("image-answer-scheme");
                 template_body.innerHTML = "";
 
-                console.log(current);
                 let image_list = document.getElementById("image-list");
                 let list = document.getElementById("question-list");
                 //let questions = document.querySelector('div.questions');
@@ -155,7 +148,6 @@ for (let task of tasks) {
                 image_list.innerHTML = "";
                 list.innerHTML = "";
                 list.style.height = "0px";
-                console.log(image_list.offsetHeight, list.offsetHeight);
 
                 const subtitle = document.createElement("p"); // add classes to p
                 subtitle.classList.add("center-align","img-line-header")
@@ -167,7 +159,6 @@ for (let task of tasks) {
                     let img = new Image();
                     img.onload = () => {
                         list.style.height = image_list.offsetHeight + "px";
-                        console.log("image-list height:", image_list.offsetHeight);
                     }
                     img.classList.add("materialboxed","responsive-img");
     
@@ -181,7 +172,6 @@ for (let task of tasks) {
 
                 render_questions(current.questions, list)
 
-                console.log("list height:", list.offsetHeight);
                 for (child of list.children) { 
                     if (child.firstElementChild.value !== "") {
                         child.firstElementChild.classList.add('low-distance');
@@ -210,7 +200,6 @@ function updateInputCheck() {
     const template2_list = document.querySelectorAll("#question-list div.input-field"); 
 
     const list = [... template1_list, ...template2_list];
-    console.log(list);
 
     for (elem of list) {
 
@@ -219,35 +208,28 @@ function updateInputCheck() {
             const answer_tag = document.querySelector("ul[data-lesson] .active a");
             const [lesson,part] = answer_tag.dataset.task.split(",").map(Number);
             const answer_id = Number(e.target.id.slice(1));
-            console.log(lesson, part, answer_id);
             let answer = db.get("labs").find({"lesson": lesson, "part": part}).get("questions").find({"id": answer_id}).value().answer;
             answer = decrypt(answer, secret_key);
-            
-            console.log(answer);
 
             const entered_answer = e.target.value;
 
             const [res, abs_res] = levenshtein(entered_answer, answer);
-            console.log(res, abs_res)
-            console.log(e.target.classList)
 
             if (res < 1) {
                 e.target.disabled = true;
+                e.target.nextElementSibling.classList.add("invisible");
             }
     
             
             if (abs_res > 0.4) {
                 e.target.classList.remove('low-distance','medium-distance');
                 e.target.classList.add('high-distance');
-                console.log(e.target.classList);
             } else if (abs_res > 0.15) {
                 e.target.classList.remove('high-distance','low-distance');
                 e.target.classList.add('medium-distance');
-                console.log(e.target.classList);
             } else {
                 e.target.classList.remove('high-distance','medium-distance');
                 e.target.classList.add('low-distance');
-                console.log(e.target.classList);
 
                 e.target.nextElementSibling.nextElementSibling.textContent = `${Number( e.target.id[1]) + 1}. ${e.target.value}`;
                 e.target.nextElementSibling.nextElementSibling.classList.add("correct");
@@ -259,11 +241,10 @@ function updateInputCheck() {
             const answer_tag = document.querySelector("ul[data-lesson] .active a");
             const [lesson,part] = answer_tag.dataset.task.split(",").map(Number);
             const answer_id = Number(e.target.id.slice(1));
-            console.log(answer_id, lesson, part)
+
             let answer = db.get("labs").find({"lesson":lesson, "part":part}).get("questions").find({"id": answer_id}).value().answer;
             answer = decrypt(answer, secret_key);
 
-            console.log(answer);
             const res = levenshtein(e.target.value, answer);
             if (res > 3) {
                 e.target.value = "";
@@ -284,26 +265,13 @@ const print = document.getElementById("print");
 
 print.addEventListener("click", () => {
     window.print();
-    //webContents.print({silent: false, printBackground: false, deviceName: ''});
 })
-
-        /*
-    window.addEventListener("resize", () => {
-    let img_list = document.getElementById('image-list');
-    console.log(img_list.clientHeight);
-    let list = document.getElementById('answer-list');
-
-    list.style.height = (img_list.clientHeight - 50) + 'px';
-    })*/
-
-    //require('electron')
-    //console.log(require('electron').remote.getGlobal('sharedObject').someProperty)
 
 
 function levenshtein(a, b) {
 
-    a = a.toLowerCase().replace(/\s/g,'');
-    b = b.toLowerCase().replace(/\s/g,'');
+    a = a.toLowerCase().replace(/[^а-яА-Я]/g, '') //(/\s/g,'');
+    b = b.toLowerCase().replace(/[^а-яА-Я]/g, '') //(/\s/g,'');
 
     if(a.length === 0) return b.length;
     if(b.length === 0) return a.length;
@@ -336,8 +304,4 @@ function levenshtein(a, b) {
     }
     
     return [matrix[b.length][a.length] , matrix[b.length][a.length] / b.length];
-}
-    
-M.validate_field = function() {
-    console.log(this)
 }
