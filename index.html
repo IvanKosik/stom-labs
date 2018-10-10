@@ -36,8 +36,12 @@
           <i class="material-icons">print</i>
         </button>
 
-        <button id="documentation" data-target="modal1" class="btn-floating btn-large waves-effect waves-light red right modal-trigger">
+        <button id="documentation" data-target="documentation-modal" class="btn-floating btn-large waves-effect waves-light red right modal-trigger">
           <i class="material-icons">local_library</i>
+        </button>
+
+        <button id="team" data-target="team-modal" class="btn-floating btn-large waves-effect waves-light red right modal-trigger">
+          <i class="material-icons">face</i>
         </button>
       </nav>
   </header>
@@ -61,18 +65,32 @@
         <h5 class="center-align">Выберите лабораторное занятие и тему</h5>
         <!--<h6 class="center-align">Выберите тему</h6>-->
         <p class="center-align">Прочтите задание и приступайте к выполнению</p>
-        <div id="image-answer-scheme">
-
-        </div>
-        <div id="image-answers-scheme" class="flex">
+        <div id="templates">
+          <div id="title">
+            <div>
+              <img src="images/title-page.jpg" class="materialboxed responsive-img" alt="Шея">
+            </div>
+          </div>
+          <div id="template-1">
+          </div>
+          <div id="template-2">
+          </div>
+          <!--
+          <div id="start-page">
+            <div>
+              <img src="images/title-page.jpg" class="materialboxed responsive-img" alt="Шея">
+            </div>
+            <p>FdSafdfsdf adfsdf d  asdasdasd as dasd sa dsd sd sa</p>
+          </div>
           <div id="image-list"></div>
           <div id="question-list"></div>
         </div>
+        -->
       </div>
     </main>
   
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal">
+  <!-- Documentation modal window -->
+  <div id="documentation-modal" class="modal">
     <div class="modal-content">
       <h5 class="center-align">Инструкция по использованию программы</h6>
       <div>
@@ -109,6 +127,63 @@
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Всё понятно!</a>
     </div>
   </div>
+
+  <!-- Team modal window -->
+  <div id="team-modal" class="modal">
+    <div class="modal-content">
+        <h4 class="center-align">Авторы и разработчики</h4>
+        
+        <!--
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel grey lighten-5 z-depth-1 team-card-pad">
+              <div class="row valign-wrapper no-margin-bottom">
+                <div class="col s2">
+                  <img src="images/kabakc.jpg" alt="" class="responsive-img">
+                </div>
+                <div class="col s10 mr-5">
+                  <h5>Кабак Сергей Львович <small>профессор, д.м.н.</small></h5>
+                  <p>Заведующий кафедрой морфологии человека / Белорусский государственный медицинский университет</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          -->
+
+          <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel grey lighten-5 z-depth-1 team-card-pad">
+              <div class="row valign-wrapper no-margin-bottom">
+                <div class="col s2">
+                  <img src="images/kabakc1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s10 mr-5">
+                    <h5>Кабак Сергей Львович <small>профессор, д.м.н.</small></h5>
+                    <p>Заведующий кафедрой морфологии человека / Белорусский государственный медицинский университет</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel grey lighten-5 z-depth-1 team-card-pad">
+              <div class="row valign-wrapper no-margin-bottom">
+                <div class="col s2">
+                  <img src="images/glinsky.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s10 mr-5">
+                  <h5>Глинский Алексей Валерьевич</h5>
+                  <p>Младший научный сотрудник лаборатории информационно-компьютерных технологий / НИЧ / Белорусский государственный медицинский университет</p>
+                  <p>Контакты: <a href="mailto:alexionon@mail.ru">alexionon@mail.ru</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+              
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Всё понятно!</a>
+    </div>
+  </div>
+
 
   <!-- Compiled and minified JavaScript -->
   <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>

@@ -1,3 +1,5 @@
+// ICONS ----
+
 #print {
     position: fixed;
     top: 80px;
@@ -9,6 +11,16 @@
     top: 150px;
     right: 16px;
 }
+
+#team {
+    position: fixed;
+    top: 220px;
+    right: 16px;
+}
+
+
+// -----------
+
 
 .invisible {
     visibility: hidden;
@@ -38,48 +50,61 @@ span {
     }
 }
 
-.flex-rows {
-    display: flex;
-    margin-bottom: 10px;
-    min-height: 128px;
+#templates {
 
-    & > * {
-        width: 50%;
+    #title {
+        display: flex;
 
-        img {
-            max-height: 256px;
-            //border:none;
-            max-width: 90%;
+        & > * {
+            width: 50%;
             margin: auto;
         }
+    }
 
-        .input-field {
-            margin-top: 0;
+    #template-1 {
+
+        margin-top: 36px;
+
+        .flex-rows {
+            display: flex;
+            margin-bottom: 10px;
+            min-height: 128px;
+        
+            & > * {
+                width: 50%;
+        
+                img {
+                    max-height: 256px;
+                    //border:none;
+                    max-width: 90%;
+                    margin: auto;
+                }
+        
+                .input-field {
+                    margin-top: 0;
+                }
+            }
         }
     }
 
-
-}
-
-
-
-.flex {
-    display: flex;
-
-    img {
-        width: 90%;
-        margin: auto;
-    }
-
-    #question-list {
-        padding-left: 15px;
-        width: 55%;
-        height: 200px;
-        overflow: auto;
-    }
-
-    #image-list {
-        width: 45%;
+    #template-2 {
+        display: flex;
+    
+        img {
+            width: 90%;
+            margin: auto;
+        }
+    
+        #question-list {
+            padding-left: 15px;
+            width: 55%;
+            height: 200px;
+            overflow: auto;
+        }
+    
+        #image-list {
+            width: 45%;
+        }
     }
 }
 
@@ -246,4 +271,22 @@ nav {
     font-weight: bold;
     font-size: 1.2rem;
     //margin-bottom: -16px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px !important;
+}
+
+.team-card-pad {
+    padding: 12px 0px 12px 12px;
+}
+
+.mr-5 {
+    margin-right: 5%;
+}
+
+#team-modal {
+    h4 {
+        margin-bottom: 28px;
+    }
 }

@@ -34,6 +34,11 @@ for (const lesson of lessons) {
         for (const question of questions) {
 
             console.log(question.answer);
+            if (question.answer === undefined) {
+                throw `${lesson} ${part} ${question}`
+            }
+           
+
             encryptedAnswer = encrypt(question.answer, secret_key);
             db.get("labs").find({"lesson":lesson, "part":part}).get("questions").find({"id": question.id}).set("answer", encryptedAnswer).write();
         }

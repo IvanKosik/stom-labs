@@ -14,7 +14,7 @@ def image_to_square(fname, min_size=256, fill_color=(255,255,255)):
 to = "square_images"
 os.mkdir(to)
 
-for fname in glob.glob("images/*"):
+for fname in glob.glob("andrew/*"):
     image = image_to_square(fname)
     fname = os.path.basename(fname)
     image.save(os.path.join(to, fname))

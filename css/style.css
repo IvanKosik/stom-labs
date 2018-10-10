@@ -10,6 +10,12 @@
   right: 16px;
 }
 
+#team {
+  position: fixed;
+  top: 220px;
+  right: 16px;
+}
+
 .invisible {
   visibility: hidden;
 }
@@ -34,7 +40,22 @@ span.text-gray {
   font-weight: 500;
 }
 
-.flex-rows {
+#templates #title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#templates #title > * {
+  width: 50%;
+  margin: auto;
+}
+
+#templates #template-1 {
+  margin-top: 36px;
+}
+
+#templates #template-1 .flex-rows {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,39 +63,39 @@ span.text-gray {
   min-height: 128px;
 }
 
-.flex-rows > * {
+#templates #template-1 .flex-rows > * {
   width: 50%;
 }
 
-.flex-rows > * img {
+#templates #template-1 .flex-rows > * img {
   max-height: 256px;
   max-width: 90%;
   margin: auto;
 }
 
-.flex-rows > * .input-field {
+#templates #template-1 .flex-rows > * .input-field {
   margin-top: 0;
 }
 
-.flex {
+#templates #template-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.flex img {
+#templates #template-2 img {
   width: 90%;
   margin: auto;
 }
 
-.flex #question-list {
+#templates #template-2 #question-list {
   padding-left: 15px;
   width: 55%;
   height: 200px;
   overflow: auto;
 }
 
-.flex #image-list {
+#templates #template-2 #image-list {
   width: 45%;
 }
 
@@ -217,5 +238,21 @@ nav h1 {
   padding: 0 10px;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px !important;
+}
+
+.team-card-pad {
+  padding: 12px 0px 12px 12px;
+}
+
+.mr-5 {
+  margin-right: 5%;
+}
+
+#team-modal h4 {
+  margin-bottom: 28px;
 }
 /*# sourceMappingURL=style.css.map */

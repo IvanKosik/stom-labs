@@ -1,23 +1,30 @@
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
+const CryptoJS = require("crypto-js");
 
 const adapter = new FileSync('db.json')
 
-/*
-const adapter = new FileSync('db.json', {
-        serialize: (data) => encrypt(JSON.stringify(data)),
-        deserialize: (data) => JSON.parse(decrypt(data))
-    })
-*/
-
 const db = low(adapter)
 
-const CryptoJS = require("crypto-js");
-const secret_key = 'Alex Glinsky 2018'
-function decrypt(cipher, secret_key) {
-    return CryptoJS.AES.decrypt( cipher, secret_key).toString(CryptoJS.enc.Utf8);
+const with_cypher = true;
+    
+const cypher_tools = (with_cypher) => {
+    if (with_cypher === true) {
+        const secret_key = 'Alex Glinsky 2018'
+        const decrypt = function(cipher, secret_key) {
+            return CryptoJS.AES.decrypt( cipher, secret_key).toString(CryptoJS.enc.Utf8);
+        }
+        return [secret_key, decrypt]
+    } else {
+        const secret_key = undefined;
+        const decrypt = function(string, secret_key) {
+            return string;
+        }
+        return [secret_key, decrypt]
+    }
 }
 
+const [secret_key, decrypt] = cypher_tools(with_cypher);
 
 let lessons =  db.get("labs").map("lesson").uniq().value();
 
@@ -47,31 +54,25 @@ for (const lesson of lessons) {
     }
 }
 
-function refresh_main() {
+function refresh_main(template_id) {
+    let templates = document.getElementById("templates");
+    templates.innerHTML = "";
 
-    let template_body = document.getElementById("image-answer-scheme");
-    template_body.innerHTML = "";
+    const template = document.createElement("div");
+    template.setAttribute("id", template_id);
 
-    const image_list = document.getElementById("image-list");
-    const q_list = document.getElementById("question-list");
+    templates.appendChild(template);
 
-    image_list.innerHTML = "";
-    q_list.innerHTML = "";
-
-    return [template_body, image_list, q_list]
-
+    return template
 }
 
 function render_questions(questions, div) {
-
     for (let question of questions) {
-
         let [value, lclass] = ["",""];
         if ( question.hint === decrypt(question.answer, secret_key)) {
-            value = question.hint;
+            value = question.label + ' ' + question.hint;
             lclass = "active invisible";
         }
-
         div.innerHTML += `
         <div class="input-field">
             <input id="${ 'q' + question.id }" type="text" class="validate" value="${ value }">
@@ -80,7 +81,6 @@ function render_questions(questions, div) {
         </div>
         `
     }
-
 }
 
 const tasks = document.getElementsByTagName('a');
@@ -102,14 +102,14 @@ for (let task of tasks) {
             let current = db.get("labs").find({"lesson":lesson, "part":part}).value();
 
             document.getElementById("section_name").textContent = current.section[0].toUpperCase() + current.section.slice(1).toLowerCase();
-            document.querySelector("main div > h5:first-child").textContent = `Лабораторное занятие №${lesson}. ` + current.title[0].toUpperCase() + current.title.slice(1).toLowerCase();
+            document.querySelector("main div > h5:first-child").textContent = `Лабораторное занятие №${lesson}. ${current.title}`;
             document.querySelector("main div > p").textContent = current.task;
 
             const template = Number(current.template);
 
             if (template === 1) {
 
-                const [template_body, image_list, q_list] = refresh_main();
+                const template = refresh_main("template-1");
 
                 for (const image of current["images"]) {
 
@@ -121,33 +121,33 @@ for (let task of tasks) {
                     line.classList.add("flex-rows");
 
                     const image_div = document.createElement("div");
-                    const input_div = document.createElement("div");
-
                     image_div.appendChild(img);
 
                     const questions = db.get("labs").find({"lesson": lesson, "part": part}).get("questions").filter({"to": image.src}).value()
                     
-                    render_questions(questions, input_div)
+                    const input_div = document.createElement("div");
+                    render_questions(questions, input_div);
 
                     line.appendChild(image_div);
                     line.appendChild(input_div);
 
-                    template_body.appendChild(line)
-
+                    template.appendChild(line)
                 }
 
-            } else {
+            } else if (template === 2) {
 
-                const template_body = document.getElementById("image-answer-scheme");
-                template_body.innerHTML = "";
+                const template = refresh_main("template-2");
 
-                let image_list = document.getElementById("image-list");
-                let list = document.getElementById("question-list");
-                //let questions = document.querySelector('div.questions');
+                const image_list = document.createElement("div");
+                image_list.setAttribute("id","image-list");
+
+                const question_list = document.createElement("div");
+                question_list.setAttribute("id", "question-list")
+
+                template.appendChild(image_list);
+                template.appendChild(question_list);
     
-                image_list.innerHTML = "";
-                list.innerHTML = "";
-                list.style.height = "0px";
+                question_list.style.height = "0px";
 
                 const subtitle = document.createElement("p"); // add classes to p
                 subtitle.classList.add("center-align","img-line-header")
@@ -158,7 +158,7 @@ for (let task of tasks) {
     
                     let img = new Image();
                     img.onload = () => {
-                        list.style.height = image_list.offsetHeight + "px";
+                        question_list.style.height = image_list.offsetHeight + "px";
                     }
                     img.classList.add("materialboxed","responsive-img");
     
@@ -168,17 +168,17 @@ for (let task of tasks) {
                     p.textContent = image.caption;
                     image_list.appendChild(p)
                     img.src = image.src;
+
                 }
 
-                render_questions(current.questions, list)
+                render_questions(current.questions, question_list)
 
-                for (child of list.children) { 
+                for (child of question_list.children) { 
                     if (child.firstElementChild.value !== "") {
                         child.firstElementChild.classList.add('low-distance');
                         child.firstElementChild.disabled = true;
                     }
                 }
-
             }
 
             // Reassign eventHandler
@@ -192,64 +192,53 @@ for (let task of tasks) {
     }
 }
 
+function evaluate_input(e) {
 
+    console.log(this, e)
+
+    const answer_tag = document.querySelector("ul[data-lesson] .active a");
+    const [lesson,part] = answer_tag.dataset.task.split(",").map(Number);
+    const answer_id = Number(e.target.id.slice(1));
+    const value = db.get("labs").find({"lesson": lesson, "part": part}).get("questions").find({"id": answer_id}).value()
+    
+    let answer = value.answer;
+    let label = value.label;
+
+    answer = decrypt(answer, secret_key);
+
+    const entered_answer = e.target.value;
+    const [res, abs_res] = levenshtein(entered_answer, answer);
+
+    if (res < 1) {
+        e.target.disabled = true;
+        e.target.nextElementSibling.classList.add("invisible");
+        e.target.value = `${label} ${entered_answer}`;
+    }
+    
+    if (abs_res > 0.4) {
+        e.target.classList.remove('low-distance','medium-distance');
+        e.target.classList.add('high-distance');
+    } else if (abs_res > 0.15) {
+        e.target.classList.remove('high-distance','low-distance');
+        e.target.classList.add('medium-distance');
+    } else {
+        e.target.classList.remove('high-distance','medium-distance');
+        e.target.classList.add('low-distance');
+
+        e.target.nextElementSibling.nextElementSibling.textContent = `${Number( e.target.id[1]) + 1}. ${e.target.value}`;
+        e.target.nextElementSibling.nextElementSibling.classList.add("correct");
+    }
+}
 
 function updateInputCheck() {
 
-    const template1_list = document.querySelectorAll("#image-answer-scheme .input-field");
+    const template1_list = document.querySelectorAll("#templates .input-field");
     const template2_list = document.querySelectorAll("#question-list div.input-field"); 
 
     const list = [... template1_list, ...template2_list];
 
     for (elem of list) {
-
-        elem.addEventListener("input", (e) => {
-
-            const answer_tag = document.querySelector("ul[data-lesson] .active a");
-            const [lesson,part] = answer_tag.dataset.task.split(",").map(Number);
-            const answer_id = Number(e.target.id.slice(1));
-            let answer = db.get("labs").find({"lesson": lesson, "part": part}).get("questions").find({"id": answer_id}).value().answer;
-            answer = decrypt(answer, secret_key);
-
-            const entered_answer = e.target.value;
-
-            const [res, abs_res] = levenshtein(entered_answer, answer);
-
-            if (res < 1) {
-                e.target.disabled = true;
-                e.target.nextElementSibling.classList.add("invisible");
-            }
-    
-            
-            if (abs_res > 0.4) {
-                e.target.classList.remove('low-distance','medium-distance');
-                e.target.classList.add('high-distance');
-            } else if (abs_res > 0.15) {
-                e.target.classList.remove('high-distance','low-distance');
-                e.target.classList.add('medium-distance');
-            } else {
-                e.target.classList.remove('high-distance','medium-distance');
-                e.target.classList.add('low-distance');
-
-                e.target.nextElementSibling.nextElementSibling.textContent = `${Number( e.target.id[1]) + 1}. ${e.target.value}`;
-                e.target.nextElementSibling.nextElementSibling.classList.add("correct");
-            }
-        });
-        
-        elem.addEventListener("change", e => {
-
-            const answer_tag = document.querySelector("ul[data-lesson] .active a");
-            const [lesson,part] = answer_tag.dataset.task.split(",").map(Number);
-            const answer_id = Number(e.target.id.slice(1));
-
-            let answer = db.get("labs").find({"lesson":lesson, "part":part}).get("questions").find({"id": answer_id}).value().answer;
-            answer = decrypt(answer, secret_key);
-
-            const res = levenshtein(e.target.value, answer);
-            if (res > 3) {
-                e.target.value = "";
-            }
-        });
+        elem.addEventListener("input", evaluate_input);
     }
 }
 
@@ -293,13 +282,13 @@ function levenshtein(a, b) {
     // Fill in the rest of the matrix
     for(i = 1; i <= b.length; i++){
         for(j = 1; j <= a.length; j++){
-        if(b.charAt(i-1) == a.charAt(j-1)){
-            matrix[i][j] = matrix[i-1][j-1];
-        } else {
-            matrix[i][j] = Math.min(matrix[i-1][j-1] + 1, // substitution
-                                    Math.min(matrix[i][j-1] + 1, // insertion
-                                            matrix[i-1][j] + 1)); // deletion
-        }
+            if(b.charAt(i-1) == a.charAt(j-1)){
+                matrix[i][j] = matrix[i-1][j-1];
+            } else {
+                matrix[i][j] = Math.min(matrix[i-1][j-1] + 1, // substitution
+                                        Math.min(matrix[i][j-1] + 1, // insertion
+                                                matrix[i-1][j] + 1)); // deletion
+            }
         }
     }
     

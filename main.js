@@ -16,7 +16,7 @@ function createWindow () {
     title: 'Клиническая анатомия головы и шеи',
   })
 
-  mainWindow.setMenu(null) // uncomment for default menu
+  // mainWindow.setMenu(null) // comment for default menu
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
