@@ -22,6 +22,11 @@
 // -----------
 
 
+.block {
+    display: block;
+    width: 100%;
+}
+
 .invisible {
     visibility: hidden;
 }
@@ -52,10 +57,9 @@ span {
 
 #templates {
 
-    #title {
-        display: flex;
+    #template-0 {
 
-        & > * {
+        .image-placeholder {
             width: 50%;
             margin: auto;
         }
@@ -106,6 +110,19 @@ span {
             width: 45%;
         }
     }
+
+    #template-3 {
+        
+        width: 90%;
+        margin: auto;
+
+    }
+}
+
+.material-tooltip {
+    font-size: 0.8rem;
+    background-color: rgb(240, 240, 240);
+    color: rgba(0,0,0,0.87);
 }
 
 main {

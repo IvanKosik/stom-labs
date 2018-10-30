@@ -10,7 +10,6 @@
   
   <!--Import Google Icon Font-->
   <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
-
   <!-- Compiled and minified CSS -->
   <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
 
@@ -18,7 +17,6 @@
 
   <!--Import from material-icons node module-->
   <link rel="stylesheet" href="node_modules/material-icons/iconfont/material-icons.css">
-
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -32,15 +30,15 @@
         <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a>
         <h1 id="section_name">Клиническая анатомия головы и шеи</h1>
         
-        <button id="print" class="btn-floating btn-large waves-effect waves-light red right">
+        <button id="print" class="btn-floating btn-large waves-effect waves-light red right tooltipped" data-position="left" data-tooltip="Печать">
           <i class="material-icons">print</i>
         </button>
 
-        <button id="documentation" data-target="documentation-modal" class="btn-floating btn-large waves-effect waves-light red right modal-trigger">
+        <button id="documentation" data-target="documentation-modal" class="btn-floating btn-large waves-effect waves-light red right modal-trigger tooltipped" data-position="left" data-tooltip="Инструкция">
           <i class="material-icons">local_library</i>
         </button>
 
-        <button id="team" data-target="team-modal" class="btn-floating btn-large waves-effect waves-light red right modal-trigger">
+        <button id="team" data-target="team-modal" class="btn-floating btn-large waves-effect waves-light red right modal-trigger tooltipped" data-position="left" data-tooltip="Авторы">
           <i class="material-icons">face</i>
         </button>
       </nav>
@@ -62,30 +60,17 @@
 
     <main>
       <div class="container">
-        <h5 class="center-align">Выберите лабораторное занятие и тему</h5>
-        <!--<h6 class="center-align">Выберите тему</h6>-->
-        <p class="center-align">Прочтите задание и приступайте к выполнению</p>
+        <h5 class="center-align">Выберите тему, ознакомьтесь с глоссарием и приступайте к выполнению заданий</h5>
+        <p class="center-align"></p>
         <div id="templates">
-          <div id="title">
+          <div id="template-0">
             <div>
               <img src="images/title-page.jpg" class="materialboxed responsive-img" alt="Шея">
             </div>
           </div>
-          <div id="template-1">
-          </div>
-          <div id="template-2">
-          </div>
-          <!--
-          <div id="start-page">
-            <div>
-              <img src="images/title-page.jpg" class="materialboxed responsive-img" alt="Шея">
-            </div>
-            <p>FdSafdfsdf adfsdf d  asdasdasd as dasd sa dsd sd sa</p>
-          </div>
-          <div id="image-list"></div>
-          <div id="question-list"></div>
+          <div id="template-1"></div>
+          <div id="template-2"></div>
         </div>
-        -->
       </div>
     </main>
   
@@ -176,6 +161,12 @@
                 </div>
               </div>
             </div>
+          </div>
+
+          <div>
+            <p class="text-gray">
+              * Авторские права © на фотографии анатомических препаратов принадлежат <b>B.Kathleen Alsup</b> and <b>Glenn M.Fox</b> / Medical School University of Michigan
+            </p>
           </div>
               
     </div>

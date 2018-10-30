@@ -1,8 +1,8 @@
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
-const CryptoJS = require("crypto-js");
+const CryptoJS = require('crypto-js');
 
-const adapter = new FileSync('db.json')
+const adapter = new FileSync('db_clean.json')
 
 const db = low(adapter)
 
@@ -28,29 +28,69 @@ const [secret_key, decrypt] = cypher_tools(with_cypher);
 
 let lessons =  db.get("labs").map("lesson").uniq().value();
 
+
 for (const lesson of lessons) {
-    
+
     const taskList = document.querySelector("#labs .collapsible");
+    let title = db.get("labs").find({"lesson":lesson}).value().title;
 
-    let ul = document.createElement("li");
-    ul.innerHTML = `<div class="collapsible-header">
-                        <i class="material-icons">arrow_drop_down</i>
-                        Лабораторное занятие ${lesson}
-                    </div>
-                    <div class="collapsible-body">
-                        <ul data-lesson=${lesson}>
-                        </ul>
-                    </div>`
-    
-    taskList.appendChild(ul);
+    if (lesson === 0) {
 
-    let tasks = db.get("labs").filter({"lesson": lesson}).map("part").uniq().value();
-    ul = document.querySelector(`ul[data-lesson="${lesson}"]`);
+        let ul = document.createElement("li");
+        //ul.classList.add("tooltipped");
+        //ul.setAttribute("data-position","right");
+        //ul.setAttribute("data-tooltip", title); // Add full lab name here
+        ul.innerHTML = `<div class="collapsible-header">
+                            <i class="material-icons">arrow_drop_down</i>
+                            Введение
+                        </div>
+                        <div class="collapsible-body">
+                            <ul data-lesson=${lesson}>
+                            </ul>
+                        </div>`
+        taskList.appendChild(ul);
 
-    for (const task of tasks) {
-        const li = document.createElement("li");
-        li.innerHTML = `<a href="#" data-task=${[lesson,task]}>Задание ${task}</a>`;
+        ul = document.querySelector(`ul[data-lesson="${lesson}"]`);
+
+        let li = document.createElement("li");
+        li.innerHTML = `<a href="#" data-task=${[lesson,0]}>Титульный лист</a>`;
         ul.appendChild(li);
+
+        li = document.createElement("li");
+        li.innerHTML = `<a href="#" data-task=${[lesson,1]}>Инструкция</a>`;
+        ul.appendChild(li);
+
+    } else {
+
+        console.log(lesson);
+
+        let ul = document.createElement("li");
+        ul.classList.add("tooltipped");
+        ul.setAttribute("data-position","right");
+        ul.setAttribute("data-tooltip", title); // Add full lab name here
+        ul.innerHTML = `<div class="collapsible-header">
+                            <i class="material-icons">arrow_drop_down</i>
+                            Лабораторное занятие ${lesson}
+                        </div>
+                        <div class="collapsible-body">
+                            <ul data-lesson=${lesson}>
+                            </ul>
+                        </div>`
+        
+        taskList.appendChild(ul);
+
+        let tasks = db.get("labs").filter({"lesson": lesson}).map("part").uniq().value();
+        ul = document.querySelector(`ul[data-lesson="${lesson}"]`);
+
+        for (const task of tasks) {
+            const li = document.createElement("li");
+            if (task === 0) {
+                li.innerHTML = `<a href="#" data-task=${[lesson,task]}>Глоссарий</a>`; 
+            } else {
+                li.innerHTML = `<a href="#" data-task=${[lesson,task]}>Задание ${task}</a>`; 
+            }
+            ul.appendChild(li);
+        }
     }
 }
 
@@ -101,13 +141,48 @@ for (let task of tasks) {
             let [lesson,part] = event.target.dataset.task.split(",").map(Number);
             let current = db.get("labs").find({"lesson":lesson, "part":part}).value();
 
-            document.getElementById("section_name").textContent = current.section[0].toUpperCase() + current.section.slice(1).toLowerCase();
-            document.querySelector("main div > h5:first-child").textContent = `Лабораторное занятие №${lesson}. ${current.title}`;
-            document.querySelector("main div > p").textContent = current.task;
+            console.log(lesson, part, current)
 
             const template = Number(current.template);
 
-            if (template === 1) {
+            document.getElementById("section_name").textContent = current.section[0].toUpperCase() + current.section.slice(1).toLowerCase();
+            document.querySelector("main div > p").textContent = current.task;
+            if (template === 0) {
+                document.querySelector("main div > h5:first-child").textContent = `${current.title}`;
+            } else {
+                document.querySelector("main div > h5:first-child").textContent = `Лабораторное занятие №${lesson}. ${current.title}`;
+            }
+
+
+            if (template === 0) {
+
+                if (part === 0) {
+
+                    const template = refresh_main("template-0");
+
+                    const image = current["images"][0];
+                    let img = new Image();
+                    img.src = image.src;
+                    img.classList.add("materialboxed", "responsive-img");
+    
+                    const box = document.createElement("div");
+                    box.classList.add("image-placeholder");
+                    box.appendChild(img);
+                    template.appendChild(box);
+
+                } else {
+
+                    const template = refresh_main("template-0");
+                    const instructions = document.getElementById("documentation-modal").firstElementChild;
+                    const block = document.createElement("div");
+                    block.classList.add("block");
+                    block.innerHTML = instructions.innerHTML;
+                    template.appendChild(block);
+
+                }
+
+
+            } else if (template === 1) {
 
                 const template = refresh_main("template-1");
 
@@ -179,6 +254,19 @@ for (let task of tasks) {
                         child.firstElementChild.disabled = true;
                     }
                 }
+
+            } else if (template === 3) {
+
+                const template = refresh_main("template-3");
+                const text_div = document.createElement("div");
+                const paragraphs = current.paragraph;
+                for (const paragpaph of paragraphs) {
+                    const p = document.createElement("p");
+                    p.innerHTML = paragpaph;
+                    text_div.appendChild(p);
+                }
+                template.appendChild(text_div);
+                
             }
 
             // Reassign eventHandler
@@ -235,22 +323,16 @@ function updateInputCheck() {
     const template1_list = document.querySelectorAll("#templates .input-field");
     const template2_list = document.querySelectorAll("#question-list div.input-field"); 
 
-    const list = [... template1_list, ...template2_list];
+    const list = [... template1_list, ... template2_list];
 
     for (elem of list) {
         elem.addEventListener("input", evaluate_input);
     }
 }
 
-window.addEventListener("resize", () => {
-    const image_list = document.getElementById("image-list");
-    const list = document.getElementById("question-list");
-    list.style.height = "0px";
-    list.style.height = image_list.offsetHeight + "px";
-});
-
 
 const print = document.getElementById("print");
+
 
 print.addEventListener("click", () => {
     window.print();
