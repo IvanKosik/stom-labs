@@ -198,6 +198,11 @@ for (let task of tasks) {
                     const image_div = document.createElement("div");
                     image_div.appendChild(img);
 
+                    let p = document.createElement("p");
+                    p.classList.add("center-align");
+                    p.textContent = image.caption;
+                    image_div.appendChild(p)
+
                     const questions = db.get("labs").find({"lesson": lesson, "part": part}).get("questions").filter({"to": image.src}).value()
                     
                     const input_div = document.createElement("div");
