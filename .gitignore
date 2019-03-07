@@ -1,6 +1,7 @@
 # Current builded test labs
-db_clean.json
-images/
+/db_clean.json
+/package.json
+/images/
 
 # Logs
 logs

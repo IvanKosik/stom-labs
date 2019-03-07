@@ -1,0 +1,67 @@
+{
+  "name": "osteology-test",
+  "version": "0.0.1",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build"
+  },
+  "build": {
+    "productName": "Osteology Test",
+    "copyright": "Copyright © 2018 BSMU labs",
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico"
+    },
+    "files": [
+      "node_modules/**/*",
+      "package.json",
+      "*.json",
+      "*.js",
+      "*.html",
+      "css/*",
+      "images/*",
+      "js/*",
+      "db.json"
+    ],
+    "directories": {
+      "buildResources": "resources"
+    },
+    "extraFiles": [
+      "db.json"
+    ],
+    "extraResources": [
+      "db.json"
+    ]
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.9",
+    "electron-builder": "^20.26.1"
+  },
+  "dependencies": {
+    "ajv": "^6.5.4",
+    "crypto-js": "^3.1.9-1",
+    "lowdb": "^1.0.0",
+    "material-icons": "^0.2.3",
+    "materialize-css": "^1.0.0-rc.1"
+  }
+}
