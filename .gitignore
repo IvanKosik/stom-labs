@@ -1,3 +1,7 @@
+# Current builded test labs
+db_clean.json
+images/
+
 # Logs
 logs
 *.log
