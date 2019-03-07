@@ -45,3 +45,8 @@ or build it, using
 npm run dist
 
 before git pull, rename backup of edited (NOT encoded) db_clean_copy.json into db_clean.json
+
+	To Build Other Tests with Labs
+1) Replace images folder. Take one from tests_labs/testN/images
+2) Copy db_clean.json file to root
+3) Copy package.json file to root (change name and build.productName to create setup for other tests)
