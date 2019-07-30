@@ -26,8 +26,8 @@
     "lesson": 1,
     "template": 3,  
     "part": 0,
-    "section": "АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНЫ.ОСЕВОЙ СКЕЛЕТ", 
-    "title": "АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНЫ.ОСЕВОЙ СКЕЛЕТ",
+    "section": "АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНА.ОСЕВОЙ СКЕЛЕТ", 
+    "title": "АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНА.ОСЕВОЙ СКЕЛЕТ",
     "subtitle": "",
     "task": "Глоссарий",
     "paragraph": [
@@ -54,24 +54,23 @@
     "template": 1, 
     "part": 1,
     "section": "КОСТИ, СОЕДИНЕНИЯ, МЫШЦЫ", 
-    "title": "АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНЫ. ОСЕВОЙ СКЕЛЕТ",
-    "subtitle": "",
+    "title": "АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНА. ОСЕВОЙ СКЕЛЕТ",
     "task": "Назовите типы костей, представленные на рисунках ",
     "images": [
-      {"src": "images/lab1-1-1.jpg", "caption": "Плечевая кость"},
-		  {"src": "images/lab1-1-2.jpg", "caption": "Пястные кости и фаланги пальцев "},
-		  {"src": "images/lab1-1-3.jpg", "caption": "Лопатка"},
-		  {"src": "images/lab1-1-4.jpg", "caption": "Позвонок"},
-		  {"src": "images/lab1-1-5.jpg", "caption": "Надколенник"},
-		  {"src": "images/lab1-1-6.jpg", "caption": "Верхняя челюсть"}
+      {"src": "images/lab1-1-1.png", "caption": "Плечевая кость"},
+		  {"src": "images/lab1-1-2.png", "caption": "Пястные кости и фаланги пальцев "},
+		  {"src": "images/lab1-1-3.png", "caption": "Плоская кость"},
+		  {"src": "images/lab1-1-4.png", "caption": "Позвонок"},
+		  {"src": "images/lab1-1-5.png", "caption": "Надколенник"},
+		  {"src": "images/lab1-1-6.png", "caption": "Верхняя челюсть"}
     ],
     "questions": [
-      {"id":1, "label": "", "hint": "...", "answer": "Длинная трубчатая кость", "to": "images/lab1-1-1.jpg"},
-		  {"id":2, "label": "", "hint": "...", "answer": "Короткие трубчатые кости",  "to": "images/lab1-1-2.jpg"},
-		  {"id":3, "label": "", "hint": " ... ", "answer": "",  "to": "images/lab1-1-3.jpg"},
-		  {"id":4, "label": "", "hint": "...", "answer": "Смешанная кость",  "to": "images/lab1-1-4.jpg"},
-		  {"id":5, "label": "", "hint": "...", "answer": "Сесамовидная кость",  "to": "images/lab1-1-5.jpg"},
-		  {"id":6, "label": "", "hint": "...", "answer": "Воздухоносная кость",  "to": "images/lab1-1-6.jpg"}
+      {"id":1, "label": "", "hint": "...", "answer": "Длинная трубчатая кость", "to": "images/lab1-1-1.png"},
+		  {"id":2, "label": "", "hint": "...", "answer": "Короткие трубчатые кости",  "to": "images/lab1-1-2.png"},
+		  {"id":3, "label": "", "hint": " ... ", "answer": "",  "to": "images/lab1-1-3.png"},
+		  {"id":4, "label": "", "hint": "...", "answer": "Смешанная кость",  "to": "images/lab1-1-4.png"},
+		  {"id":5, "label": "", "hint": "...", "answer": "Сесамовидная кость",  "to": "images/lab1-1-5.png"},
+		  {"id":6, "label": "", "hint": "...", "answer": "Воздухоносная кость",  "to": "images/lab1-1-6.png"}
     ]
   }, 
     {  
@@ -79,33 +78,32 @@
     "template": 1,  
     "part": 2,
     "section": "КОСТИ, СОЕДИНЕНИЯ, МЫШЦЫ ", 
-    "title": "АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНЫ. ОСЕВОЙ СКЕЛЕТ",
-    "subtitle": "Шейные позвонки",
+    "title": "АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНА. ОСЕВОЙ СКЕЛЕТ",
     "task": "Назовите структуры, обозначенные цифрами:",
     "images": [
-      {"src": "images/lab1-2-1.jpg", "caption": "Типичный шейный позвонок (вид сверху)"},
-      {"src": "images/lab1-2-2.jpg", "caption": "Атлант (вид сверху)"},
-      {"src": "images/lab1-2-3.jpg", "caption": "Осевой позвонок, С2 (вид сверху)"}
+      {"src": "images/lab1-2-1.png", "caption": "Типичный шейный позвонок (вид сверху)"},
+      {"src": "images/lab1-2-2.png", "caption": "Атлант (вид сверху)"},
+      {"src": "images/lab1-2-3.png", "caption": "Осевой позвонок, С2 (вид сверху)"}
 		  
     ],
     "questions": [
-      {"id": 1, "label":"1", "hint": "...", "answer": "Тело позвонка", "to": "images/lab1-2-1.jpg"},
-      {"id": 2, "label":"2", "hint": "...отросток ", "answer":"Поперечный отросток", "to": "images/lab1-2-1.jpg"},
-      {"id": 3, "label":"3", "hint": "...отверстие ", "answer":"Поперечное отверстие", "to": "images/lab1-2-1.jpg"},
-      {"id": 4, "label":"4", "hint": "...отверстие", "answer":"Позвоночное отверстие", "to": "images/lab1-2-1.jpg"},
-      {"id": 5, "label":"5", "hint": "...отросток", "answer":"Остистый отросток", "to": "images/lab1-2-1.jpg"},
-      {"id": 6, "label":"6", "hint": "...поверхность ", "answer":"Верхняя суставная поверхность", "to": "images/lab1-2-1.jpg"},
-      {"id": 7, "label":"1", "hint": "...дуга ", "answer": "Передняя дуга", "to": "images/lab1-2-2.jpg"},
-      {"id": 8, "label":"2", "hint": "...", "answer":"Латеральная масса", "to": "images/lab1-2-2.jpg"},
-      {"id": 9, "label":"3", "hint": "...отросток ", "answer":"Поперечный отросток", "to": "images/lab1-2-2.jpg"},
-      {"id": 10, "label":"4", "hint": "...дуга", "answer":"Задняя дуга", "to": "images/lab1-2-2.jpg"},
-      {"id": 11, "label":"5", "hint": "...отверстие", "answer":"Позвоночное отверстие", "to": "images/lab1-2-2.jpg"},
-      {"id": 12, "label":"6", "hint": "...поверхность", "answer":"Верхняя суставная поверхность", "to": "images/lab1-2-2.jpg"},
-      {"id": 13, "label":"7", "hint": "...отверстие", "answer": "Поперечной отверстие", "to": "images/lab1-2-2.jpg"},
-      {"id": 14, "label":"1", "hint": "...", "answer":"Тело позвонка", "to": "images/lab1-2-3.jpg"},
-      {"id": 15, "label":"2", "hint": "...отверстие ", "answer":"Поперечный отросток", "to": "images/lab1-2-3.jpg"},
-      {"id": 16, "label":"3", "hint": "...поверхность", "answer":"Верхняя суставная поверхность", "to": "images/lab1-2-3.jpg"},
-      {"id": 17, "label":"4", "hint": "...", "answer":"Зуб", "to": "images/lab1-2-3.jpg"}
+      {"id": 1, "label":"1", "hint": "...", "answer": "Тело позвонка", "to": "images/lab1-2-1.png"},
+      {"id": 2, "label":"2", "hint": "...  отросток ", "answer":"Поперечный отросток", "to": "images/lab1-2-1.png"},
+      {"id": 3, "label":"3", "hint": "...  отверстие ", "answer":"Поперечное отверстие", "to": "images/lab1-2-1.png"},
+      {"id": 4, "label":"4", "hint": "...  отверстие", "answer":"Позвоночное отверстие", "to": "images/lab1-2-1.png"},
+      {"id": 5, "label":"5", "hint": "...  отросток", "answer":"Остистый отросток", "to": "images/lab1-2-1.png"},
+      {"id": 6, "label":"6", "hint": "...  поверхность ", "answer":"Верхняя суставная поверхность", "to": "images/lab1-2-1.png"},
+      {"id": 7, "label":"1", "hint": "...  дуга ", "answer": "Передняя дуга", "to": "images/lab1-2-2.png"},
+      {"id": 8, "label":"2", "hint": "...", "answer":"Латеральная масса", "to": "images/lab1-2-2.png"},
+      {"id": 9, "label":"3", "hint": "...  отросток ", "answer":"Поперечный отросток", "to": "images/lab1-2-2.png"},
+      {"id": 10, "label":"4", "hint": "... дуга", "answer":"Задняя дуга", "to": "images/lab1-2-2.png"},
+      {"id": 11, "label":"5", "hint": "...  отверстие", "answer":"Позвоночное отверстие", "to": "images/lab1-2-2.png"},
+      {"id": 12, "label":"6", "hint": "...  поверхность", "answer":"Верхняя суставная поверхность", "to": "images/lab1-2-2.png"},
+      {"id": 13, "label":"7", "hint": "...  отверстие", "answer": "Поперечной отверстие", "to": "images/lab1-2-2.png"},
+      {"id": 14, "label":"1", "hint": "...", "answer":"Тело позвонка", "to": "images/lab1-2-3.png"},
+      {"id": 15, "label":"2", "hint": "...  отросток ", "answer":"Поперечный отросток", "to": "images/lab1-2-3.png"},
+      {"id": 16, "label":"3", "hint": "...  поверхность", "answer":"Верхняя суставная поверхность", "to": "images/lab1-2-3.png"},
+      {"id": 17, "label":"4", "hint": "...", "answer":"Зуб", "to": "images/lab1-2-3.png"}
 	]
   },
   {
@@ -113,22 +111,22 @@
     "template":2,  
     "part": 3,
     "section": "КОСТИ, СОЕДИНЕНИЯ, МЫШЦЫ ", 
-    "title":"АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНЫ. ОСЕВОЙ СКЕЛЕТ",
-    "subtitle":"",
+    "title":"АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНА. ОСЕВОЙ СКЕЛЕТ",
+    "subtitle":"Поясничные позвонки",
     "task": "Назовите анатомические структуры, обозначенные цифрами:",
     "images": [
-        {"src": "images/lab1-3-1.jpg", "caption": "Поясничные позвонки (вид сбоку) "},
-        {"src": "images/lab1-3-2.jpg", "caption": "Поясничный позвонок (вид сверху)"}
+        {"src": "images/lab1-3-1.png", "caption": "Вид сбоку"},
+        {"src": "images/lab1-3-2.png", "caption": "Вид сверху"}
     ],
     "questions": [
-      {"id": 1, "label":"1", "hint": "...отросток", "answer": "Верхний суставной отросток"},
-      {"id": 2, "label":"2", "hint": "...отросток ", "answer":"Поперечный отросток"},
+      {"id": 1, "label":"1", "hint": "... отросток", "answer": "Верхний суставной отросток"},
+      {"id": 2, "label":"2", "hint": "... отросток ", "answer":"Поперечный отросток"},
       {"id": 3, "label":"3", "hint": "...", "answer":"Дуга позвонка"},
       {"id": 4, "label":"4", "hint": "...", "answer":"Тело позвонка"},
-      {"id": 5, "label":"5", "hint": "...отросток", "answer":"Нижний суставной отросток"},
-      {"id": 6, "label":"6", "hint": "...отверстие", "answer":"Межпозвоночное отверстие"},
-      {"id": 7, "label":"7", "hint": "...отросток", "answer": "Остистый отросток", "to": "images/lab1-3-1.jpg"},
-      {"id": 8, "label":"8", "hint": "...отверстие", "answer":"Позвоночное отверстие", "to": "images/lab1-3-1.jpg"}
+      {"id": 5, "label":"5", "hint": "... отросток", "answer":"Нижний суставной отросток"},
+      {"id": 6, "label":"6", "hint": "... отверстие", "answer":"Межпозвоночное отверстие"},
+      {"id": 7, "label":"7", "hint": "... отросток", "answer": "Остистый отросток", "to": "images/lab1-3-1.png"},
+      {"id": 8, "label":"8", "hint": "... отверстие", "answer":"Позвоночное отверстие", "to": "images/lab1-3-1.png"}
     
     ]
   },
@@ -137,23 +135,23 @@
     "template": 2, 
     "part": 4,
     "section": "КОСТИ, СОЕДИНЕНИЯ, МЫШЦЫ", 
-    "title":"АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНЫ. ОСЕВОЙ СКЕЛЕТ" ,
+    "title":"АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНА. ОСЕВОЙ СКЕЛЕТ" ,
     "subtitle": "Осевой скелет",
     "task": "Назовите структуры, обозначенные цифрами",
     "images": [
-      {"src": "images/lab1-4-1.jpg", "caption": ""}
+      {"src": "images/lab1-4-1.png", "caption": ""}
     ],
     "questions": [
-      {"id": 1, "label":"I-VII", "hint": "...", "answer": "истинные ребра", "to": "images/lab1-4-1.jpg"},
-      {"id": 2, "label":"VIII–X", "hint": "...", "answer": "ложные ребра", "to": "images/lab1-4-1.jpg"},
-      {"id": 3, "label":"XI–XII", "hint": "...", "answer": "колеблющиеся ребра", "to": "images/lab1-4-1.jpg"},
-      {"id": 4, "label":"1", "hint": "... ", "answer": "Череп", "to": "images/lab1-4-1.jpg"},
-      {"id": 5, "label":"2", "hint": "...кость", "answer": "Подъязычная кость", "to": "images/lab1-4-1.jpg"},
-      {"id": 6, "label":"3", "hint": "Костная часть ребра", "answer": "Костная часть ребра", "to": "images/lab1-4-1.jpg"},
-      {"id": 7, "label":"4", "hint": "...", "answer": "Реберный хрящ", "to": "images/lab1-4-1.jpg"},
-      {"id": 8, "label":"5", "hint": "...", "answer": "Грудина", "to": "images/lab1-4-1.jpg"},
-      {"id": 9, "label":"6", "hint": "... ", "answer": "Реберная дуга", "to": "images/lab1-4-1.jpg"},
-      {"id": 10, "label":"7", "hint": "...", "answer": "Крестец", "to": "images/lab1-4-1.jpg"}
+      {"id": 1, "label":"I-VII", "hint": "...", "answer": "истинные ребра", "to": "images/lab1-4-1.png"},
+      {"id": 2, "label":"VIII–X", "hint": "...", "answer": "ложные ребра", "to": "images/lab1-4-1.png"},
+      {"id": 3, "label":"XI–XII", "hint": "...", "answer": "колеблющиеся ребра", "to": "images/lab1-4-1.png"},
+      {"id": 4, "label":"1", "hint": "... ", "answer": "Череп", "to": "images/lab1-4-1.png"},
+      {"id": 5, "label":"2", "hint": "... кость", "answer": "Подъязычная кость", "to": "images/lab1-4-1.png"},
+      {"id": 6, "label":"3", "hint": "Костная часть ребра", "answer": "Костная часть ребра", "to": "images/lab1-4-1.png"},
+      {"id": 7, "label":"4", "hint": "...", "answer": "Реберный хрящ", "to": "images/lab1-4-1.png"},
+      {"id": 8, "label":"5", "hint": "...", "answer": "Грудина", "to": "images/lab1-4-1.png"},
+      {"id": 9, "label":"6", "hint": "... ", "answer": "Реберная дуга", "to": "images/lab1-4-1.png"},
+      {"id": 10, "label":"7", "hint": "...", "answer": "Крестец", "to": "images/lab1-4-1.png"}
       
     ]   
 
@@ -163,20 +161,20 @@
     "template": 2,  
     "part": 5,
     "section": "КОСТИ, СОЕДИНЕНИЯ, МЫШЦЫ", 
-    "title": "АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНЫ. ОСЕВОЙ СКЕЛЕТ" ,
+    "title": "АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНА. ОСЕВОЙ СКЕЛЕТ" ,
     "subtitle": "Грудина (вид спереди)",
     "task": "Назовите структуры, обозначенные цифрами:",
     "images": [
-      {"src": "images/lab1-5-1.jpg", "caption": ""}
+      {"src": "images/lab1-5-1.png", "caption": ""}
     ],
     "questions": [
-      {"id": 1, "label": "1", "hint": "...вырезка", "answer": "Ключичная вырезка"},
-      {"id": 2, "label":"2","hint": "...вырезка", "answer": "Яремная вырезка"},
+      {"id": 1, "label": "1", "hint": "... вырезка", "answer": "Ключичная вырезка"},
+      {"id": 2, "label":"2","hint": "... вырезка", "answer": "Яремная вырезка"},
       {"id": 3, "label":"3","hint": "...", "answer": "Рукоятка грудины "},
       {"id": 4, "label":"4","hint": "...", "answer": "Угол грудины"},
       {"id": 5, "label":"5","hint": "... ", "answer": "Тело грудины"},
-      {"id": 6, "label":"6","hint": "...вырезки", "answer": "Реберные вырезки"},
-      {"id": 7, "label":"7","hint": "...отросток", "answer": "Мечевидный отросток"}
+      {"id": 6, "label":"6","hint": "... вырезки", "answer": "Реберные вырезки"},
+      {"id": 7, "label":"7","hint": "... отросток", "answer": "Мечевидный отросток"}
       
     ]
   },
@@ -185,11 +183,11 @@
     "template": 2,  
     "part": 6,
     "section": "КОСТИ, СОЕДИНЕНИЯ, МЫШЦЫ", 
-    "title": "АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНЫ. ОСЕВОЙ СКЕЛЕТ" ,
+    "title": "АНАТОМИЯ ЧЕЛОВЕКА КАК УЧЕБНАЯ ДИСЦИПЛИНА. ОСЕВОЙ СКЕЛЕТ" ,
     "subtitle": "Шестое левое ребро",
     "task": "Назовите структуры, обозначенные цифрами:",
     "images": [
-      {"src": "images/lab1-6-1.jpg", "caption": ""}
+      {"src": "images/lab1-6-1.png", "caption": ""}
     ],
     "questions": [
       {"id": 1, "label": "1", "hint": "...", "answer": "Головка ребра"},
@@ -230,21 +228,21 @@
     "subtitle": "Латеральная норма (вид черепа сбоку)",
     "task": "Назовите анатомические структуры, обозначенные цифрами:",
     "images": [
-      {"src": "images/lab2-1-1.jpg", "caption": ""}
+      {"src": "images/lab2-1-1.png", "caption": ""}
     ],
     "questions": [
-      {"id": 1, "label":"1", "hint": "...", "answer": "Нижняя челюсть", "to": "images/lab2-1-1.jpg"},
-      {"id": 2, "label":"2", "hint": "...", "answer": "Верхняя челюсть", "to": "images/lab2-1-1.jpg"},
-      {"id": 3, "label":"3", "hint": "...кость", "answer": "Скуловая кость", "to": "images/lab2-1-1.jpg"},
-      {"id": 4, "label":"4", "hint": "...кость", "answer": "Слезная кость", "to": "images/lab2-1-1.jpg"},
-      {"id": 5, "label":"5", "hint": "...кость", "answer": "Решетчатая кость", "to": "images/lab2-1-1.jpg"},
-      {"id": 6, "label":"6", "hint": "...кость", "answer": "Клиновидная кость", "to": "images/lab2-1-1.jpg"},
-      {"id": 7, "label":"7", "hint": "... ", "answer": "Скуловая дуга", "to": "images/lab2-1-1.jpg"},
-      {"id": 8, "label":"8", "hint": "...кость", "answer": "Височная кость", "to": "images/lab2-1-1.jpg"},
-      {"id": 9, "label":"9", "hint": "...кость", "answer": "Затылочная кость", "to": "images/lab2-1-1.jpg"},
-      {"id": 10, "label":"10", "hint": "...линия", "answer": "Верхняя височная линия", "to": "images/lab2-1-1.jpg"},
-      {"id": 11, "label":"11", "hint": "...кость", "answer": "Теменная кость", "to": "images/lab2-1-1.jpg"},
-      {"id": 12, "label":"12", "hint": "...кость ", "answer": "Лобная кость ", "to": "images/lab2-1-1.jpg"}
+      {"id": 1, "label":"1", "hint": "...", "answer": "Нижняя челюсть", "to": "images/lab2-1-1.png"},
+      {"id": 2, "label":"2", "hint": "...", "answer": "Верхняя челюсть", "to": "images/lab2-1-1.png"},
+      {"id": 3, "label":"3", "hint": "... кость", "answer": "Скуловая кость", "to": "images/lab2-1-1.png"},
+      {"id": 4, "label":"4", "hint": "... кость", "answer": "Слезная кость", "to": "images/lab2-1-1.png"},
+      {"id": 5, "label":"5", "hint": "... кость", "answer": "Решетчатая кость", "to": "images/lab2-1-1.png"},
+      {"id": 6, "label":"6", "hint": "... кость", "answer": "Клиновидная кость", "to": "images/lab2-1-1.png"},
+      {"id": 7, "label":"7", "hint": "... дуга ", "answer": "Скуловая дуга", "to": "images/lab2-1-1.png"},
+      {"id": 8, "label":"8", "hint": "... кость", "answer": "Височная кость", "to": "images/lab2-1-1.png"},
+      {"id": 9, "label":"9", "hint": "... кость", "answer": "Затылочная кость", "to": "images/lab2-1-1.png"},
+      {"id": 10, "label":"10", "hint": "... линия", "answer": "Верхняя височная линия", "to": "images/lab2-1-1.png"},
+      {"id": 11, "label":"11", "hint": "... кость", "answer": "Теменная кость", "to": "images/lab2-1-1.png"},
+      {"id": 12, "label":"12", "hint": "... кость ", "answer": "Лобная кость ", "to": "images/lab2-1-1.png"}
     ]    
 	 },  
 	 {
@@ -253,27 +251,27 @@
       "part": 2,
       "section": "ЧЕРЕП", 
       "title": "ЧЕРЕП. СТРОЕНИЕ ЗАТЫЛОЧНОЙ, ЛОБНОЙ, ТЕМЕННОЙ, КЛИНОВИДНОЙ, РЕШЕТЧАТОЙ И ВИСОЧНОЙ КОСТЕЙ",
-      "subtitle": " ",
+      "subtitle": "Затылочная кость",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab2-2-1.jpg", "caption": "Затылочная кость"},
-        {"src": "images/lab2-2-2.jpg", "caption": "Внутренняя поверхность.Вид снизу "},
-        {"src": "images/lab2-2-3.jpg", "caption": "Наружная поверхность"}
+        {"src": "images/lab2-2-1.png", "caption": "Внутренняя поверхность"},
+        {"src": "images/lab2-2-2.png", "caption": "Вид снизу "},
+        {"src": "images/lab2-2-3.png", "caption": "Наружная поверхность"}
       ],
       "questions": [
-      {"id": 1, "label":"1", "hint": "...отверстие", "answer": "Большое отверстие", "to": "images/lab2-2-1.jpg"},
-      {"id": 2, "label":"2", "hint": "...отросток ", "answer":"Яремный отросток", "to": "images/lab2-2-1.jpg"},
-      {"id": 3, "label":"3", "hint": "...борозда ", "answer":"Борозда затылочного синуса", "to": "images/lab2-2-1.jpg"},
-      {"id": 4, "label":"4", "hint": "...выступ", "answer":"Внутренний затылочный выступ", "to": "images/lab2-2-1.jpg"},
-      {"id": 5, "label":"5", "hint": "...борозда", "answer":"Борозда поперечного синуса", "to": "images/lab2-2-1.jpg"},
-      {"id": 6, "label":"6", "hint": "...борозда ", "answer":"Борозда верхнего сагиттального синуса", "to": "images/lab1-2-1.jpg"},
-      {"id": 7, "label":"7", "hint": "...канал", "answer": "Мыщелковый канал", "to": "images/lab2-2-1.jpg"},
-      {"id": 8, "label":"8", "hint": "...", "answer":"Затылочный мыщелок", "to": "images/lab2-2-2.jpg"},
-      {"id": 9, "label":"9", "hint": "...часть", "answer":"Базилярная часть", "to": "images/lab2-2-2.jpg"},
-      {"id": 10, "label":"10", "hint": "Затылочная чешуя", "answer":"Затылочная чешуя", "to": "images/lab2-2-2.jpg"},
-      {"id": 11, "label":"11", "hint": "...линия", "answer":"Верхняя выйная линия", "to": "images/lab2-2-3.jpg"},
-      {"id": 12, "label":"12", "hint": "...выступ", "answer":"Наружный затылочный выступ", "to": "images/lab2-2-3.jpg"},
-      {"id": 13, "label":"13", "hint": "...линия", "answer": "Нижняя выйная линия", "to": "images/lab2-2-3.jpg"}
+      {"id": 1, "label":"1", "hint": "... отверстие", "answer": "Большое отверстие", "to": "images/lab2-2-1.png"},
+      {"id": 2, "label":"2", "hint": "... отросток ", "answer":"Яремный отросток", "to": "images/lab2-2-1.png"},
+      {"id": 3, "label":"3", "hint": "... борозда ", "answer":"Борозда затылочного синуса", "to": "images/lab2-2-1.png"},
+      {"id": 4, "label":"4", "hint": "... выступ", "answer":"Внутренний затылочный выступ", "to": "images/lab2-2-1.png"},
+      {"id": 5, "label":"5", "hint": "... борозда", "answer":"Борозда поперечного синуса", "to": "images/lab2-2-1.png"},
+      {"id": 6, "label":"6", "hint": "... борозда ", "answer":"Борозда верхнего сагиттального синуса", "to": "images/lab1-2-1.png"},
+      {"id": 7, "label":"7", "hint": "... канал", "answer": "Мыщелковый канал", "to": "images/lab2-2-1.png"},
+      {"id": 8, "label":"8", "hint": "...", "answer":"Затылочный мыщелок", "to": "images/lab2-2-2.png"},
+      {"id": 9, "label":"9", "hint": "... часть", "answer":"Базилярная часть", "to": "images/lab2-2-2.png"},
+      {"id": 10, "label":"10", "hint": "Затылочная чешуя", "answer":"Затылочная чешуя", "to": "images/lab2-2-2.png"},
+      {"id": 11, "label":"11", "hint": "... линия", "answer":"Верхняя выйная линия", "to": "images/lab2-2-3.png"},
+      {"id": 12, "label":"12", "hint": "... выступ", "answer":"Наружный затылочный выступ", "to": "images/lab2-2-3.png"},
+      {"id": 13, "label":"13", "hint": "... линия", "answer": "Нижняя выйная линия", "to": "images/lab2-2-3.png"}
       ]
      },
      {
@@ -285,21 +283,21 @@
       "subtitle": "Теменная кость",
       "task": "Назовите анатомические структуры, обозначенные цифрами.",
       "images": [
-        {"src": "images/lab2-3-1.jpg", "caption": "Вид снаружи"},
-        {"src": "images/lab2-3-2.jpg", "caption": "Вид изнутри"}
+        {"src": "images/lab2-3-1.png", "caption": "Вид снаружи"},
+        {"src": "images/lab2-3-2.png", "caption": "Вид изнутри"}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...угол", "answer": "Клиновидный угол", "to": "images/lab2-3-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...край", "answer": "Лобный край", "to": "images/lab2-3-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...угол", "answer": "Лобный угол", "to": "images/lab2-3-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...линия", "answer": "Верхняя височная линия", "to": "images/lab2-3-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...бугор", "answer": "Теменной бугор", "to": "images/lab2-3-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...угол", "answer": "Затылочный угол", "to": "images/lab2-3-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...край", "answer": "Затылочный край", "to": "images/lab2-3-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...угол", "answer": "Сосцевидный угол", "to": "images/lab2-3-1.jpg"},
-        {"id": 9, "label":"9", "hint": "...край", "answer": "Чешуйчатый край", "to": "images/lab2-3-1.jpg"},
-        {"id": 10, "label":"10", "hint": "...край", "answer": "Сагиттальный край", "to": "images/lab2-3-2.jpg"},
-        {"id": 11, "label":"11", "hint": "Борозда...", "answer": "Борозда средней менингеальной артерии", "to": "images/lab2-3-2.jpg"}
+        {"id": 1, "label":"1", "hint": "... угол", "answer": "Клиновидный угол", "to": "images/lab2-3-1.png"},
+        {"id": 2, "label":"2", "hint": "... край", "answer": "Лобный край", "to": "images/lab2-3-1.png"},
+        {"id": 3, "label":"3", "hint": "... угол", "answer": "Лобный угол", "to": "images/lab2-3-1.png"},
+        {"id": 4, "label":"4", "hint": "... линия", "answer": "Верхняя височная линия", "to": "images/lab2-3-1.png"},
+        {"id": 5, "label":"5", "hint": "... бугор", "answer": "Теменной бугор", "to": "images/lab2-3-1.png"},
+        {"id": 6, "label":"6", "hint": "... угол", "answer": "Затылочный угол", "to": "images/lab2-3-1.png"},
+        {"id": 7, "label":"7", "hint": "... край", "answer": "Затылочный край", "to": "images/lab2-3-1.png"},
+        {"id": 8, "label":"8", "hint": "... угол", "answer": "Сосцевидный угол", "to": "images/lab2-3-1.png"},
+        {"id": 9, "label":"9", "hint": "... край", "answer": "Чешуйчатый край", "to": "images/lab2-3-1.png"},
+        {"id": 10, "label":"10", "hint": "... край", "answer": "Сагиттальный край", "to": "images/lab2-3-2.png"},
+        {"id": 11, "label":"11", "hint": "Борозда ...", "answer": "Борозда средней менингеальной артерии", "to": "images/lab2-3-2.png"}
         
       ]
     },
@@ -312,22 +310,22 @@
       "subtitle": "Клиновидная кость",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab2-4-1.jpg", "caption": "Вид спереди"},
-        {"src": "images/lab2-4-2.jpg", "caption": "Вид сверху"}
+        {"src": "images/lab2-4-1.png", "caption": "Вид спереди"},
+        {"src": "images/lab2-4-2.png", "caption": "Вид сверху"}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...крыло", "answer": "Большое крыло", "to": "images/lab2-4-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...щель", "answer": "Верхняя глазничная щель ", "to": "images/lab2-4-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...крыло", "answer": "Малое крыло", "to": "images/lab2-4-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...канал ", "answer": "Крыловидный канал", "to": "images/lab2-4-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...отросток", "answer": "Крыловидный отросток", "to": "images/lab2-4-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...пазуха", "answer": "Клиновидная пазуха", "to": "images/lab2-4-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...отверстие", "answer": "Круглое отверстие", "to": "images/lab2-4-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...канал", "answer": "Зрительный канал", "to": "images/lab2-4-2.jpg"},
-        {"id": 9, "label":"9", "hint": "...отверстие", "answer": "Овальное отверстие", "to": "images/lab2-4-2.jpg"}, 
-        {"id": 10, "label":"10", "hint": "...борозда", "answer": "Сонная борозда", "to": "images/lab2-4-2.jpg"},
-        {"id": 11, "label":"11", "hint": "...", "answer": "Спинка турецкого седла", "to": "images/lab2-4-2.jpg"},
-        {"id": 12, "label":"12", "hint": "...ямка ", "answer": "Гипофизарная ямка", "to": "images/lab2-4-2.jpg"} 
+        {"id": 1, "label":"1", "hint": "... крыло", "answer": "Большое крыло", "to": "images/lab2-4-1.png"},
+        {"id": 2, "label":"2", "hint": "... щель", "answer": "Верхняя глазничная щель ", "to": "images/lab2-4-1.png"},
+        {"id": 3, "label":"3", "hint": "... крыло", "answer": "Малое крыло", "to": "images/lab2-4-1.png"},
+        {"id": 4, "label":"4", "hint": "... канал ", "answer": "Крыловидный канал", "to": "images/lab2-4-1.png"},
+        {"id": 5, "label":"5", "hint": "... отросток", "answer": "Крыловидный отросток", "to": "images/lab2-4-1.png"},
+        {"id": 6, "label":"6", "hint": "... пазуха", "answer": "Клиновидная пазуха", "to": "images/lab2-4-1.png"},
+        {"id": 7, "label":"7", "hint": "... отверстие", "answer": "Круглое отверстие", "to": "images/lab2-4-1.png"},
+        {"id": 8, "label":"8", "hint": "... канал", "answer": "Зрительный канал", "to": "images/lab2-4-2.png"},
+        {"id": 9, "label":"9", "hint": "... отверстие", "answer": "Овальное отверстие", "to": "images/lab2-4-2.png"}, 
+        {"id": 10, "label":"10", "hint": "... борозда", "answer": "Сонная борозда", "to": "images/lab2-4-2.png"},
+        {"id": 11, "label":"11", "hint": "...", "answer": "Спинка турецкого седла", "to": "images/lab2-4-2.png"},
+        {"id": 12, "label":"12", "hint": "... ямка ", "answer": "Гипофизарная ямка", "to": "images/lab2-4-2.png"} 
       ]
     },
     {
@@ -339,23 +337,23 @@
       "subtitle": "Лобная кость",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab2-5-1.jpg", "caption": "Вид спереди"},
-        {"src": "images/lab2-5-2.jpg", "caption": "Вид снизу"}
+        {"src": "images/lab2-5-1.png", "caption": "Вид спереди"},
+        {"src": "images/lab2-5-2.png", "caption": "Вид снизу"}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...", "answer": "Лобная чешуя", "to": "images/lab2-5-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...", "answer": " Лобный бугор", "to": "images/lab2-5-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...", "answer": " Глабелла", "to": "images/lab2-5-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...дуга", "answer": "Надбровная дуга", "to": "images/lab2-5-1.jpg"},
-        {"id": 5, "label":"5", "hint": "... вырезка", "answer": "Надглазничная вырезка", "to": "images/lab2-5-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...отросток", "answer": "Скуловой отросток", "to": "images/lab2-5-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...ость", "answer": "Блоковая ость", "to": "images/lab2-5-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...ость", "answer": "Носовая ость", "to": "images/lab2-5-1.jpg"},
-        {"id": 9, "label":"9", "hint": "...часть", "answer": "Глазничная часть", "to": "images/lab2-5-2.jpg"}, 
-        {"id": 10, "label":"10", "hint": "...вырезка ","answer": "Решетчатая вырезка", "to": "images/lab2-5-2.jpg"},
-        {"id": 11, "label":"11", "hint": "...пазуха ", "answer": "Лобная пазуха", "to": "images/lab2-5-2.jpg"},
-        {"id": 12, "label":"12", "hint": "...часть ", "answer": "Носовая часть", "to": "images/lab2-5-2.jpg"}, 
-        {"id": 13, "label":"13", "hint": "Апертура... ","answer": "Апертура лобной пазухи", "to": "images/lab2-5-2.jpg"} 
+        {"id": 1, "label":"1", "hint": "...", "answer": "Лобная чешуя", "to": "images/lab2-5-1.png"},
+        {"id": 2, "label":"2", "hint": "...", "answer": " Лобный бугор", "to": "images/lab2-5-1.png"},
+        {"id": 3, "label":"3", "hint": "...", "answer": " Глабелла", "to": "images/lab2-5-1.png"},
+        {"id": 4, "label":"4", "hint": "... дуга", "answer": "Надбровная дуга", "to": "images/lab2-5-1.png"},
+        {"id": 5, "label":"5", "hint": "... вырезка", "answer": "Надглазничная вырезка", "to": "images/lab2-5-1.png"},
+        {"id": 6, "label":"6", "hint": "... отросток", "answer": "Скуловой отросток", "to": "images/lab2-5-1.png"},
+        {"id": 7, "label":"7", "hint": "... ость", "answer": "Блоковая ость", "to": "images/lab2-5-1.png"},
+        {"id": 8, "label":"8", "hint": "... ость", "answer": "Носовая ость", "to": "images/lab2-5-1.png"},
+        {"id": 9, "label":"9", "hint": "... часть", "answer": "Глазничная часть", "to": "images/lab2-5-2.png"}, 
+        {"id": 10, "label":"10", "hint": "... вырезка ","answer": "Решетчатая вырезка", "to": "images/lab2-5-2.png"},
+        {"id": 11, "label":"11", "hint": "... пазуха ", "answer": "Лобная пазуха", "to": "images/lab2-5-2.png"},
+        {"id": 12, "label":"12", "hint": "... часть ", "answer": "Носовая часть", "to": "images/lab2-5-2.png"}, 
+        {"id": 13, "label":"13", "hint": "Апертура ... ","answer": "Апертура лобной пазухи", "to": "images/lab2-5-2.png"} 
       ]
     },
     {
@@ -367,16 +365,16 @@
       "subtitle": "Решетчатая кость",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab2-6-1.jpg", "caption": "Вид спереди"}
+        {"src": "images/lab2-6-1.png", "caption": "Вид спереди"}
         
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...гребень", "answer": "Петушиный гребень", "to": "images/lab2-6-1.jpg"},
-        {"id": 2, "label":"2", "hint": "Решетчатый лабиринт", "answer": "Решетчатый лабиринт ", "to": "images/lab2-6-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...пластинка", "answer": "Перпендикулярная пластинка ", "to": "images/lab2-6-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...", "answer": "Решетчатые ячейки", "to": "images/lab2-6-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...раковина", "answer": "Средняя носовая раковина", "to": "images/lab2-6-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...пластинка", "answer": "Глазничная пластинка", "to": "images/lab2-6-1.jpg"}
+        {"id": 1, "label":"1", "hint": "... гребень", "answer": "Петушиный гребень", "to": "images/lab2-6-1.png"},
+        {"id": 2, "label":"2", "hint": "Решетчатый лабиринт", "answer": "Решетчатый лабиринт ", "to": "images/lab2-6-1.png"},
+        {"id": 3, "label":"3", "hint": "... пластинка", "answer": "Перпендикулярная пластинка ", "to": "images/lab2-6-1.png"},
+        {"id": 4, "label":"4", "hint": "...", "answer": "Решетчатые ячейки", "to": "images/lab2-6-1.png"},
+        {"id": 5, "label":"5", "hint": "... раковина", "answer": "Средняя носовая раковина", "to": "images/lab2-6-1.png"},
+        {"id": 6, "label":"6", "hint": "... пластинка", "answer": "Глазничная пластинка", "to": "images/lab2-6-1.png"}
       ]
     },
     {
@@ -388,27 +386,28 @@
       "subtitle": "Височная кость (левая)",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab2-7-1.jpg", "caption": "Вид снаружи"},
-        {"src": "images/lab2-7-2.jpg", "caption": "Вид сверху"}
+        {"src": "images/lab2-7-1.png", "caption": "Вид снаружи"},
+        {"src": "images/lab2-7-2.png", "caption": "Вид сверху"},
+        {"src": "images/lab2-7-3.png", "caption": "Вид снизу"}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...отросток ", "answer": "Скуловой отросток", "to": "images/lab2-7-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...бугорок", "answer": " Суставной бугорок", "to": "images/lab2-7-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...ямка ", "answer": " Нижнечелюстная ямка", "to": "images/lab2-7-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...щель", "answer": "Каменисто-чешуйчатая щель", "to": "images/lab2-7-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...щель", "answer": "Каменисто-барабанная щель", "to": "images/lab2-7-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...часть", "answer": "Барабанная часть", "to": "images/lab2-7-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...проход", "answer": "Наружный слуховой проход", "to": "images/lab2-7-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...отросток", "answer": "Сосцевидный отросток", "to": "images/lab2-7-1.jpg"},
-        {"id": 9, "label":"9", "hint": "...щель", "answer": "Барабанно-сосцевидная щель", "to": "images/lab2-7-1.jpg"}, 
-        {"id": 10, "label":"10", "hint": "...часть","answer": "Чешуйчатая часть", "to": "images/lab2-7-2.jpg"},
-        {"id": 11, "label":"11", "hint": "Расщелина...  ", "answer": "Расщелина малого каменистого нерва", "to": "images/lab2-7-2.jpg"},
-        {"id": 12, "label":"12", "hint": "Расщелина...", "answer": "Расщелина большого каменистого нерва", "to": "images/lab2-7-2.jpg"}, 
-        {"id": 13, "label":"13", "hint": "...вдавление","answer": "Тройничное вдавление", "to": "images/lab2-7-2.jpg"}, 
-        {"id": 14, "label":"14", "hint": "...часть", "answer": "Каменистая часть", "to": "images/lab2-7-2.jpg"},
-        {"id": 15, "label":"15", "hint": " ...апертура...", "answer": "Наружная апертура сонного канала", "to": "images/lab2-7-2.jpg"}, 
-        {"id": 16, "label":"16", "hint": "...отверстие","answer": "Шилососцевидное отверстие", "to": "images/lab2-7-2.jpg"}, 
-        {"id": 17, "label":"17", "hint": "...вырезка", "answer": "Сосцевидная вырезка", "to": "images/lab2-7-2.jpg"}
+        {"id": 1, "label":"1", "hint": "... отросток ", "answer": "Скуловой отросток", "to": "images/lab2-7-1.png"},
+        {"id": 2, "label":"2", "hint": "... бугорок", "answer": " Суставной бугорок", "to": "images/lab2-7-1.png"},
+        {"id": 3, "label":"3", "hint": "... ямка ", "answer": " Нижнечелюстная ямка", "to": "images/lab2-7-1.png"},
+        {"id": 4, "label":"4", "hint": "... щель", "answer": "Каменисто-чешуйчатая щель", "to": "images/lab2-7-1.png"},
+        {"id": 5, "label":"5", "hint": "... щель", "answer": "Каменисто-барабанная щель", "to": "images/lab2-7-1.png"},
+        {"id": 6, "label":"6", "hint": "... часть", "answer": "Барабанная часть", "to": "images/lab2-7-1.png"},
+        {"id": 7, "label":"7", "hint": "... проход", "answer": "Наружный слуховой проход", "to": "images/lab2-7-1.png"},
+        {"id": 8, "label":"8", "hint": "... отросток", "answer": "Сосцевидный отросток", "to": "images/lab2-7-1.png"},
+        {"id": 9, "label":"9", "hint": "... щель", "answer": "Барабанно-сосцевидная щель", "to": "images/lab2-7-1.png"}, 
+        {"id": 10, "label":"10", "hint": "... часть","answer": "Чешуйчатая часть", "to": "images/lab2-7-2.png"},
+        {"id": 11, "label":"11", "hint": "Расщелина ...  ", "answer": "Расщелина малого каменистого нерва", "to": "images/lab2-7-2.png"},
+        {"id": 12, "label":"12", "hint": "Расщелина ...", "answer": "Расщелина большого каменистого нерва", "to": "images/lab2-7-2.png"}, 
+        {"id": 13, "label":"13", "hint": "... вдавление","answer": "Тройничное вдавление", "to": "images/lab2-7-2.png"}, 
+        {"id": 14, "label":"14", "hint": "... часть", "answer": "Каменистая часть", "to": "images/lab2-7-2.png"},
+        {"id": 15, "label":"15", "hint": " ... апертура ...", "answer": "Наружная апертура сонного канала", "to": "images/lab2-7-2.png"}, 
+        {"id": 16, "label":"16", "hint": "... отверстие","answer": "Шилососцевидное отверстие", "to": "images/lab2-7-2.png"}, 
+        {"id": 17, "label":"17", "hint": "... вырезка", "answer": "Сосцевидная вырезка", "to": "images/lab2-7-2.png"}
       ]
     },
     { 
@@ -443,24 +442,24 @@
       "subtitle": "Верхняя челюсть (левая) ",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab3-1-1.jpg", "caption": "Вид снаружи"},
-        {"src": "images/lab3-1-2.jpg", "caption": "Вид с медиальной стороны "}
+        {"src": "images/lab3-1-1.png", "caption": "Вид снаружи"},
+        {"src": "images/lab3-1-2.png", "caption": "Вид с медиальной стороны "}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...отросток", "answer": "Лобный отросток", "to": "images/lab3-1-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...вырезка", "answer": " Слезная вырезка", "to": "images/lab3-1-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...поверхность", "answer": " Глазничная поверхность", "to": "images/lab3-1-1.jpg"},
-        {"id": 4, "label":"4", "hint": "... канал", "answer": "Подглазничный канал", "to": "images/lab3-1-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...отросток", "answer": "Скуловой отросток", "to": "images/lab3-1-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...поверхность", "answer": "Подвисочная поверхность ", "to": "images/lab3-1-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...отросток", "answer": "Альвеолярный отросток", "to": "images/lab3-1-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...перегородка", "answer": "Межальвеолярная перегородка", "to": "images/lab3-1-1.jpg"},
-        {"id": 9, "label":"9", "hint": "...ость", "answer": "Передняя носовая ость", "to": "images/lab3-1-1.jpg"}, 
-        {"id": 10, "label":"10", "hint": "...канал","answer": "Резцовый канал", "to": "images/lab3-1-2.jpg"},
-        {"id": 11, "label":"11", "hint": ".. отросток", "answer": "Небный отросток", "to": "images/lab3-1-2.jpg"},
-        {"id": 12, "label":"12", "hint": " ...пазуха", "answer": "Верхнечелюстная пазуха", "to": "images/lab3-1-2.jpg"}, 
-        {"id": 13, "label":"13", "hint": "...борозда","answer": "Слезная борозда", "to": "images/lab3-1-2.jpg"}, 
-        {"id": 14, "label":"14", "hint": "...гребень", "answer": "Раковинный гребень ", "to": "images/lab3-1-2.jpg"}
+        {"id": 1, "label":"1", "hint": "... отросток", "answer": "Лобный отросток", "to": "images/lab3-1-1.png"},
+        {"id": 2, "label":"2", "hint": "... вырезка", "answer": " Слезная вырезка", "to": "images/lab3-1-1.png"},
+        {"id": 3, "label":"3", "hint": "... поверхность", "answer": " Глазничная поверхность", "to": "images/lab3-1-1.png"},
+        {"id": 4, "label":"4", "hint": "... отверстие", "answer": "Подглазничное отверстие", "to": "images/lab3-1-1.png"},
+        {"id": 5, "label":"5", "hint": "... отросток", "answer": "Скуловой отросток", "to": "images/lab3-1-1.png"},
+        {"id": 6, "label":"6", "hint": "... поверхность", "answer": "Подвисочная поверхность ", "to": "images/lab3-1-1.png"},
+        {"id": 7, "label":"7", "hint": "... отросток", "answer": "Альвеолярный отросток", "to": "images/lab3-1-1.png"},
+        {"id": 8, "label":"8", "hint": "... перегородка", "answer": "Межальвеолярная перегородка", "to": "images/lab3-1-1.png"},
+        {"id": 9, "label":"9", "hint": "... ость", "answer": "Передняя носовая ость", "to": "images/lab3-1-1.png"}, 
+        {"id": 10, "label":"10", "hint": "... канал","answer": "Резцовый канал", "to": "images/lab3-1-2.png"},
+        {"id": 11, "label":"11", "hint": "... отросток", "answer": "Небный отросток", "to": "images/lab3-1-2.png"},
+        {"id": 12, "label":"12", "hint": "... пазуха", "answer": "Верхнечелюстная пазуха", "to": "images/lab3-1-2.png"}, 
+        {"id": 13, "label":"13", "hint": "... борозда","answer": "Слезная борозда", "to": "images/lab3-1-2.png"}, 
+        {"id": 14, "label":"14", "hint": "... гребень", "answer": "Раковинный гребень ", "to": "images/lab3-1-2.png"}
       ]
     },
     {
@@ -472,23 +471,23 @@
       "subtitle": "Нижняя челюсть",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab3-2-1.jpg", "caption": "Вид спереди "},
-        {"src": "images/lab3-2-2.jpg", "caption": "Вид сзади "}
+        {"src": "images/lab3-2-1.png", "caption": "Вид спереди "},
+        {"src": "images/lab3-2-2.png", "caption": "Вид сзади "}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...выступ", "answer": "Подбородочный выступ", "to": "images/lab3-2-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...бугорок", "answer": " Подбородочный бугорок", "to": "images/lab3-2-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...отверстие", "answer": "Подбородочное отверстие", "to": "images/lab3-2-1.jpg"},
-        {"id": 4, "label":"4", "hint": "... ", "answer": "Основание нижней челюсти", "to": "images/lab3-2-1.jpg"},
-        {"id": 5, "label":"5", "hint": "Угол нижней челюсти", "answer": "Угол нижней челюсти", "to": "images/lab3-2-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...отросток", "answer": "Венечный отросток", "to": "images/lab3-2-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...отросток", "answer": "Суставной отросток", "to": "images/lab3-2-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...часть", "answer": "Альвеолярная часть", "to": "images/lab3-2-1.jpg"},
-        {"id": 9, "label":"9", "hint": "Отверстие...", "answer": "Отверстие нижней челюсти", "to": "images/lab3-2-2.jpg"}, 
-        {"id": 10, "label":"10", "hint": "...бугристость","answer": "Крыловидная бугристость", "to": "images/lab3-2-2.jpg"},
-        {"id": 11, "label":"11", "hint": "...ость ", "answer": "Подбородочная ость", "to": "images/lab3-2-2.jpg"},
-        {"id": 12, "label":"12", "hint": " ...ямка", "answer": "Двубрюшная ямка", "to": "images/lab3-2-2.jpg"}, 
-        {"id": 13, "label":"13", "hint": "...нижней челюсти","answer": "Головка нижней челюсти", "to": "images/lab3-2-2.jpg"}
+        {"id": 1, "label":"1", "hint": "... выступ", "answer": "Подбородочный выступ", "to": "images/lab3-2-1.png"},
+        {"id": 2, "label":"2", "hint": "... бугорок", "answer": " Подбородочный бугорок", "to": "images/lab3-2-1.png"},
+        {"id": 3, "label":"3", "hint": "... отверстие", "answer": "Подбородочное отверстие", "to": "images/lab3-2-1.png"},
+        {"id": 4, "label":"4", "hint": "... ", "answer": "Основание нижней челюсти", "to": "images/lab3-2-1.png"},
+        {"id": 5, "label":"5", "hint": "Угол нижней челюсти", "answer": "Угол нижней челюсти", "to": "images/lab3-2-1.png"},
+        {"id": 6, "label":"6", "hint": "... отросток", "answer": "Венечный отросток", "to": "images/lab3-2-1.png"},
+        {"id": 7, "label":"7", "hint": "... отросток", "answer": "Мыщелковый отросток", "to": "images/lab3-2-1.png"},
+        {"id": 8, "label":"8", "hint": "... часть", "answer": "Альвеолярная часть", "to": "images/lab3-2-1.png"},
+        {"id": 9, "label":"9", "hint": "Отверстие ...", "answer": "Отверстие нижней челюсти", "to": "images/lab3-2-2.png"}, 
+        {"id": 10, "label":"10", "hint": "... бугристость","answer": "Крыловидная бугристость", "to": "images/lab3-2-2.png"},
+        {"id": 11, "label":"11", "hint": "... ость ", "answer": "Подбородочная ость", "to": "images/lab3-2-2.png"},
+        {"id": 12, "label":"12", "hint": "... ямка", "answer": "Двубрюшная ямка", "to": "images/lab3-2-2.png"}, 
+        {"id": 13, "label":"13", "hint": "... нижней челюсти","answer": "Головка нижней челюсти", "to": "images/lab3-2-2.png"}
       ]
     },
     {
@@ -500,42 +499,15 @@
       "subtitle": "Мелкие кости лица",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab3-3-1.jpg", "caption": "Вид сбоку"},
-        {"src": "images/lab3-3-2.jpg", "caption": "Сагиттальный распил черепа"}
+        {"src": "images/lab3-3-1.png", "caption": "Вид сбоку"},
+        {"src": "images/lab3-3-2.png", "caption": "Сагиттальный распил черепа"}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...кость", "answer": "Скуловая кость", "to": "images/lab3-3-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...кость", "answer": "Слезная кость", "to": "images/lab3-3-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...кость", "answer": "Носовая кость", "to": "images/lab3-3-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...", "answer": "Сошник", "to": "images/lab3-3-2.jpg"},
-        {"id": 5, "label":"5", "hint": "Перпендикулярная пластинка решетчатой кости", "answer": "Перпендикулярная пластинка решетчатой кости", "to": "images/lab3-3-2.jpg"}
-      ]
-    },
-    { 
-      "lesson": 3, 
-      "template": 2,  
-      "part": 2, 
-      "section": "КЛИНИЧЕСКАЯ АНАТОМИЯ ШЕИ",
-      "title": "Топография надподъязычной области шеи",
-      "subtitle": "Клетчаточные пространства надподъязычной области",
-      "task": "Назовите структуры, обозначенные на рисунке:",
-      "images": [
-        {"src": "images/lab3-2.jpg", "caption": "Подъязычное клетчаточное пространство (вид сверху)"}
-      ],
-      "questions": [
-        {"id": 1, "label":"1","hint": "складка", "answer": "Подъязычная складка"},
-        {"id": 2, "label":"2","hint": "...сосочек", "answer": "Подъязычный сосочек"},
-        {"id": 3, "label":"3","hint": "слизистая оболочка", "answer": "Слизистая оболочка"},
-        {"id": 4, "label":"4","hint": "...мышца", "answer": "Подбородочно-язычная мышца"},
-        {"id": 5, "label":"5","hint": "железа", "answer": "Подъязычная железа"},
-        {"id": 6, "label":"6","hint": "...проток", "answer": "Поднижнечелюстной проток"},
-        {"id": 7, "label":"7","hint": "...железа", "answer": "Поднижнечелюстная железа"},
-        {"id": 8, "label":"8","hint": "мышца", "answer": "Подъязычно-язычная мышца"},
-        {"id": 9, "label":"9","hint": "Шилоподъязычная мышца", "answer": "Шилоподъязычная мышца"},
-        {"id": 10, "label":"10","hint": "...", "answer": "Подъязычная кость"},
-        {"id": 11, "label":"11","hint": "...", "answer": "Язычная артерия"},
-        {"id": 12, "label":"12","hint": "...", "answer": "Челюстно-подъязычная мышца"},
-        {"id": 13, "label":"13","hint": "...", "answer": "Подбородочно-подъязычная мышца"}
+        {"id": 1, "label":"1", "hint": "... кость", "answer": "Скуловая кость", "to": "images/lab3-3-1.png"},
+        {"id": 2, "label":"2", "hint": "... кость", "answer": "Слезная кость", "to": "images/lab3-3-1.png"},
+        {"id": 3, "label":"3", "hint": "... кость", "answer": "Носовая кость", "to": "images/lab3-3-1.png"},
+        {"id": 4, "label":"4", "hint": "...", "answer": "Сошник", "to": "images/lab3-3-2.png"},
+        {"id": 5, "label":"5", "hint": "Перпендикулярная пластинка решетчатой кости", "answer": "Перпендикулярная пластинка решетчатой кости", "to": "images/lab3-3-2.png"}
       ]
     },
     {
@@ -571,21 +543,21 @@
       "subtitle": "Глазница",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab4-1-1.jpg", "caption": ""}
+        {"src": "images/lab4-1-1.png", "caption": ""}
 
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...", "answer": "Лобная чешуя", "to": "images/lab4-1-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...часть...", "answer": "Глазничная часть лобной кости", "to": "images/lab4-1-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...кость", "answer": "Скуловая кость", "to": "images/lab4-1-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...", "answer": "Большое крыло клиновидной кости", "to": "images/lab4-1-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...", "answer": "Верхняя глазничная щель", "to": "images/lab4-1-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...канал", "answer": "Зрительный канал", "to": "images/lab4-1-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...пластинка...", "answer": "Глазничная пластинка лабиринта решетчатой кости", "to": "images/lab4-1-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...кость", "answer": "Слезная кость", "to": "images/lab4-1-1.jpg"},
-        {"id": 9, "label":"9", "hint": "...отросток...", "answer": "Лобный отросток верхней челюсти", "to": "images/lab4-1-1.jpg"}, 
-        {"id": 10, "label":"10", "hint": "...поверхность...","answer": "Глазничная поверхность тела верхней челюсти", "to": "images/lab4-1-1.jpg"},
-        {"id": 11, "label":"11", "hint": "...отверстие ", "answer": "Подглазничное отверстие", "to": "images/lab4-1-1.jpg"}
+        {"id": 1, "label":"1", "hint": "...", "answer": "Лобная чешуя", "to": "images/lab4-1-1.png"},
+        {"id": 2, "label":"2", "hint": "... часть...", "answer": "Глазничная часть лобной кости", "to": "images/lab4-1-1.png"},
+        {"id": 3, "label":"3", "hint": "... кость", "answer": "Скуловая кость", "to": "images/lab4-1-1.png"},
+        {"id": 4, "label":"4", "hint": "...", "answer": "Большое крыло клиновидной кости", "to": "images/lab4-1-1.png"},
+        {"id": 5, "label":"5", "hint": "...", "answer": "Верхняя глазничная щель", "to": "images/lab4-1-1.png"},
+        {"id": 6, "label":"6", "hint": "... канал", "answer": "Зрительный канал", "to": "images/lab4-1-1.png"},
+        {"id": 7, "label":"7", "hint": "... пластинка ...", "answer": "Глазничная пластинка лабиринта решетчатой кости", "to": "images/lab4-1-1.png"},
+        {"id": 8, "label":"8", "hint": "... кость", "answer": "Слезная кость", "to": "images/lab4-1-1.png"},
+        {"id": 9, "label":"9", "hint": "... отросток ...", "answer": "Лобный отросток верхней челюсти", "to": "images/lab4-1-1.png"}, 
+        {"id": 10, "label":"10", "hint": "... поверхность ...","answer": "Глазничная поверхность тела верхней челюсти", "to": "images/lab4-1-1.png"},
+        {"id": 11, "label":"11", "hint": "... отверстие ", "answer": "Подглазничное отверстие", "to": "images/lab4-1-1.png"}
        
       ]
     },
@@ -598,25 +570,25 @@
       "subtitle": "Стенки костной носовой полости",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab4-2-1.jpg", "caption": "Латеральная стенка"},
-        {"src": "images/lab4-2-2.jpg", "caption": "Медиальная стенка"}
+        {"src": "images/lab4-2-1.png", "caption": "Латеральная стенка"},
+        {"src": "images/lab4-2-2.png", "caption": "Медиальная стенка"}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...канал", "answer": "Резцовый канал", "to": "images/lab4-2-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...раковина", "answer": "Нижняя носовая раковина", "to": "images/lab4-2-1.jpg"},
-        {"id": 3, "label":"3", "hint": "... ", "answer": "Верхняя челюсть", "to": "images/lab4-2-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...кость", "answer": "Слезная кость", "to": "images/lab4-2-1.jpg"},
-        {"id": 5, "label":"5", "hint": "... ", "answer": "Лабиринт решетчатой кости ", "to": "images/lab4-2-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...кость", "answer": "Носовая кость", "to": "images/lab4-2-1.jpg"},
-        {"id": 7, "label":"7", "hint": "... кость", "answer": "Лобная кость", "to": "images/lab4-2-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...пазуха", "answer": "Лобная пазуха", "to": "images/lab4-2-1.jpg"},
-        {"id": 9, "label":"9", "hint": "...пазуха", "answer": "Клиновидная пазуха", "to": "images/lab4-2-1.jpg"},
-        {"id": 10, "label":"10", "hint": "...кости", "answer": "Тело клиновидной кости", "to": "images/lab4-2-1.jpg"},
-        {"id": 11, "label":"11", "hint": "...кость", "answer": "Небная кость", "to": "images/lab4-2-1.jpg"},
-        {"id": 12, "label":"12", "hint": "...отросток", "answer": "Крыловидный отросток", "to": "images/lab4-2-1.jpg"},
-        {"id": 13, "label":"13", "hint": "Хрящ...", "answer": "Хрящ перегородки носа ", "to": "images/lab4-2-2.jpg"},
-        {"id": 14, "label":"14", "hint": "...кости", "answer": "Перпендикулярная пластинка решетчатой кости ", "to": "images/lab4-2-2.jpg"},
-        {"id": 15, "label":"15", "hint": "...", "answer": "Сошник", "to": "images/lab4-2-2.jpg"}
+        {"id": 1, "label":"1", "hint": "... канал", "answer": "Резцовый канал", "to": "images/lab4-2-1.png"},
+        {"id": 2, "label":"2", "hint": "... раковина", "answer": "Нижняя носовая раковина", "to": "images/lab4-2-1.png"},
+        {"id": 3, "label":"3", "hint": "... ", "answer": "Верхняя челюсть", "to": "images/lab4-2-1.png"},
+        {"id": 4, "label":"4", "hint": "... кость", "answer": "Слезная кость", "to": "images/lab4-2-1.png"},
+        {"id": 5, "label":"5", "hint": "... ", "answer": "Лабиринт решетчатой кости ", "to": "images/lab4-2-1.png"},
+        {"id": 6, "label":"6", "hint": "... кость", "answer": "Носовая кость", "to": "images/lab4-2-1.png"},
+        {"id": 7, "label":"7", "hint": "... кость", "answer": "Лобная кость", "to": "images/lab4-2-1.png"},
+        {"id": 8, "label":"8", "hint": "... пазуха", "answer": "Лобная пазуха", "to": "images/lab4-2-1.png"},
+        {"id": 9, "label":"9", "hint": "... пазуха", "answer": "Клиновидная пазуха", "to": "images/lab4-2-1.png"},
+        {"id": 10, "label":"10", "hint": "... кости", "answer": "Тело клиновидной кости", "to": "images/lab4-2-1.png"},
+        {"id": 11, "label":"11", "hint": "... кость", "answer": "Небная кость", "to": "images/lab4-2-1.png"},
+        {"id": 12, "label":"12", "hint": "... отросток", "answer": "Крыловидный отросток", "to": "images/lab4-2-1.png"},
+        {"id": 13, "label":"13", "hint": "Хрящ ...", "answer": "Хрящ перегородки носа ", "to": "images/lab4-2-2.png"},
+        {"id": 14, "label":"14", "hint": "... кости", "answer": "Перпендикулярная пластинка решетчатой кости ", "to": "images/lab4-2-2.png"},
+        {"id": 15, "label":"15", "hint": "...", "answer": "Сошник", "to": "images/lab4-2-2.png"}
         
       ]
     },
@@ -629,28 +601,29 @@
       "subtitle": "Наружное основание черепа",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab4-3-1.jpg", "caption": ""},
-        {"src": "images/lab4-3-2.jpg", "caption": ""}
+        {"src": "images/lab4-3-1.png", "caption": ""},
+        {"src": "images/lab4-3-3.png", "caption": ""},
+        {"src": "images/lab4-3-2.png", "caption": ""}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...", "answer": "Верхняя челюсть", "to": "images/lab4-3-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...кость", "answer": "Небная кость", "to": "images/lab4-3-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...", "answer": "Клиновидная ", "to": "images/lab4-3-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...", "answer": "Сошник", "to": "images/lab4-3-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...кость", "answer": "Височная кость", "to": "images/lab4-3-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...кость", "answer": "Затылочная кость", "to": "images/lab4-3-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...ямка", "answer": "Резцовая ямка", "to": "images/lab4-3-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...отросток", "answer": "Небный отросток", "to": "images/lab4-3-1.jpg"},
-        {"id": 9, "label":"9", "hint": "...пластинка", "answer": "Горизонтальная пластинка ", "to": "images/lab4-3-1.jpg"},
-        {"id": 10, "label":"10", "hint": "...", "answer": "Хоана", "to": "images/lab4-3-1.jpg"},
-        {"id": 11, "label":"11", "hint": "...отверстие", "answer": "Большое небное отверстие", "to": "images/lab4-3-1.jpg"},
-        {"id": 12, "label":"12", "hint": "...", "answer": "Костное небо", "to": "images/lab4-3-1.jpg"},
-        {"id": 13, "label":"13", "hint": "...отверстие", "answer": "Овальное отверстие ", "to": "images/lab4-3-2.jpg"},
-        {"id": 14, "label":"14", "hint": "...отверстие", "answer": "Остистое отверстие", "to": "images/lab4-3-2.jpg"},
-        {"id": 15, "label":"15", "hint": "...отверстие", "answer": "Рваное отверстие", "to": "images/lab4-3-2.jpg"},
-        {"id": 16, "label":"16", "hint": "...ямка", "answer": "Яремная ямка", "to": "images/lab4-3-2.jpg"},
-        {"id": 17, "label":"17", "hint": "...отверстие", "answer": "Шилососцевидное отверстие", "to": "images/lab4-3-2.jpg"},
-        {"id": 18, "label":"18", "hint": "...апертура...", "answer": "Наружная апертура сонного канала", "to": "images/lab4-3-2.jpg"}
+        {"id": 1, "label":"1", "hint": "...", "answer": "Верхняя челюсть", "to": "images/lab4-3-1.png"},
+        {"id": 2, "label":"2", "hint": "... кость", "answer": "Небная кость", "to": "images/lab4-3-1.png"},
+        {"id": 3, "label":"3", "hint": "... кость ", "answer": "Клиновидная кость ", "to": "images/lab4-3-1.png"},
+        {"id": 4, "label":"4", "hint": "...", "answer": "Сошник", "to": "images/lab4-3-1.png"},
+        {"id": 5, "label":"5", "hint": "... кость", "answer": "Височная кость", "to": "images/lab4-3-1.png"},
+        {"id": 6, "label":"6", "hint": "... кость", "answer": "Затылочная кость", "to": "images/lab4-3-1.png"},
+        {"id": 7, "label":"7", "hint": "... ямка", "answer": "Резцовая ямка", "to": "images/lab4-3-1.png"},
+        {"id": 8, "label":"8", "hint": "... отросток", "answer": "Небный отросток", "to": "images/lab4-3-1.png"},
+        {"id": 9, "label":"9", "hint": "... пластинка", "answer": "Горизонтальная пластинка ", "to": "images/lab4-3-1.png"},
+        {"id": 10, "label":"10", "hint": "...", "answer": "Хоана", "to": "images/lab4-3-1.png"},
+        {"id": 11, "label":"11", "hint": "... отверстие", "answer": "Большое небное отверстие", "to": "images/lab4-3-1.png"},
+        {"id": 12, "label":"12", "hint": "...", "answer": "Костное небо", "to": "images/lab4-3-1.png"},
+        {"id": 13, "label":"13", "hint": "... отверстие", "answer": "Овальное отверстие ", "to": "images/lab4-3-2.png"},
+        {"id": 14, "label":"14", "hint": "... отверстие", "answer": "Остистое отверстие", "to": "images/lab4-3-2.png"},
+        {"id": 15, "label":"15", "hint": "... отверстие", "answer": "Рваное отверстие", "to": "images/lab4-3-2.png"},
+        {"id": 16, "label":"16", "hint": "... ямка", "answer": "Яремная ямка", "to": "images/lab4-3-2.png"},
+        {"id": 17, "label":"17", "hint": "... отверстие", "answer": "Шилососцевидное отверстие", "to": "images/lab4-3-2.png"},
+        {"id": 18, "label":"18", "hint": "... апертура ...", "answer": "Наружная апертура сонного канала", "to": "images/lab4-3-2.png"}
         
       ]
     },
@@ -663,28 +636,28 @@
       "subtitle": "Внутреннее основание черепа",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab4-4-1.jpg", "caption": ""},
-        {"src": "images/lab4-4-2.jpg", "caption": ""}
+        {"src": "images/lab4-4-1.png", "caption": ""},
+        {"src": "images/lab4-4-2.png", "caption": ""}
       ],
       "questions": [
-        {"id": 1, "label":"I", "hint": "...", "answer": "передняя черепная ямка", "to": "images/lab4-4-1.jpg"},
-        {"id": 2, "label":"II", "hint": "...", "answer": "средняя черепная ямка", "to": "images/lab4-4-1.jpg"},
-        {"id": 3, "label":"III", "hint": "...", "answer": "задняя черепная ямка", "to": "images/lab4-4-1.jpg"},
-        {"id": 4, "label":"1", "hint": "...кость", "answer": "Лобная кость", "to": "images/lab4-4-1.jpg"},
-        {"id": 5, "label":"2", "hint": "...кость", "answer": "Решетчатая кость", "to": "images/lab4-4-1.jpg"},
-        {"id": 6, "label":"3", "hint": "...кость", "answer": "Клиновидная кость", "to": "images/lab4-4-1.jpg"},
-        {"id": 7, "label":"4", "hint": "...кость", "answer": "Височная кость", "to": "images/lab4-4-1.jpg"},
-        {"id": 8, "label":"5", "hint": "...кость", "answer": "Теменная кость", "to": "images/lab4-4-1.jpg"},
-        {"id": 9, "label":"6", "hint": "...кость", "answer": "Затылочная кость", "to": "images/lab4-4-1.jpg"},
-        {"id": 10, "label":"7", "hint": "...пластинка", "answer": "Решетчатая пластинка ", "to": "images/lab4-4-2.jpg"},
-        {"id": 11, "label":"8", "hint": "...канал", "answer": "Зрительный канал", "to": "images/lab4-4-2.jpg"},
-        {"id": 12, "label":"9", "hint": "...отверстие", "answer": "Круглое отверстие", "to": "images/lab4-4-2.jpg"},
-        {"id": 13, "label":"10", "hint": "...отверстие", "answer": "Рваное отверстие ", "to": "images/lab4-4-2.jpg"},
-        {"id": 14, "label":"11", "hint": "...отверстие", "answer": "Затылочное отверстие", "to": "images/lab4-4-2.jpg"},
-        {"id": 15, "label":"12", "hint": "...отверстие", "answer": "Яремное отверстие", "to": "images/lab4-4-2.jpg"},
-        {"id": 16, "label":"13", "hint": "...проход", "answer": "Внутренний слуховой проход", "to": "images/lab4-4-2.jpg"},
-        {"id": 17, "label":"14", "hint": "...отверстие", "answer": "Остистое отверстие", "to": "images/lab4-4-2.jpg"},
-        {"id": 18, "label":"15", "hint": "...отверстие", "answer": "Овальное отверстие", "to": "images/lab4-4-2.jpg"}
+        {"id": 1, "label":"I", "hint": "...", "answer": "передняя черепная ямка", "to": "images/lab4-4-1.png"},
+        {"id": 2, "label":"II", "hint": "...", "answer": "средняя черепная ямка", "to": "images/lab4-4-1.png"},
+        {"id": 3, "label":"III", "hint": "...", "answer": "задняя черепная ямка", "to": "images/lab4-4-1.png"},
+        {"id": 4, "label":"1", "hint": "... кость", "answer": "Лобная кость", "to": "images/lab4-4-1.png"},
+        {"id": 5, "label":"2", "hint": "... кость", "answer": "Решетчатая кость", "to": "images/lab4-4-1.png"},
+        {"id": 6, "label":"3", "hint": "... кость", "answer": "Клиновидная кость", "to": "images/lab4-4-1.png"},
+        {"id": 7, "label":"4", "hint": "... кость", "answer": "Височная кость", "to": "images/lab4-4-1.png"},
+        {"id": 8, "label":"5", "hint": "... кость", "answer": "Теменная кость", "to": "images/lab4-4-1.png"},
+        {"id": 9, "label":"6", "hint": "... кость", "answer": "Затылочная кость", "to": "images/lab4-4-1.png"},
+        {"id": 10, "label":"7", "hint": "... пластинка", "answer": "Решетчатая пластинка ", "to": "images/lab4-4-2.png"},
+        {"id": 11, "label":"8", "hint": "... канал", "answer": "Зрительный канал", "to": "images/lab4-4-2.png"},
+        {"id": 12, "label":"9", "hint": "... отверстие", "answer": "Круглое отверстие", "to": "images/lab4-4-2.png"},
+        {"id": 13, "label":"10", "hint": "... отверстие", "answer": "Рваное отверстие ", "to": "images/lab4-4-2.png"},
+        {"id": 14, "label":"11", "hint": "... отверстие", "answer": "Большое отверстие", "to": "images/lab4-4-2.png"},
+        {"id": 15, "label":"12", "hint": "... отверстие", "answer": "Яремное отверстие", "to": "images/lab4-4-2.png"},
+        {"id": 16, "label":"13", "hint": "... проход", "answer": "Внутренний слуховой проход", "to": "images/lab4-4-2.png"},
+        {"id": 17, "label":"14", "hint": "... отверстие", "answer": "Остистое отверстие", "to": "images/lab4-4-2.png"},
+        {"id": 18, "label":"15", "hint": "... отверстие", "answer": "Овальное отверстие", "to": "images/lab4-4-2.png"}
         
       ]
     },
@@ -697,17 +670,17 @@
       "subtitle": "Роднички",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab4-5-1.jpg", "caption": "А – вид сбоку Б – вид сверху "}
+        {"src": "images/lab4-5-1.png", "caption": "А – вид сбоку Б – вид сверху "}
         
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...родничок", "answer": "Передний родничок", "to": "images/lab4-5-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...шов", "answer": "Венечный шов", "to": "images/lab4-5-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...родничок", "answer": " Клиновидный родничок", "to": "images/lab4-5-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...родничок", "answer": "Сосцевидный родничок", "to": "images/lab4-5-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...шов", "answer": "Ламбдовидный шов", "to": "images/lab4-5-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...шов", "answer": "Метопический шов", "to": "images/lab4-5-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...шов", "answer": "Сагиттальный шов", "to": "images/lab4-5-1.jpg"}
+        {"id": 1, "label":"1", "hint": "... родничок", "answer": "Передний родничок", "to": "images/lab4-5-1.png"},
+        {"id": 2, "label":"2", "hint": "... шов", "answer": "Венечный шов", "to": "images/lab4-5-1.png"},
+        {"id": 3, "label":"3", "hint": "... родничок", "answer": " Клиновидный родничок", "to": "images/lab4-5-1.png"},
+        {"id": 4, "label":"4", "hint": "... родничок", "answer": "Сосцевидный родничок", "to": "images/lab4-5-1.png"},
+        {"id": 5, "label":"5", "hint": "... шов", "answer": "Ламбдовидный шов", "to": "images/lab4-5-1.png"},
+        {"id": 6, "label":"6", "hint": "... шов", "answer": "Метопический шов", "to": "images/lab4-5-1.png"},
+        {"id": 7, "label":"7", "hint": "... шов", "answer": "Сагиттальный шов", "to": "images/lab4-5-1.png"}
         
       ]
     },
@@ -762,81 +735,53 @@
         "part": 1,
         "section": "СКЕЛЕТ ВЕРХНЕЙ И НИЖНЕЙ КОНЕЧНОСТИ.СОЕДИНЕНИЕ КОСТЕЙ", 
         "title": "СКЕЛЕТ ВЕРХНЕЙ И НИЖНЕЙ КОНЕЧНОСТИ. СОЕДИНЕНИЕ КОСТЕЙ",
-        "subtitle": "",
         "task": "Назовите виды непрерывных соединений костей и структуры, обозначенные цифрами",
         "images": [
-          {"src": "images/lab5-1-1.jpg", "caption": "Межкостная перепонка голени"},
-          {"src": "images/lab5-1-2.jpg", "caption": "Свод черепа (вид сверху"},
-          {"src": "images/lab5-1-3.jpg", "caption": "Костный таз"},
-          {"src": "images/lab5-1-4.jpg", "caption": "Рентгеновский снимок области луче-запястного сустава"},
-          {"src": "images/lab5-1-5.jpg", "caption": "Поперечный срез челюсти на уровне корня зуба"}
+          {"src": "images/lab5-1-1.png", "caption": "Межкостная перепонка голени"},
+          {"src": "images/lab5-1-2.png", "caption": "Свод черепа (вид сверху"},
+          {"src": "images/lab5-1-3.png", "caption": "Костный таз"},
+          {"src": "images/lab5-1-4.png", "caption": "Рентгеновский снимок области луче-запястного сустава"},
+          {"src": "images/lab5-1-5.png", "caption": "Поперечный срез челюсти на уровне корня зуба"}
         ],
         "questions": [
-          {"id": 1, "label":"1", "hint": "...кость", "answer": "Большеберцовая кость", "to": "images/lab5-1-1.jpg"},
-          {"id": 2, "label":"2", "hint": "...кость", "answer": "Малоберцовая кость", "to": "images/lab5-1-1.jpg"},
-          {"id": 3, "label":"1", "hint": "...кость", "answer": "Лобная кость", "to": "images/lab5-1-2.jpg"},
-          {"id": 4, "label":"2", "hint": "...", "answer": "Венечный шов", "to": "images/lab5-1-2.jpg"},
-          {"id": 5, "label":"3", "hint": "...кость", "answer": "Теменная кость ", "to": "images/lab5-1-2.jpg"},
-          {"id": 6, "label":"4", "hint": "...", "answer": "Сагиттальный шов", "to": "images/lab5-1-2.jpg"},
-          {"id": 7, "label":"1", "hint": "... кость", "answer": "Лобковая кость", "to": "images/lab5-1-3.jpg"},
-          {"id": 8, "label":"2", "hint": "...", "answer": "Лобковый симфиз", "to": "images/lab5-1-3.jpg"},
-          {"id": 9, "label":"1", "hint": "...кость", "answer": "Лучевая кость", "to": "images/lab5-1-4.jpg"},
-          {"id": 10, "label":"2", "hint": "...кость", "answer": "Локтевая кость", "to": "images/lab5-1-4.jpg"},
-          {"id": 11, "label":"3", "hint": "...", "answer": "Кости запястья", "to": "images/lab5-1-4.jpg"},
-          {"id": 12, "label":"4", "hint": "Эпифизарный хрящ...", "answer": "Эпифизарный хрящ (синхондроз)", "to": "images/lab5-1-4.jpg"},
-          {"id": 13, "label":"1", "hint": "Альвеолярная кость", "answer": "Альвеолярная кость", "to": "images/lab5-1-5.jpg"},
-          {"id": 14, "label":"2", "hint": "Периодонтальная связка (зубоальвеолярное соединение)", "answer": "Периодонтальная связка (зубоальвеолярное соединение)", "to": "images/lab5-1-5.jpg"},
-          {"id": 15, "label":"3", "hint": "Цемент", "answer": "Цемент", "to": "images/lab5-1-5.jpg"},
-          {"id": 16, "label":"4", "hint": "Дентин", "answer": "Дентин", "to": "images/lab5-1-5.jpg"},
-          {"id": 17, "label":"5", "hint": "Корневой канал", "answer": "Корневой канал", "to": "images/lab5-1-5.jpg"}
+          {"id": 1, "label":"1", "hint": "... кость", "answer": "Большеберцовая кость", "to": "images/lab5-1-1.png"},
+          {"id": 2, "label":"2", "hint": "... кость", "answer": "Малоберцовая кость", "to": "images/lab5-1-1.png"},
+          {"id": 3, "label":"1", "hint": "... кость", "answer": "Лобная кость", "to": "images/lab5-1-2.png"},
+          {"id": 4, "label":"2", "hint": "...", "answer": "Венечный шов", "to": "images/lab5-1-2.png"},
+          {"id": 5, "label":"3", "hint": "... кость", "answer": "Теменная кость ", "to": "images/lab5-1-2.png"},
+          {"id": 6, "label":"4", "hint": "...", "answer": "Сагиттальный шов", "to": "images/lab5-1-2.png"},
+          {"id": 7, "label":"1", "hint": "... кость", "answer": "Лобковая кость", "to": "images/lab5-1-3.png"},
+          {"id": 8, "label":"2", "hint": "...", "answer": "Лобковый симфиз", "to": "images/lab5-1-3.png"},
+          {"id": 9, "label":"1", "hint": "...  кость", "answer": "Лучевая кость", "to": "images/lab5-1-4.png"},
+          {"id": 10, "label":"2", "hint": "... кость", "answer": "Локтевая кость", "to": "images/lab5-1-4.png"},
+          {"id": 11, "label":"3", "hint": "...", "answer": "Кости запястья", "to": "images/lab5-1-4.png"},
+          {"id": 12, "label":"4", "hint": "Эпифизарный хрящ ...", "answer": "Эпифизарный хрящ (синхондроз)", "to": "images/lab5-1-4.png"},
+          {"id": 13, "label":"1", "hint": "Альвеолярная кость", "answer": "Альвеолярная кость", "to": "images/lab5-1-5.png"},
+          {"id": 14, "label":"2", "hint": "Периодонтальная связка ", "answer": "Периодонтальная связка (зубоальвеолярное соединение)", "to": "images/lab5-1-5.png"},
+          {"id": 15, "label":"3", "hint": "Цемент", "answer": "Цемент", "to": "images/lab5-1-5.png"},
+          {"id": 16, "label":"4", "hint": "Дентин", "answer": "Дентин", "to": "images/lab5-1-5.png"},
+          {"id": 17, "label":"5", "hint": "Корневой канал", "answer": "Корневой канал", "to": "images/lab5-1-5.png"}
      ]
       },
     { 
-      "lesson": 5, 
-      "template": 2,  
-      "part": 1,
-      "section": "СКЕЛЕТ ВЕРХНЕЙ И НИЖНЕЙ КОНЕЧНОСТИ. СОЕДИНЕНИЕ КОСТЕЙ", 
-      "title": "СКЕЛЕТ ВЕРХНЕЙ И НИЖНЕЙ КОНЕЧНОСТИ. СОЕДИНЕНИЕ КОСТЕЙ",
-      "subtitle": "Главный сосудисто-нервный пучок шеи (вид справа) ",
-      "task": "Назовите структуры, обозначенные на рисунке:",
-      "images": [
-        {"src": "images/lab5-1-1.jpg", "caption": ""}
-      ],
-      "questions": [
-        {"id": 1, "label":"1","hint": "...артерия", "answer": "Общая сонная артерия"},
-        {"id": 2, "label":"2","hint": "...артерия", "answer": "Наружная сонная артерия"},
-        {"id": 3, "label":"3","hint": "...артерия", "answer": "Внутренняя сонная артерия"},
-        {"id": 4, "label":"4","hint": "...нерв", "answer": "Блуждающий нерв"},
-        {"id": 5, "label":"5","hint": "...", "answer": "Сонное влагалище"},
-        {"id": 6, "label":"6","hint": "...вена", "answer": "Внутренняя яремная вена"},
-        {"id": 7, "label":"7","hint": "...нерв", "answer": "Добавочный нерв"},
-		    {"id": 8, "label":"8","hint": "Заднее брюшко двубрюшной мышцы", "answer": "Заднее брюшко двубрюшной мышцы"},
-        {"id": 9, "label":"9","hint": "...артерия", "answer": "Лицевая артерия"},
-		    {"id": 10, "label":"10","hint": "Подъязычно-язычная мышца", "answer": "Подъязычно-язычная мышца"},
-        {"id": 11, "label":"11","hint": "...артерия", "answer": "Язычная артерия"},
-        {"id": 12, "label":"12","hint": "...нерв", "answer": "Подъязычный нерв"},
-        {"id": 13, "label":"13","hint": "...артерия", "answer": "Верхняя щитовидная артерия"}		
-      ]
-    },
-    { 
       "lesson": 5,
-      "template": 2, 
+      "template": 1, 
       "part": 2,
       "section": "СКЕЛЕТ ВЕРХНЕЙ И НИЖНЕЙ КОНЕЧНОСТИ. СОЕДИНЕНИЕ КОСТЕЙ", 
       "title": "СКЕЛЕТ ВЕРХНЕЙ И НИЖНЕЙ КОНЕЧНОСТИ. СОЕДИНЕНИЕ КОСТЕЙ",
-      "subtitle": "",
+      "subtitle": "Плечевой сустав",
       "task": "Классифицируйте суставы по форме суставных поверхностей",
       "images": [
-        {"src": "images/lab5-2-1.jpg", "caption": "Плечевой сустав"},
-        {"src": "images/lab5-2-2.jpg", "caption": "Лучезапястный сустав"},
-        {"src": "images/lab5-2-3.jpg", "caption": "Плечелоктевой сустав"},
-        {"src": "images/lab5-2-4.jpg", "caption": "Проксимальный лучелоктевой сустав"}
+        {"src": "images/lab5-2-1.png", "caption": "Плечевой сустав"},
+        {"src": "images/lab5-2-2.png", "caption": "Лучезапястный сустав"},
+        {"src": "images/lab5-2-3.png", "caption": "Плечелоктевой сустав"},
+        {"src": "images/lab5-2-4.png", "caption": "Проксимальный лучелоктевой сустав"}
       ],
       "questions": [
-        {"id": 1, "label":"", "hint": "...", "answer": "Шаровидный сустав", "to": "images/lab5-2-1.jpg"},
-        {"id": 2, "label":"", "hint": "... ", "answer": "Эллипсоидный сустав", "to": "images/lab5-2-2.jpg"},
-        {"id": 3, "label":"", "hint": "...", "answer": "Блоковидный сустав", "to": "images/lab5-2-3.jpg"},
-        {"id": 4, "label":"", "hint": "...", "answer": "Цилиндрический сустав", "to": "images/lab5-2-4.jpg"}
+        {"id": 1, "label":"", "hint": "...", "answer": "Шаровидный сустав", "to": "images/lab5-2-1.png"},
+        {"id": 2, "label":"", "hint": "... ", "answer": "Эллипсоидный сустав", "to": "images/lab5-2-2.png"},
+        {"id": 3, "label":"", "hint": "...", "answer": "Блоковидный сустав", "to": "images/lab5-2-3.png"},
+        {"id": 4, "label":"", "hint": "...", "answer": "Цилиндрический сустав", "to": "images/lab5-2-4.png"}
       ]    
     },
 	  { 
@@ -845,56 +790,56 @@
       "part": 3,
       "section": "СКЕЛЕТ ВЕРХНЕЙ И НИЖНЕЙ КОНЕЧНОСТИ. СОЕДИНЕНИЕ КОСТЕЙ", 
       "title": "СКЕЛЕТ ВЕРХНЕЙ И НИЖНЕЙ КОНЕЧНОСТИ. СОЕДИНЕНИЕ КОСТЕЙ",
-      "subtitle": "Скелет верхней конечности (вид сзади) ",
+      "subtitle": "Скелет верхней конечности (вид сзади)",
       "task": "Назовите структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab5-3-1.jpg", "caption": ""},
-        {"src": "images/lab5-3-2.jpg", "caption": ""}
+        {"src": "images/lab5-3-1.png", "caption": ""},
+        {"src": "images/lab5-3-2.png", "caption": ""}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...", "answer": "Ключица", "to": "images/lab5-3-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...", "answer": "Лопатка ", "to": "images/lab5-3-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...кость", "answer": "Плечевая кость", "to": "images/lab5-3-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...кость", "answer": "Лучевая кость ", "to": "images/lab5-3-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...кость", "answer": "Локтевая кость ", "to": "images/lab5-3-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...", "answer": "Кости кисти", "to": "images/lab5-3-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...", "answer": "Кости запястья", "to": "images/lab5-3-2.jpg"},
-        {"id": 8, "label":"8", "hint": "...кость", "answer": "Пястная кость", "to": "images/lab5-3-2.jpg"},
-        {"id": 9, "label":"9", "hint": "...", "answer": "Проксимальная фаланга", "to": "images/lab5-3-2.jpg"},
-        {"id": 10, "label":"10", "hint": "...", "answer": "Средняя фаланга", "to": "images/lab5-3-2.jpg"},
-        {"id": 11, "label":"11", "hint": "...", "answer": "Дистальная фаланга", "to": "images/lab5-3-2.jpg"}
+        {"id": 1, "label":"1", "hint": "...", "answer": "Ключица", "to": "images/lab5-3-1.png"},
+        {"id": 2, "label":"2", "hint": "...", "answer": "Лопатка ", "to": "images/lab5-3-1.png"},
+        {"id": 3, "label":"3", "hint": "... кость", "answer": "Плечевая кость", "to": "images/lab5-3-1.png"},
+        {"id": 4, "label":"4", "hint": "... кость", "answer": "Лучевая кость ", "to": "images/lab5-3-1.png"},
+        {"id": 5, "label":"5", "hint": "... кость", "answer": "Локтевая кость ", "to": "images/lab5-3-1.png"},
+        {"id": 6, "label":"6", "hint": "...", "answer": "Кости кисти", "to": "images/lab5-3-1.png"},
+        {"id": 7, "label":"7", "hint": "...", "answer": "Кости запястья", "to": "images/lab5-3-2.png"},
+        {"id": 8, "label":"8", "hint": "... кость", "answer": "Пястная кость", "to": "images/lab5-3-2.png"},
+        {"id": 9, "label":"9", "hint": "...", "answer": "Проксимальная фаланга", "to": "images/lab5-3-2.png"},
+        {"id": 10, "label":"10", "hint": "...", "answer": "Средняя фаланга", "to": "images/lab5-3-2.png"},
+        {"id": 11, "label":"11", "hint": "...", "answer": "Дистальная фаланга", "to": "images/lab5-3-2.png"}
       ]
     },
 	  { 
       "lesson": 5, 
       "template": 2,
       "part": 4,
-      "section": "СКЕЛЕТ ВЕРХНЕЙ И НИЖНЕЙ КОНЕЧНОСТИ. СОЕДИНЕНИЕ КОСТЕЙ", 
+      "section": "СКЕЛЕТ ВЕРХНЕЙ И НИЖНЕЙ КОНЕЧНОСТИ. СОЕДИНЕНИЕ КОСТЕЙ",
       "title": "СКЕЛЕТ ВЕРХНЕЙ И НИЖНЕЙ КОНЕЧНОСТИ. СОЕДИНЕНИЕ КОСТЕЙ",
-      "subtitle": "",
+      "subtitle": "Скелет нижней конечности (вид спереди)",
       "task": "Назовите структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab5-4-1.jpg", "caption": "Скелет нижней конечности (вид спереди)"},
-        {"src": "images/lab5-4-2.jpg", "caption": "Кости стопы"}
+        {"src": "images/lab5-4-1.png", "caption": ""},
+        {"src": "images/lab5-4-2.png", "caption": ""}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...кость", "answer": "Тазовая кость", "to": "images/lab5-4-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...кость", "answer":"Бедренная кость ", "to": "images/lab5-4-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...", "answer":"Надколенник", "to": "images/lab5-4-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...кость", "answer":"Большеберцовая кость", "to": "images/lab5-4-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...кость", "answer":"Малоберцовая кость", "to": "images/lab5-4-1.jpg"},
-        {"id": 6, "label":"6", "hint": "Кости стопы", "answer":"Кости стопы", "to": "images/lab5-4-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...кость", "answer": "Пяточная кость", "to": "images/lab5-4-2.jpg"},
-        {"id": 8, "label":"8", "hint": "...кость", "answer":"Таранная кость", "to": "images/lab5-4-2.jpg"},
-        {"id": 9, "label":"9", "hint": "...кость", "answer":"Ладьевидная кость", "to": "images/lab5-4-2.jpg"},
-        {"id": 10, "label":"10", "hint": "...кость", "answer":"Кубовидная кость", "to": "images/lab5-4-2.jpg"},
-        {"id": 11, "label":"11", "hint": "...кость", "answer":"Латеральная клиновидная кость", "to": "images/lab5-4-2.jpg"},
-        {"id": 12, "label":"12", "hint": "...кость", "answer":"Промежуточная клиновидная кость", "to": "images/lab5-4-2.jpg"},
-        {"id": 13, "label":"13", "hint": "...кость", "answer": "Медиальная клиновидная кость", "to": "images/lab5-4-2.jpg"},
-        {"id": 14, "label":"14", "hint": "...кость", "answer":"Плюсневая кость", "to": "images/lab5-4-2.jpg"},
-        {"id": 15, "label":"15", "hint": "...", "answer":"Проксимальная фаланга", "to": "images/lab5-4-2.jpg"},
-        {"id": 16, "label":"16", "hint": "...", "answer":"Средняя фаланга", "to": "images/lab5-4-2.jpg"},
-        {"id": 17, "label":"17", "hint": "...", "answer": "Дистальная фаланга", "to": "images/lab5-4-2.jpg"}
+        {"id": 1, "label":"1", "hint": "... кость", "answer": "Тазовая кость", "to": "images/lab5-4-1.png"},
+        {"id": 2, "label":"2", "hint": "... кость", "answer":"Бедренная кость ", "to": "images/lab5-4-1.png"},
+        {"id": 3, "label":"3", "hint": "...", "answer":"Надколенник", "to": "images/lab5-4-1.png"},
+        {"id": 4, "label":"4", "hint": "... кость", "answer":"Большеберцовая кость", "to": "images/lab5-4-1.png"},
+        {"id": 5, "label":"5", "hint": "... кость", "answer":"Малоберцовая кость", "to": "images/lab5-4-1.png"},
+        {"id": 6, "label":"6", "hint": "Кости стопы", "answer":"Кости стопы", "to": "images/lab5-4-1.png"},
+        {"id": 7, "label":"7", "hint": "... кость", "answer": "Пяточная кость", "to": "images/lab5-4-2.png"},
+        {"id": 8, "label":"8", "hint": "... кость", "answer":"Таранная кость", "to": "images/lab5-4-2.png"},
+        {"id": 9, "label":"9", "hint": "... кость", "answer":"Ладьевидная кость", "to": "images/lab5-4-2.png"},
+        {"id": 10, "label":"10", "hint": "... кость", "answer":"Кубовидная кость", "to": "images/lab5-4-2.png"},
+        {"id": 11, "label":"11", "hint": "... кость", "answer":"Латеральная клиновидная кость", "to": "images/lab5-4-2.png"},
+        {"id": 12, "label":"12", "hint": "... кость", "answer":"Промежуточная клиновидная кость", "to": "images/lab5-4-2.png"},
+        {"id": 13, "label":"13", "hint": "... кость", "answer": "Медиальная клиновидная кость", "to": "images/lab5-4-2.png"},
+        {"id": 14, "label":"14", "hint": "... кость", "answer":"Плюсневая кость", "to": "images/lab5-4-2.png"},
+        {"id": 15, "label":"15", "hint": "...", "answer":"Проксимальная фаланга", "to": "images/lab5-4-2.png"},
+        {"id": 16, "label":"16", "hint": "...", "answer":"Средняя фаланга", "to": "images/lab5-4-2.png"},
+        {"id": 17, "label":"17", "hint": "...", "answer": "Дистальная фаланга", "to": "images/lab5-4-2.png"}
 		   
       ]
     },
@@ -907,21 +852,21 @@
       "subtitle": "Соединения позвоночного столба",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab5-5-1.jpg", "caption": "сагиттальный распил"},
-        {"src": "images/lab5-5-2.jpg", "caption": "Вид спереди и фронтальный распил "} 
+        {"src": "images/lab5-5-1.png", "caption": "сагиттальный распил"},
+        {"src": "images/lab5-5-2.png", "caption": "Вид спереди и фронтальный распил "} 
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "Тело позвонка", "answer": "Тело позвонка", "to": "images/lab5-5-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...", "answer":"Дуга позвонка", "to": "images/lab5-5-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...связка", "answer":"Желтая связка", "to": "images/lab5-5-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...ядро", "answer":"Студенистое ядро", "to": "images/lab5-5-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...симфиз", "answer":"Межпозвоночный симфиз", "to": "images/lab5-5-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...отросток", "answer":"Поперечный отросток", "to": "images/lab5-5-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...отросток", "answer": "Остистый отросток", "to": "images/lab5-5-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...связка", "answer":"Межпоперечная связка", "to": "images/lab5-5-1.jpg"},
-        {"id": 9, "label":"9", "hint": "...связка", "answer":"Межостистая связка", "to": "images/lab5-5-1.jpg"},
-        {"id": 10, "label":"10", "hint": "...связка", "answer":"Надостистная связка", "to": "images/lab5-5-1.jpg"},
-        {"id": 11, "label":"11", "hint": "...связка", "answer":"Передняя продольная связка", "to": "images/lab5-5-1.jpg"}
+        {"id": 1, "label":"1", "hint": "Тело позвонка", "answer": "Тело позвонка", "to": "images/lab5-5-1.png"},
+        {"id": 2, "label":"2", "hint": "...", "answer":"Дуга позвонка", "to": "images/lab5-5-1.png"},
+        {"id": 3, "label":"3", "hint": "... связка", "answer":"Желтая связка", "to": "images/lab5-5-1.png"},
+        {"id": 4, "label":"4", "hint": "... ядро", "answer":"Студенистое ядро", "to": "images/lab5-5-1.png"},
+        {"id": 5, "label":"5", "hint": "... симфиз", "answer":"Межпозвоночный симфиз", "to": "images/lab5-5-1.png"},
+        {"id": 6, "label":"6", "hint": "... отросток", "answer":"Поперечный отросток", "to": "images/lab5-5-1.png"},
+        {"id": 7, "label":"7", "hint": "... отросток", "answer": "Остистый отросток", "to": "images/lab5-5-1.png"},
+        {"id": 8, "label":"8", "hint": "... связка", "answer":"Межпоперечная связка", "to": "images/lab5-5-1.png"},
+        {"id": 9, "label":"9", "hint": "... связка", "answer":"Межостистая связка", "to": "images/lab5-5-1.png"},
+        {"id": 10, "label":"10", "hint": "... связка", "answer":"Надостистая связка", "to": "images/lab5-5-1.png"},
+        {"id": 11, "label":"11", "hint": "... связка", "answer":"Передняя продольная связка", "to": "images/lab5-5-1.png"}
       ]
     },
 	  { 
@@ -933,19 +878,18 @@
       "subtitle": "Височно-нижнечелюстной сустав",
       "task": "Назовите анатомические структуры, обозначенные цифрами ",
       "images": [
-        {"src": "images/lab5-6-1.jpg", "caption": ""},
-        {"src": "images/lab5-6-2.jpg", "caption": ""} 
+        {"src": "images/lab5-6-1.png", "caption": ""}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "Наружный слуховой проход", "answer": "Наружный слуховой проход", "to": "images/lab5-6-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...суставной полости", "answer":"Нижний этаж суставной полости", "to": "images/lab5-6-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...", "answer":"Суставной диск", "to": "images/lab5-6-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...суставной полости", "answer":"Верхний этаж суставной полости", "to": "images/lab5-6-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...бугорок", "answer":"Суставной бугорок", "to": "images/lab5-6-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...", "answer":"Капсула сустава", "to": "images/lab5-6-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...", "answer": "Головка нижней челюсти", "to": "images/lab5-6-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...отросток", "answer":"Мыщелковый отросток", "to": "images/lab5-6-1.jpg"},
-        {"id": 9, "label":"9", "hint": "Жевательная мышца", "answer":"Жевательная мышца", "to": "images/lab5-6-1.jpg"}
+        {"id": 1, "label":"1", "hint": "Наружный слуховой проход", "answer": "Наружный слуховой проход", "to": "images/lab5-6-1.png"},
+        {"id": 2, "label":"2", "hint": "... суставной полости", "answer":"Нижний этаж суставной полости", "to": "images/lab5-6-1.png"},
+        {"id": 3, "label":"3", "hint": "...", "answer":"Суставной диск", "to": "images/lab5-6-1.png"},
+        {"id": 4, "label":"4", "hint": "... суставной полости", "answer":"Верхний этаж суставной полости", "to": "images/lab5-6-1.png"},
+        {"id": 5, "label":"5", "hint": "... бугорок", "answer":"Суставной бугорок", "to": "images/lab5-6-1.png"},
+        {"id": 6, "label":"6", "hint": "...", "answer":"Капсула сустава", "to": "images/lab5-6-1.png"},
+        {"id": 7, "label":"7", "hint": "...", "answer": "Головка нижней челюсти", "to": "images/lab5-6-1.png"},
+        {"id": 8, "label":"8", "hint": "... отросток", "answer":"Мыщелковый отросток", "to": "images/lab5-6-1.png"},
+        {"id": 9, "label":"9", "hint": "Жевательная мышца", "answer":"Жевательная мышца", "to": "images/lab5-6-1.png"}
       ]
 
     },
@@ -958,19 +902,19 @@
       "subtitle": "Связки височно-нижнечелюстного сустава ",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab5-7-1.jpg", "caption": "А – вид снаружи"},
-        {"src": "images/lab5-7-2.jpg", "caption": "Б – вид изнутри"} 
+        {"src": "images/lab5-7-1.png", "caption": "А – вид снаружи"},
+        {"src": "images/lab5-7-2.png", "caption": "Б – вид изнутри"} 
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...", "answer": "Суставной бугорок", "to": "images/lab5-7-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...", "answer":"Суставной диск", "to": "images/lab5-7-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...", "answer":"Головка нижней челюсти", "to": "images/lab5-7-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...", "answer":"Капсула сустава", "to": "images/lab5-7-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...связка", "answer":"Шилонижнечелюстная связка", "to": "images/lab5-7-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...", "answer":"Наружный слуховой проход", "to": "images/lab5-7-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...отросток", "answer": "Сосцевидный отросток", "to": "images/lab5-7-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...связка", "answer":"Клиновидно-нижнечелюстная связка", "to": "images/lab5-7-2.jpg"},
-        {"id": 9, "label":"9", "hint": "Отверстие...", "answer":"Отверстие нижней челюсти", "to": "images/lab5-7-2.jpg"}
+        {"id": 1, "label":"1", "hint": "...", "answer": "Суставной бугорок", "to": "images/lab5-7-1.png"},
+        {"id": 2, "label":"2", "hint": "...", "answer":"Суставной диск", "to": "images/lab5-7-1.png"},
+        {"id": 3, "label":"3", "hint": "...", "answer":"Головка нижней челюсти", "to": "images/lab5-7-1.png"},
+        {"id": 4, "label":"4", "hint": "...", "answer":"Капсула сустава", "to": "images/lab5-7-1.png"},
+        {"id": 5, "label":"5", "hint": "... связка", "answer":"Шилонижнечелюстная связка", "to": "images/lab5-7-1.png"},
+        {"id": 6, "label":"6", "hint": "...", "answer":"Наружный слуховой проход", "to": "images/lab5-7-1.png"},
+        {"id": 7, "label":"7", "hint": "... отросток", "answer": "Сосцевидный отросток", "to": "images/lab5-7-1.png"},
+        {"id": 8, "label":"8", "hint": "... связка", "answer":"Клиновидно-нижнечелюстная связка", "to": "images/lab5-7-2.png"},
+        {"id": 9, "label":"9", "hint": "Отверстие ...", "answer":"Отверстие нижней челюсти", "to": "images/lab5-7-2.png"}
       ]
     },
     {
@@ -1007,12 +951,12 @@
       "subtitle": "Поверхностные мышцы шеи",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab6-1-1.jpg", "caption": ""}
+        {"src": "images/lab6-1-1.png", "caption": ""}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...мышца...", "answer": "Подкожная мышца шеи", "to": "images/lab6-1-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...мышца ", "answer": "Грудино-ключично-сосцевидная мышца", "to": "images/lab6-1-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...мышца ", "answer": "Трапециевидная мышца ", "to": "images/lab6-1-1.jpg"}
+        {"id": 1, "label":"1", "hint": "... мышца ...", "answer": "Подкожная мышца шеи", "to": "images/lab6-1-1.png"},
+        {"id": 2, "label":"2", "hint": "... мышца ", "answer": "Грудино-ключично-сосцевидная мышца", "to": "images/lab6-1-1.png"},
+        {"id": 3, "label":"3", "hint": "... мышца ", "answer": "Трапециевидная мышца ", "to": "images/lab6-1-1.png"}
       ]  
     },
     { 
@@ -1024,20 +968,20 @@
       "subtitle": "Надподъязычные и подподъязычные мышцы",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab6-2-1.jpg", "caption": ""}
+        {"src": "images/lab6-2-1.png", "caption": ""}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...брюшко...мышцы", "answer": "Заднее брюшко двубрюшной мышцы ", "to": "images/lab6-2-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...мышца", "answer": "Челюстно-подъязычная мышца ", "to": "images/lab6-2-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...брюшко...мышцы", "answer": "Переднее брюшко двубрюшной мышцы  ", "to": "images/lab6-2-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...мышца", "answer": "Шилоподъязычная мышца ", "to": "images/lab6-2-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...кость", "answer": "Подъязычная кость", "to": "images/lab6-2-1.jpg"},
-        {"id": 6, "label":"6", "hint": "Щитовидный хрящ", "answer": "Щитовидный хрящ", "to": "images/lab6-2-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...брюшко...мышцы", "answer": "Верхнее брюшко лопаточно-подъязычной мышцы", "to": "images/lab6-2-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...брюшко...мышцы", "answer": "Нижнее брюшко лопаточно-подъязычной мышцы ", "to": "images/lab6-2-1.jpg"},
-        {"id": 9, "label":"9", "hint": "...мышца", "answer": "Грудино-подъязычная мышца ", "to": "images/lab6-2-1.jpg"},
-        {"id": 10, "label":"10", "hint": "...мышца", "answer": "Грудино-щитовидная мышца  ", "to": "images/lab6-2-1.jpg"},
-        {"id": 11, "label":"11", "hint": "...мышца", "answer": "Щитоподъязычная мышца", "to": "images/lab6-2-1.jpg"}
+        {"id": 1, "label":"1", "hint": "... брюшко ... мышцы", "answer": "Заднее брюшко двубрюшной мышцы ", "to": "images/lab6-2-1.png"},
+        {"id": 2, "label":"2", "hint": "... мышца", "answer": "Челюстно-подъязычная мышца ", "to": "images/lab6-2-1.png"},
+        {"id": 3, "label":"3", "hint": "... брюшко ... мышцы", "answer": "Переднее брюшко двубрюшной мышцы  ", "to": "images/lab6-2-1.png"},
+        {"id": 4, "label":"4", "hint": "... мышца", "answer": "Шилоподъязычная мышца ", "to": "images/lab6-2-1.png"},
+        {"id": 5, "label":"5", "hint": "... кость", "answer": "Подъязычная кость", "to": "images/lab6-2-1.png"},
+        {"id": 6, "label":"6", "hint": "Щитовидный хрящ", "answer": "Щитовидный хрящ", "to": "images/lab6-2-1.png"},
+        {"id": 7, "label":"7", "hint": "... брюшко ... мышцы", "answer": "Верхнее брюшко лопаточно-подъязычной мышцы", "to": "images/lab6-2-1.png"},
+        {"id": 8, "label":"8", "hint": "... брюшко ... мышцы", "answer": "Нижнее брюшко лопаточно-подъязычной мышцы ", "to": "images/lab6-2-1.png"},
+        {"id": 9, "label":"9", "hint": "... мышца", "answer": "Грудино-подъязычная мышца ", "to": "images/lab6-2-1.png"},
+        {"id": 10, "label":"10", "hint": "... мышца", "answer": "Грудино-щитовидная мышца  ", "to": "images/lab6-2-1.png"},
+        {"id": 11, "label":"11", "hint": "... мышца", "answer": "Щитоподъязычная мышца", "to": "images/lab6-2-1.png"}
       ]  
     },
     { 
@@ -1049,17 +993,17 @@
       "subtitle": "Глубокие мышцы шеи",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab6-3-1.jpg", "caption": ""}
+        {"src": "images/lab6-3-1.png", "caption": ""}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...мышца", "answer": "Латеральная прямая мышца", "to": "images/lab6-3-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...мышца", "answer": "Передняя прямая мышца", "to": "images/lab6-3-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...мышца...", "answer": "Длинная мышца головы", "to": "images/lab6-3-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...мышца... ", "answer": "Длинная мышца шеи", "to": "images/lab6-3-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...мышца", "answer": "Переднеяя лестничная мышца", "to": "images/lab6-3-1.jpg"},
-        {"id": 6, "label":"6", "hint": "... мышца", "answer": "Средняя лестничная мышца", "to": "images/lab6-3-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...мышца", "answer": "Задняя лестничная мышца", "to": "images/lab6-3-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...", "answer": "Первое ребро", "to": "images/lab6-3-1.jpg"}
+        {"id": 1, "label":"1", "hint": "... мышца", "answer": "Латеральная прямая мышца", "to": "images/lab6-3-1.png"},
+        {"id": 2, "label":"2", "hint": "... мышца", "answer": "Передняя прямая мышца", "to": "images/lab6-3-1.png"},
+        {"id": 3, "label":"3", "hint": "... мышца...", "answer": "Длинная мышца головы", "to": "images/lab6-3-1.png"},
+        {"id": 4, "label":"4", "hint": "... мышца... ", "answer": "Длинная мышца шеи", "to": "images/lab6-3-1.png"},
+        {"id": 5, "label":"5", "hint": "... мышца", "answer": "Передняя лестничная мышца", "to": "images/lab6-3-1.png"},
+        {"id": 6, "label":"6", "hint": "... мышца", "answer": "Средняя лестничная мышца", "to": "images/lab6-3-1.png"},
+        {"id": 7, "label":"7", "hint": "... мышца", "answer": "Задняя лестничная мышца", "to": "images/lab6-3-1.png"},
+        {"id": 8, "label":"8", "hint": "...", "answer": "Первое ребро", "to": "images/lab6-3-1.png"}
       ]  
     },
     { 
@@ -1071,28 +1015,28 @@
       "subtitle": "Фасции шеи (поперечный распил на уровне С6)",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab6-4-1.jpg", "caption": ""}
+        {"src": "images/lab6-4-1.png", "caption": ""}
       ],
       "questions": [
-        {"id": 1, "label":"I", "hint": "...фасции шеи", "answer": "поверхностная пластинка фасции шеи", "to": "images/lab6-4-1.jpg"},
-        {"id": 2, "label":"II", "hint": "...фасции шеи", "answer": "предтрахеальная пластинка фасции шеи", "to": "images/lab6-4-1.jpg"},
-        {"id": 3, "label":"III", "hint": "...фасция", "answer": "висцеральная фасция", "to": "images/lab6-4-1.jpg"},
-        {"id": 4, "label":"IV", "hint": "...", "answer": "сонное влагалище", "to": "images/lab6-4-1.jpg"},
-        {"id": 5, "label":"V", "hint": "...фасции шеи", "answer": "предпозвоночная пластинка фасции шеи", "to": "images/lab6-4-1.jpg"},
-        {"id": 6, "label":"1", "hint": "... мышца", "answer": "Грудино-ключично-сосцевидная мышца", "to": "images/lab6-4-1.jpg"},
-        {"id": 7, "label":"2", "hint": "...мышца", "answer": "Грудино-подъязычная мышца", "to": "images/lab6-4-1.jpg"},
-        {"id": 8, "label":"3", "hint": "...мышца", "answer": "Грудино-щитовидная мышца", "to": "images/lab6-4-1.jpg"},
-        {"id": 9, "label":"4", "hint": "...мышца", "answer": "Лопаточно-подъязычная мышца", "to": "images/lab6-4-1.jpg"},
-        {"id": 10, "label":"5", "hint": "...железа", "answer": "Щитовидная железа", "to": "images/lab6-4-1.jpg"},
-        {"id": 11, "label":"6", "hint": "...", "answer": "Трахея", "to": "images/lab6-4-1.jpg"},
-        {"id": 12, "label":"7", "hint": "... ", "answer": "Пищевод", "to": "images/lab6-4-1.jpg"},
-        {"id": 13, "label":"8", "hint": "Общая сонная артерия", "answer": "Общая сонная артерия", "to": "images/lab6-4-1.jpg"},
-        {"id": 14, "label":"9", "hint": "Внутренняя яремная вена", "answer": "Внутренняя яремная вена", "to": "images/lab6-4-1.jpg"},
-        {"id": 15, "label":"10", "hint": "...мышца...", "answer": "Длинная мышца шеи", "to": "images/lab6-4-1.jpg"},
-        {"id": 16, "label":"11", "hint": "...мышца", "answer": "Передняя лестничная мышца", "to": "images/lab6-4-1.jpg"},
-        {"id": 17, "label":"12", "hint": "...мышца", "answer": "Средняя лестничная мышца", "to": "images/lab6-4-1.jpg"},
-        {"id": 18, "label":"13", "hint": "...", "answer": "Тело шейного позвонка", "to": "images/lab6-4-1.jpg"},
-        {"id": 19, "label":"14", "hint": "...мышца", "answer": "Трапециевидная мышца", "to": "images/lab6-4-1.jpg"}
+        {"id": 1, "label":"I", "hint": "... фасции шеи", "answer": "поверхностная пластинка фасции шеи", "to": "images/lab6-4-1.png"},
+        {"id": 2, "label":"II", "hint": "... фасции шеи", "answer": "предтрахеальная пластинка фасции шеи", "to": "images/lab6-4-1.png"},
+        {"id": 3, "label":"III", "hint": "... фасция", "answer": "висцеральная фасция", "to": "images/lab6-4-1.png"},
+        {"id": 4, "label":"IV", "hint": "...", "answer": "сонное влагалище", "to": "images/lab6-4-1.png"},
+        {"id": 5, "label":"V", "hint": "... фасции шеи", "answer": "предпозвоночная пластинка фасции шеи", "to": "images/lab6-4-1.png"},
+        {"id": 6, "label":"1", "hint": "... мышца", "answer": "Грудино-ключично-сосцевидная мышца", "to": "images/lab6-4-1.png"},
+        {"id": 7, "label":"2", "hint": "... мышца", "answer": "Грудино-подъязычная мышца", "to": "images/lab6-4-1.png"},
+        {"id": 8, "label":"3", "hint": "... мышца", "answer": "Грудино-щитовидная мышца", "to": "images/lab6-4-1.png"},
+        {"id": 9, "label":"4", "hint": "... мышца", "answer": "Лопаточно-подъязычная мышца", "to": "images/lab6-4-1.png"},
+        {"id": 10, "label":"5", "hint": "... железа", "answer": "Щитовидная железа", "to": "images/lab6-4-1.png"},
+        {"id": 11, "label":"6", "hint": "...", "answer": "Трахея", "to": "images/lab6-4-1.png"},
+        {"id": 12, "label":"7", "hint": "... ", "answer": "Пищевод", "to": "images/lab6-4-1.png"},
+        {"id": 13, "label":"8", "hint": "Общая сонная артерия", "answer": "Общая сонная артерия", "to": "images/lab6-4-1.png"},
+        {"id": 14, "label":"9", "hint": "Внутренняя яремная вена", "answer": "Внутренняя яремная вена", "to": "images/lab6-4-1.png"},
+        {"id": 15, "label":"10", "hint": "... мышца...", "answer": "Длинная мышца шеи", "to": "images/lab6-4-1.png"},
+        {"id": 16, "label":"11", "hint": "... мышца", "answer": "Передняя лестничная мышца", "to": "images/lab6-4-1.png"},
+        {"id": 17, "label":"12", "hint": "... мышца", "answer": "Средняя лестничная мышца", "to": "images/lab6-4-1.png"},
+        {"id": 18, "label":"13", "hint": "...", "answer": "Тело шейного позвонка", "to": "images/lab6-4-1.png"},
+        {"id": 19, "label":"14", "hint": "... мышца", "answer": "Трапециевидная мышца", "to": "images/lab6-4-1.png"}
       ]  
     },
     { 
@@ -1104,15 +1048,15 @@
       "subtitle": "Жевательные мышцы",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab6-5-1.jpg", "caption": "Вид сбоку; фрагмент нижней челюсти удален"},
-        {"src": "images/lab6-5-2.jpg", "caption": "Вид сзади"},
-        {"src": "images/lab6-5-3.jpg", "caption": "Вид сбоку"}
+        {"src": "images/lab6-5-1.png", "caption": "Вид сбоку; фрагмент нижней челюсти удален"},
+        {"src": "images/lab6-5-2.png", "caption": "Вид сзади"},
+        {"src": "images/lab6-5-3.png", "caption": "Вид сбоку"}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...мышца", "answer": "Височная мышца", "to": "images/lab6-5-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...мышца", "answer": "Жевательная мышца", "to": "images/lab6-5-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...мышца", "answer": "Латеральная крыловидная мышца", "to": "images/lab6-5-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...мышца", "answer": "Медиальная крыловидная мышца", "to": "images/lab6-5-1.jpg"}
+        {"id": 1, "label":"1", "hint": "... мышца", "answer": "Височная мышца", "to": "images/lab6-5-1.png"},
+        {"id": 2, "label":"2", "hint": "... мышца", "answer": "Жевательная мышца", "to": "images/lab6-5-1.png"},
+        {"id": 3, "label":"3", "hint": "... мышца", "answer": "Латеральная крыловидная мышца", "to": "images/lab6-5-1.png"},
+        {"id": 4, "label":"4", "hint": "... мышца", "answer": "Медиальная крыловидная мышца", "to": "images/lab6-5-1.png"}
       ]  
     },
     { 
@@ -1124,35 +1068,35 @@
       "subtitle": "Мышцы лица",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab6-6-1.jpg", "caption": "Вид спереди"},
-        {"src": "images/lab6-6-2.jpg", "caption": "Вид сбоку"}
+        {"src": "images/lab6-6-1.png", "caption": "Вид спереди"},
+        {"src": "images/lab6-6-2.png", "caption": "Вид сбоку"}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...брюшко...мышцы", "answer": "Лобное брюшко лобно-затылочной мышцы", "to": "images/lab6-6-1.jpg"},
-        {"id": 2, "label":"2", "hint": "Мышца...", "answer": "Мышца, сморщивающая бровь", "to": "images/lab6-6-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...мышца...", "answer": "Круговая мышца глаза", "to": "images/lab6-6-1.jpg"},
-        {"id": 4, "label":"4", "hint": "Мышца...", "answer": "Мышца, поднимающая верхнюю губу и крыло носа", "to": "images/lab6-6-1.jpg"},
-        {"id": 5, "label":"5", "hint": "Мышца...", "answer": "Мышца, поднимающая верхнюю губу", "to": "images/lab6-6-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...мышца", "answer": "Малая скуловая мышца", "to": "images/lab6-6-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...мышца...", "answer": "Большая скуловая мышца", "to": "images/lab6-6-1.jpg"},
-        {"id": 8, "label":"8", "hint": "Мышца...", "answer": "Мышца, поднимающая угол рта", "to": "images/lab6-6-1.jpg"},
-        {"id": 9, "label":"9", "hint": "...мышца", "answer": "Щечная мышца", "to": "images/lab6-6-1.jpg"},
-        {"id": 10, "label":"10", "hint": "Околоушная железа", "answer": "Околоушная железа", "to": "images/lab6-6-1.jpg"},
-        {"id": 11, "label":"11", "hint": "...мышца", "answer": "Жевательная мышца", "to": "images/lab6-6-1.jpg"},
-        {"id": 12, "label":"12", "hint": "...мышца...", "answer": "Круговая мышца рта", "to": "images/lab6-6-1.jpg"},
-        {"id": 13, "label":"13", "hint": "Мышца...", "answer": "Мышца, опускающая угол рта", "to": "images/lab6-6-1.jpg"},
-        {"id": 14, "label":"14", "hint": "...мышца", "answer": "Подбородочная мышца", "to": "images/lab6-6-1.jpg"},
-        {"id": 15, "label":"15", "hint": "Мышца...", "answer": "Мышца, опускающая нижнюю губу", "to": "images/lab6-6-2.jpg"},
-        {"id": 16, "label":"16", "hint": "...мышца...", "answer": "Подкожная мышца шеи", "to": "images/lab6-6-2.jpg"},
-        {"id": 17, "label":"17", "hint": "Мышца...", "answer": "Мышца смеха", "to": "images/lab6-6-2.jpg"},
-        {"id": 18, "label":"18", "hint": "...мышца", "answer": "Носовая мышца", "to": "images/lab6-6-2.jpg"},
-        {"id": 19, "label":"19", "hint": "Мышца...", "answer": "Мышца гордецов", "to": "images/lab6-6-1.jpg"},
-        {"id": 20, "label":"20", "hint": "...", "answer": "Сухожильный шлем", "to": "images/lab6-6-2.jpg"},
-        {"id": 21, "label":"21", "hint": "...мышца", "answer": "Передняя ушная мышца", "to": "images/lab6-6-2.jpg"},
-        {"id": 22, "label":"22", "hint": "...мышца", "answer": "Средняя ушная мышца", "to": "images/lab6-6-2.jpg"},
-        {"id": 23, "label":"23", "hint": "...брюшко...мышцы", "answer": "Затылочное брюшко лобно-затылочной мышцы", "to": "images/lab6-6-2.jpg"},
-        {"id": 24, "label":"24", "hint": "...мышца", "answer": "Задняя ушная мышца", "to": "images/lab6-6-2.jpg"},
-        {"id": 25, "label":"25", "hint": "...мышца", "answer": "Грудино-ключично-сосцевидная мышца", "to": "images/lab6-6-2.jpg"}
+        {"id": 1, "label":"1", "hint": "... брюшко ... мышцы", "answer": "Лобное брюшко лобно-затылочной мышцы", "to": "images/lab6-6-1.png"},
+        {"id": 2, "label":"2", "hint": "Мышца ...", "answer": "Мышца, сморщивающая бровь", "to": "images/lab6-6-1.png"},
+        {"id": 3, "label":"3", "hint": "... мышца ...", "answer": "Круговая мышца глаза", "to": "images/lab6-6-1.png"},
+        {"id": 4, "label":"4", "hint": "Мышца ...", "answer": "Мышца, поднимающая верхнюю губу и крыло носа", "to": "images/lab6-6-1.png"},
+        {"id": 5, "label":"5", "hint": "Мышца ...", "answer": "Мышца, поднимающая верхнюю губу", "to": "images/lab6-6-1.png"},
+        {"id": 6, "label":"6", "hint": "... мышца", "answer": "Малая скуловая мышца", "to": "images/lab6-6-1.png"},
+        {"id": 7, "label":"7", "hint": "... мышца ...", "answer": "Большая скуловая мышца", "to": "images/lab6-6-1.png"},
+        {"id": 8, "label":"8", "hint": "Мышца ...", "answer": "Мышца, поднимающая угол рта", "to": "images/lab6-6-1.png"},
+        {"id": 9, "label":"9", "hint": "... мышца", "answer": "Щечная мышца", "to": "images/lab6-6-1.png"},
+        {"id": 10, "label":"10", "hint": "Околоушная железа", "answer": "Околоушная железа", "to": "images/lab6-6-1.png"},
+        {"id": 11, "label":"11", "hint": "... мышца", "answer": "Жевательная мышца", "to": "images/lab6-6-1.png"},
+        {"id": 12, "label":"12", "hint": "... мышца ...", "answer": "Круговая мышца рта", "to": "images/lab6-6-1.png"},
+        {"id": 13, "label":"13", "hint": "Мышца ...", "answer": "Мышца, опускающая угол рта", "to": "images/lab6-6-1.png"},
+        {"id": 14, "label":"14", "hint": "... мышца", "answer": "Подбородочная мышца", "to": "images/lab6-6-1.png"},
+        {"id": 15, "label":"15", "hint": "Мышца ...", "answer": "Мышца, опускающая нижнюю губу", "to": "images/lab6-6-2.png"},
+        {"id": 16, "label":"16", "hint": "... мышца ...", "answer": "Подкожная мышца шеи", "to": "images/lab6-6-2.png"},
+        {"id": 17, "label":"17", "hint": "Мышца ...", "answer": "Мышца смеха", "to": "images/lab6-6-2.png"},
+        {"id": 18, "label":"18", "hint": "... мышца", "answer": "Носовая мышца", "to": "images/lab6-6-2.png"},
+        {"id": 19, "label":"19", "hint": "Мышца ...", "answer": "Мышца гордецов", "to": "images/lab6-6-1.png"},
+        {"id": 20, "label":"20", "hint": "...", "answer": "Сухожильный шлем", "to": "images/lab6-6-2.png"},
+        {"id": 21, "label":"21", "hint": "... мышца", "answer": "Передняя ушная мышца", "to": "images/lab6-6-2.png"},
+        {"id": 22, "label":"22", "hint": "... мышца", "answer": "Средняя ушная мышца", "to": "images/lab6-6-2.png"},
+        {"id": 23, "label":"23", "hint": "... брюшко... мышцы", "answer": "Затылочное брюшко лобно-затылочной мышцы", "to": "images/lab6-6-2.png"},
+        {"id": 24, "label":"24", "hint": "... мышца", "answer": "Задняя ушная мышца", "to": "images/lab6-6-2.png"},
+        {"id": 25, "label":"25", "hint": "... мышца", "answer": "Грудино-ключично-сосцевидная мышца", "to": "images/lab6-6-2.png"}
       ]  
     },
     { 
@@ -1192,20 +1136,20 @@
       "subtitle": "Мышцы спины",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab7-1-1.jpg", "caption": ""}
+        {"src": "images/lab7-1-1.png", "caption": ""}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "Мышца...", "answer": "Мышца, поднимающая лопатку", "to": "images/lab7-1-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...мышца", "answer": "Малая ромбовидная мышца", "to": "images/lab7-1-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...мышца", "answer": "Большая ромбовидная мышца", "to": "images/lab7-1-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...мышца", "answer": "Надостная мышца", "to": "images/lab7-1-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...мышца", "answer": "Дельтовидная мышца", "to": "images/lab7-1-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...мышца", "answer": "Подостная мышца", "to": "images/lab7-1-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...мышца", "answer": "Нижняя задняя зубчатая мышца", "to": "images/lab7-1-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...мышца...", "answer": "Наружная косая мышца живота", "to": "images/lab7-7-1.jpg"},
-        {"id": 9, "label":"9", "hint": "...мышца...", "answer": "Внутренняя косая мышца живота", "to": "images/lab7-1-1.jpg"},
-        {"id": 10, "label":"10", "hint": "...мышца...", "answer": "Широчайшая мышца спины", "to": "images/lab7-1-1.jpg"},
-        {"id": 11, "label":"11", "hint": "...мышца", "answer": "Трапециевидная мышца", "to": "images/lab7-1-1.jpg"}
+        {"id": 1, "label":"1", "hint": "Мышца...", "answer": "Мышца, поднимающая лопатку", "to": "images/lab7-1-1.png"},
+        {"id": 2, "label":"2", "hint": "... мышца", "answer": "Малая ромбовидная мышца", "to": "images/lab7-1-1.png"},
+        {"id": 3, "label":"3", "hint": "... мышца", "answer": "Большая ромбовидная мышца", "to": "images/lab7-1-1.png"},
+        {"id": 4, "label":"4", "hint": "... мышца", "answer": "Надостная мышца", "to": "images/lab7-1-1.png"},
+        {"id": 5, "label":"5", "hint": "... мышца", "answer": "Дельтовидная мышца", "to": "images/lab7-1-1.png"},
+        {"id": 6, "label":"6", "hint": "... мышца", "answer": "Подостная мышца", "to": "images/lab7-1-1.png"},
+        {"id": 7, "label":"7", "hint": "... мышца", "answer": "Нижняя задняя зубчатая мышца", "to": "images/lab7-1-1.png"},
+        {"id": 8, "label":"8", "hint": "... мышца...", "answer": "Наружная косая мышца живота", "to": "images/lab7-7-1.png"},
+        {"id": 9, "label":"9", "hint": "... мышца...", "answer": "Внутренняя косая мышца живота", "to": "images/lab7-1-1.png"},
+        {"id": 10, "label":"10", "hint": "... мышца ...", "answer": "Широчайшая мышца спины", "to": "images/lab7-1-1.png"},
+        {"id": 11, "label":"11", "hint": "... мышца", "answer": "Трапециевидная мышца", "to": "images/lab7-1-1.png"}
       ]  
     },       
     { 
@@ -1217,20 +1161,20 @@
       "subtitle": "Мышцы груди и живота",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab7-2-1.jpg", "caption": ""}
+        {"src": "images/lab7-2-1.png", "caption": ""}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...живота", "answer": "Наружная косая мышца живота", "to": "images/lab7-2-1.jpg"},
-        {"id": 2, "label":"2", "hint": "Передняя стенка влагалища прямой мышцы живота", "answer": "Передняя стенка влагалища прямой мышцы живота", "to": "images/lab7-2-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...мышца", "answer": "Большая грудная мышца", "to": "images/lab7-2-1.jpg"},
-        {"id": 4, "label":"4", "hint": "...", "answer": "Грудина", "to": "images/lab7-2-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...", "answer": "Ключица", "to": "images/lab7-2-1.jpg"},
-        {"id": 6, "label":"6", "hint": "...мышца", "answer": "Малая грудная мышца", "to": "images/lab7-2-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...мышца", "answer": "Наружная межреберная мышца", "to": "images/lab7-2-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...мышца...", "answer": "Внутренняя межреберная мышца", "to": "images/lab7-2-1.jpg"},
-        {"id": 9, "label":"9", "hint": "...живота", "answer": "Прямая мышца живота", "to": "images/lab7-2-1.jpg"},
-        {"id": 10, "label":"10", "hint": "...живота", "answer": "Поперечная мышца живота", "to": "images/lab7-2-1.jpg"},
-        {"id": 11, "label":"11", "hint": "Задняя стенка влагалища прямой мышцы живота", "answer": "Задняя стенка влагалища прямой мышцы живота", "to": "images/lab7-2-1.jpg"}
+        {"id": 1, "label":"1", "hint": "... живота", "answer": "Наружная косая мышца живота", "to": "images/lab7-2-1.png"},
+        {"id": 2, "label":"2", "hint": "Передняя стенка влагалища прямой мышцы живота", "answer": "Передняя стенка влагалища прямой мышцы живота", "to": "images/lab7-2-1.png"},
+        {"id": 3, "label":"3", "hint": "... мышца", "answer": "Большая грудная мышца", "to": "images/lab7-2-1.png"},
+        {"id": 4, "label":"4", "hint": "...", "answer": "Грудина", "to": "images/lab7-2-1.png"},
+        {"id": 5, "label":"5", "hint": "...", "answer": "Ключица", "to": "images/lab7-2-1.png"},
+        {"id": 6, "label":"6", "hint": "... мышца", "answer": "Малая грудная мышца", "to": "images/lab7-2-1.png"},
+        {"id": 7, "label":"7", "hint": "... мышца", "answer": "Наружная межреберная мышца", "to": "images/lab7-2-1.png"},
+        {"id": 8, "label":"8", "hint": "... мышца ...", "answer": "Внутренняя межреберная мышца", "to": "images/lab7-2-1.png"},
+        {"id": 9, "label":"9", "hint": "... живота", "answer": "Прямая мышца живота", "to": "images/lab7-2-1.png"},
+        {"id": 10, "label":"10", "hint": "... живота", "answer": "Поперечная мышца живота", "to": "images/lab7-2-1.png"},
+        {"id": 11, "label":"11", "hint": "Задняя стенка влагалища прямой мышцы живота", "answer": "Задняя стенка влагалища прямой мышцы живота", "to": "images/lab7-2-1.png"}
       ]  
     },       
     { 
@@ -1242,19 +1186,19 @@
       "subtitle": "Диафрагма",
       "task": "Назовите анатомические структуры, обозначенные цифрами",
       "images": [
-        {"src": "images/lab7-3-1.jpg", "caption": "Вид сверху"},
-        {"src": "images/lab7-3-2.jpg", "caption": "Вид снизу"}
+        {"src": "images/lab7-3-1.png", "caption": "Вид сверху"},
+        {"src": "images/lab7-3-2.png", "caption": "Вид снизу"}
       ],
       "questions": [
-        {"id": 1, "label":"1", "hint": "...часть", "answer": "Грудинная часть", "to": "images/lab7-3-1.jpg"},
-        {"id": 2, "label":"2", "hint": "...часть", "answer": "Реберная часть", "to": "images/lab7-3-1.jpg"},
-        {"id": 3, "label":"3", "hint": "...", "answer": "Сухожильный центр", "to": "images/lab7-3-1.jpg"},
-        {"id": 4, "label":"4", "hint": "Отверстие...", "answer": "Отверстие нижней полой вены", "to": "images/lab7-3-1.jpg"},
-        {"id": 5, "label":"5", "hint": "...отверстие", "answer": "Пищеводное отверстие", "to": "images/lab7-3-1.jpg"},
-        {"id": 6, "label":"6", "hint": "Поясничный позвонок", "answer": "Поясничный позвонок", "to": "images/lab7-3-1.jpg"},
-        {"id": 7, "label":"7", "hint": "...часть", "answer": "Поясничная часть", "to": "images/lab7-3-1.jpg"},
-        {"id": 8, "label":"8", "hint": "...отверстие", "answer": "Аортальное отверстие", "to": "images/lab7-3-2.jpg"},
-        {"id": 9, "label":"9", "hint": "...треугольник", "answer": "Пояснично-реберный треугольник", "to": "images/lab7-3-2.jpg"}
+        {"id": 1, "label":"1", "hint": "... часть", "answer": "Грудинная часть", "to": "images/lab7-3-1.png"},
+        {"id": 2, "label":"2", "hint": "... часть", "answer": "Реберная часть", "to": "images/lab7-3-1.png"},
+        {"id": 3, "label":"3", "hint": "...", "answer": "Сухожильный центр", "to": "images/lab7-3-1.png"},
+        {"id": 4, "label":"4", "hint": "Отверстие ...", "answer": "Отверстие нижней полой вены", "to": "images/lab7-3-1.png"},
+        {"id": 5, "label":"5", "hint": "... отверстие", "answer": "Пищеводное отверстие", "to": "images/lab7-3-1.png"},
+        {"id": 6, "label":"6", "hint": "Поясничный позвонок", "answer": "Поясничный позвонок", "to": "images/lab7-3-1.png"},
+        {"id": 7, "label":"7", "hint": "... часть", "answer": "Поясничная часть", "to": "images/lab7-3-1.png"},
+        {"id": 8, "label":"8", "hint": "... отверстие", "answer": "Аортальное отверстие", "to": "images/lab7-3-2.png"},
+        {"id": 9, "label":"9", "hint": "... треугольник", "answer": "Пояснично-реберный треугольник", "to": "images/lab7-3-2.png"}
       ]
     }
   ]

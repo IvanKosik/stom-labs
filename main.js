@@ -1,4 +1,4 @@
-//import 'node-modules/material-design-icons/iconfont/material-icons.css'
+﻿//import 'node-modules/material-design-icons/iconfont/material-icons.css'
 //import 'typeface-roboto/index.css'
 
 // Modules to control application life and create native browser window
@@ -13,7 +13,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 800, 
     height: 600,
-    title: 'Клиническая анатомия головы и шеи',
+    title: 'Кости, соединения, мышцы',
   })
 
   mainWindow.setMenu(null) // comment for default menu

@@ -187,25 +187,25 @@ for (let task of tasks) {
                 const template = refresh_main("template-1");
 
                 for (const image of current["images"]) {
-
-                    let img = new Image();
-                    img.src = image.src;
-                    img.classList.add("materialboxed", "responsive-img");
-
                     const line = document.createElement("div");
                     line.classList.add("flex-rows");
 
                     const image_div = document.createElement("div");
-                    image_div.appendChild(img);
 
                     let p = document.createElement("p");
-                    p.classList.add("center-align");
+                    p.classList.add("center-align", "img-line-header");
                     p.textContent = image.caption;
                     image_div.appendChild(p)
+
+                    let img = new Image();
+                    img.src = image.src;
+                    img.classList.add("materialboxed", "responsive-img");
+                    image_div.appendChild(img);
 
                     const questions = db.get("labs").find({"lesson": lesson, "part": part}).get("questions").filter({"to": image.src}).value()
                     
                     const input_div = document.createElement("div");
+                    input_div.classList.add("top-margin");
                     render_questions(questions, input_div);
 
                     line.appendChild(image_div);
@@ -230,7 +230,7 @@ for (let task of tasks) {
                 question_list.style.height = "0px";
 
                 const subtitle = document.createElement("p"); // add classes to p
-                subtitle.classList.add("center-align","img-line-header")
+                subtitle.classList.add("center-align", "img-line-header");
                 subtitle.textContent = current.subtitle;
                 image_list.appendChild(subtitle);
     

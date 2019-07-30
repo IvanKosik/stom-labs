@@ -1,5 +1,5 @@
 {
-  "name": "stom-labs",
+  "name": "osteology-test",
   "version": "0.0.1",
   "description": "A minimal Electron application",
   "main": "main.js",
@@ -8,7 +8,7 @@
     "dist": "build"
   },
   "build": {
-    "productName": "Head and neck anatomy",
+    "productName": "Osteology Test",
     "copyright": "Copyright © 2018 BSMU labs",
     "win": {
       "target": [
