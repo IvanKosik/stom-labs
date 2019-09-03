@@ -13,7 +13,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 800, 
     height: 600,
-    title: 'Кости, соединения, мышцы',
+    title: 'Внутренние органы',
   })
 
   mainWindow.setMenu(null) // comment for default menu

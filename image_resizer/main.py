@@ -26,6 +26,9 @@ def add_paddings(img):
 
 def resize_images(images_path: Path):
     for image_path in images_path.iterdir():
+        if not image_path.is_file():
+            continue
+
         print(image_path)
 
         img = imread(str(image_path))
