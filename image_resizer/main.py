@@ -1,6 +1,7 @@
 from pathlib import Path
 from skimage.io import imread, imsave
 import skimage.transform
+import cv2
 import numpy as np
 
 
@@ -73,7 +74,9 @@ def resize_images(images_path: Path):
         img = skimage.transform.resize(img, (300, 300), anti_aliasing=True)#, preserve_range=True)
         '''
 
-        imsave(str(Path('../New_temp_images/resized') / (image_path.stem + '.png')), img)
+        # imsave(str(Path('../New_temp_images/resized') / image_path.name), img)
+        # print('---------', (Path('../New_temp_images/resized') / image_path.name).absolute())
+        cv2.imwrite(str(Path('../New_temp_images/resized') / image_path.name), cv2.cvtColor(img, cv2.COLOR_RGB2BGR))
 
         # break
 
