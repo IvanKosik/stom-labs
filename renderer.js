@@ -29,6 +29,10 @@ const [secret_key, decrypt] = cypher_tools(with_cypher);
 let lessons =  db.get("labs").map("lesson").uniq().value();
 
 
+var header = document.getElementById("section_name");
+header.innerHTML = header.innerHTML.toUpperCase();
+
+
 for (const lesson of lessons) {
 
     const taskList = document.querySelector("#labs .collapsible");
@@ -145,7 +149,7 @@ for (let task of tasks) {
 
             const template = Number(current.template);
 
-            document.getElementById("section_name").textContent = current.section[0].toUpperCase() + current.section.slice(1).toLowerCase();
+            document.getElementById("section_name").textContent = current.section.toUpperCase();
             document.querySelector("main div > p").textContent = current.task;
             if (template === 0) {
                 document.querySelector("main div > h5:first-child").textContent = `${current.title}`;
